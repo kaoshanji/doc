@@ -1,0 +1,8 @@
+与数据库相关
+1、数据库服务器
+2、Sql
+3、JDBC
+4、JPA
+5、Hibernate
+6、Spring Data
+7、Spring JDBC
