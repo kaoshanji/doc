@@ -2,7 +2,7 @@
 > 一种授权标准协议
 
 #### 1.资料
-  - [官网](https:www.baidu.com)
+  - [官网](https://oauth.net/)
   - [博客](http://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html)
   - [中文](http://colobu.com/2017/04/28/oauth2-rfc6749/?utm_source=tuicool&utm_medium=referral)
 
