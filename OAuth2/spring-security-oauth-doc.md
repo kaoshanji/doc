@@ -1,4 +1,4 @@
-Spring Security oauth2 文档
+Spring Security oauth2 文档 - 2017-07
 > [原文](http://projects.spring.io/spring-security-oauth/docs/oauth2.html)
 
 ### OAuth 2.0 Provider(服务)
