@@ -18,12 +18,12 @@
 
 1. 系统初始化
   - 更新
-          sudo apt update && sudo apt dist-upgrade
-          // sudo update-manager -d
+      `sudo apt update && sudo apt dist-upgrade`
+      `// sudo update-manager -d`
   - 删除不用包
-          sudo apt autoremove --purge
+      `sudo apt autoremove --purge`
   - 清除某软件
-          sudo apt remove --purge xx*
+      `sudo apt remove --purge xx*`
   - 加载依赖包
           sudo apt-get -f install
   - 杀死java进程
