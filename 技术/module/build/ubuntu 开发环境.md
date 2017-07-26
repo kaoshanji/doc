@@ -178,14 +178,14 @@
 
 7. Node
   - 安装：下载解压到指定目录，像Java那样配置就行
-            sudo gedit /etc/profile
-            #set Node
-            export NODE_HOME=/opt/apache/node-v4.4.4
-            export PATH=$NODE_HOME/bin:$PATH
+              sudo gedit /etc/profile
+              #set Node
+              export NODE_HOME=/opt/apache/node-v4.4.4
+              export PATH=$NODE_HOME/bin:$PATH
   - 设置镜像
-            打开命令界面
-            查看配置：npm config list
-            设置镜像：npm config set registry " https://registry.npm.taobao.org"
-            再看看是不是多了点什么
+              打开命令界面
+              查看配置：npm config list
+              设置镜像：npm config set registry " https://registry.npm.taobao.org"
+              再看看是不是多了点什么
   - win
     - ![图](image/20170726001.jpg)
