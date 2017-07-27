@@ -219,21 +219,21 @@
     - 拖
       - android_studio.desktop文件，把文件拖动到Launcher条上
   - 设置软件界面主题
-    - ![图](image/20170726008.png)
+    - ![图](image/2017/07/008.png)
   - 设置编辑界面主题
-    - ![图](image/20170726002.png)
+    - ![图](image/2017/07/002.png)
   - 设置文件编码
-    - ![图](image/20170726003.png)
+    - ![图](image/2017/07/003.png)
   - 配置Git
-    - ![图](image/20170726004.png)
+    - ![图](image/2017/07/004.png)
     - 自动识别，在win下需要制定安装位置
   - 配置Maven
-    - ![图](image/20170726005.png)
+    - ![图](image/2017/07/005.png)
   - 配置Tomcat
     - 打开配置界面
-    - ![图](image/20170726006.png)
+    - ![图](image/2017/07/006.png)
     - 命名Tomcat,指定安装路径
-    - ![图](image/20170726007.png)
+    - ![图](image/2017/07/007.png)
     - 配置web项目:点击右下角"Fix"，列出可以运行的Web项目
 
 6. MySQL
@@ -255,4 +255,14 @@
     再看看是不是多了点什么
     ```
   - win
-    - ![图](image/20170726001.jpg)
+    - 在npm目录下找到文件：npmrc
+    - 打开并添加：
+    ```
+    // 设置镜像
+    registry = https://registry.npm.taobao.org
+    
+    // 设置全局目录
+    prefix = D:\work\nodejs
+    cache = D:\work\nodejs
+    ```
+    - ![图](image/2017/07/001.jpg)

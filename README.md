@@ -6,7 +6,14 @@
 - 技术
   - module
     - OAuth2
+      - OAuth2-doc
+      - spring-security-oauth-doc
     - Logback
     - build
+      - Gitbook
+      - ubuntu 开发环境
   - item
     - OS
+      - 装回win7
+      - u盘
+    
