@@ -275,4 +275,297 @@ Logback依赖于一个名为Joran的配置库，它是`logback-core`的一部分
         }
     }
 
-该应用程序将获取当前有效的`LoggerContext`，创建一个新的`JoranConfigurator`，设置它将在其上运行的上下文，重置日志记录器上下文，然后最终要求配置器使用作为参数传递给应用程序的配置文件配置上下文。 打印内部状态数据，以防警告或错误。
+该应用程序将获取当前有效的`LoggerContext`，创建一个新的`JoranConfigurator`，设置它将在其上运行的上下文，重置日志记录器上下文，然后最终要求配置器使用作为参数传递给应用程序的配置文件配置上下文。 打印内部状态数据，以防警告或错误。请注意，对于多步骤配置，应该省略 `context.reset()` 调用。
+
+### 查看状态消息
+
+Logback 在 `StatusManager` 对象中收集其内部状态数据，可通过 `LoggerContext` 进行访问。
+
+给定一个 `StatusManager` ，您可以访问与 logback 上下文相关联的所有状态数据。为了将内存使用保持在合理的级别，默认的`StatusManager`实现将状态消息存储在两个独立的部分中：头部和尾部。 头部部分存储第一 `H` 状态消息，而尾部存储最后的 `T` 消息。目前，H = T = 150，虽然这些值可能会在将来的版本中发生变化。
+
+`Logback-classic` 带有名为 `ViewStatusMessagesServlet` 的 `servlet`。此`servlet`将与当前`LoggerContext` 关联的 `StatusManager`的内容打印为HTML表,这里是示例输出。
+
+![图](images/lbClassicStatus.jpg)
+
+在web应用的 `WEB-INF/web.xml` 文件里添加：
+
+      <servlet>
+        <servlet-name>ViewStatusMessages</servlet-name>
+        <servlet-class>ch.qos.logback.classic.ViewStatusMessagesServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ViewStatusMessages</servlet-name>
+        <url-pattern>/lbClassicStatus</url-pattern>
+    </servlet-mapping>
+
+### 侦听状态消息
+
+您还可以将`StatusListener`附加到`StatusManager`，以便您可以立即采取行动响应状态消息，特别是对于在 logback 配置后发生的消息。注册状态侦听器是一种方便的方法来监督对手的内部状态，而无需人为干预。
+
+Logback 附带一个名为 `OnConsoleStatusListener` 的 `StatusListener` 实现，如其名称所示，在控制台上打印所有新的传入状态消息。
+
+以下是使用`StatusManager`注册`OnConsoleStatusListener`实例的示例代码。
+
+    LoggerContext lc = (LoggerContext) LoggerFactory.getILoggerFactory(); 
+    StatusManager statusManager = lc.getStatusManager();
+    OnConsoleStatusListener onConsoleListener = new OnConsoleStatusListener();
+    statusManager.add(onConsoleListener);
+
+请注意，注册状态侦听器只会在其注册后收到状态事件。它不会收到以前的消息，因此，将状态监听器注册指令置于其他指令之前的配置文件的顶部通常是一个好主意。
+
+还可以在配置文件中注册一个或多个状态监听器，这是一个例子。
+
+例：注册一个状态监听器(logback-examples/src/main/resources/chapters/configuration/onConsoleStatusListener.xml)
+
+    <configuration>
+        <statusListener class="ch.qos.logback.core.status.OnConsoleStatusListener" />  
+
+        ... the rest of the configuration file  
+    </configuration>
+
+
+### "logback.statusListenerClass"系统属性
+
+还可以通过将"logback.statusListenerClass" Java系统属性设置为要注册的侦听器类的名称来注册状态侦听器。 例如，
+
+    java -Dlogback.statusListenerClass=ch.qos.logback.core.status.OnConsoleStatusListener ...
+
+Logback附带了几个状态侦听器实现.`OnConsoleStatusListener`在控制台上打印输入状态消息，即在`System.out`上。 `OnErrorConsoleStatusListener`在`System.err`上打印输入状态消息, `NopStatusListener`丢弃传入状态消息。
+
+请注意，如果在配置期间注册了任何状态侦听器，并且特别是如果用户通过"logback.statusListenerClass"系统指定状态侦听器，则禁用自动状态打印（如果出现错误）.因此，通过将`NopStatusListener`设置为状态监听器，您可以完全静音内部状态打印。
+
+    java -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener ...
+
+### 停止 logback-classic
+
+为了释放由logback-classic使用的资源，始终是停止 logback 上下文的好主意。 停止上下文将关闭由上下文定义的日志记录器附加的所有追加器，并停止任何活动的线程.
+
+    import org.sflf4j.LoggerFactory;
+    import ch.qos.logback.classic.LoggerContext;
+    ...
+
+    // assume SLF4J is bound to logback-classic in the current environment
+    LoggerContext loggerContext = (LoggerContext) LoggerFactory.getILoggerFactory();
+    loggerContext.stop();
+
+在Web应用程序中，可以从`ServletContextListener#contextDestroyed`方法中调用上述代码，以便停止logback-classic和释放资源。从版本1.1.10开始，相应的`ServletContextListener`会自动安装（见下文）。
+
+#### 使用回调停止 logback-classic
+
+安装JVM关机挂钩是关闭回退和释放相关资源的便捷方式。
+
+    <configuration debug="true">
+        <!-- in the absence of the class attribute, assume 
+        ch.qos.logback.core.hook.DelayingShutdownHook -->
+        <shutdownHook/>
+        .... 
+    </configuration>
+
+默认关机挂钩，即`DelayingShutdownHook`，可以延迟用户指定持续时间的关机.请注意，您可以通过将类属性设置为对应于您的关闭挂钩的类名来安装自己的关闭挂钩。
+
+#### 在web应用里停止 logback-classic
+
+`自1.1.10起` Logback-classic 将自动请求Web服务器安装实现`ServletContainerInitializer`接口的`LogbackServletContainerInitializer`（在servlet-api 3.x及更高版本中可用）。这个初始化器依次安装和`LogbackServletContextListener`的实例。 当停止或重新加载web应用程序时，此侦听器将停止当前的logback-classic上下文。
+
+您可以通过在Web应用程序的`web.xml`文件中设置名为`logbackDisableServletContainerInitializer`的`<context-param>`来禁用自动安装`LogbackServletContextListener`。 以下是相关的代码段:
+
+    <web-app>
+        <context-param>
+            <param-name>logbackDisableServletContainerInitializer</param-name>
+            <param-value>true</param-value>
+        </context-param>
+        .... 
+    </web-app>
+
+请注意，`logbackDisableServletContainerInitializer`变量也可以设置为Java系统属性的OS环境变量.最本地的设置优先，即web应用第一，系统属性第二，操作系统环境最后。
+
+### 配置文件语法
+
+正如您在手册中已经看到的许多示例仍然遵循的那样，Logback允许您重新定义日志记录行为，而无需重新编译代码。实际上，您可以轻松配置Logback，以便禁用应用程序的某些部分的日志记录，或直接输出到UNIX Syslog守护程序，数据库，日志可视化程序或将日志记录事件转发到远程日志记录服务器，这将记录 根据本地服务器策略，例如通过将日志事件转发到第二个Logback服务器。
+
+本节的其余部分介绍配置文件的语法。
+
+如将一再强调，logback配置文件的语法非常灵活。因此，不可能使用DTD文件或XML模式指定允许的语法。然而，配置文件的基本结构可以描述为`<configuration>`元素，包含零个或多个`<appender>`元素，后跟零个或多个`<logger`>元素，后跟最多一个`<root>`元素。下图说明了这个基本结构:
+
+![图](images/basicSyntax.png)
+
+### 标签名称的区分大小写
+
+由于logback版本0.9.17，与显式规则相关的标签名称不区分大小写。例如，`<logger>`，`<Logger>`和`<LOGGER>`是有效的配置元素，将以相同的方式进行解释。请注意，XML格式规则仍然适用，如果您打开标签为`<xyz>`，则必须将其关闭为`</ xyz>`，`</ XyZ>`将无法正常工作。 对于隐式规则，标签名称区分大小写，除了第一个字母。因此，`<xyz>`和`<Xyz>`是等效的，但不是`<xYz>`。隐式规则通常遵循在Java世界中常见的`camelCase`约定。由于标签与显式操作相关联并且与隐式动作相关联并不容易，因此说明XML标记对于第一个字母是否区分大小写或不敏感，这是不重要的。如果您不确定哪个案例用于给定的标签名称，只需遵循几乎总是正确惯例的`camelCase`约定。
+
+### 配置loggers或<logger>元素
+
+在这一点上，您应该至少对层级继承和基本选择规则有一些了解。否则，除非你是一个埃及古物学家，否则对于你而言，回溯配置对于象形文字来说没有什么意义。
+
+使用`<logger>`元素配置记录器。 一个`<logger>`元素只需一个必需的名称属性，一个可选的等级属性和一个可选的加性属性，允许值为`true`或`false`。`level`属性的值允许不区分大小写的字符串值`TRACE`，`DEBUG`，`INFO`，`WARN`，`ERROR`，`ALL`或`OFF`。特殊不区分大小写的值`INHERITED`或其同义词`NULL`将强制记录器的级别从层次结构中的较高层继承。如果您设置了记录器的级别，然后决定它应该继承其级别，这将派上用场。
+
+`<logger>`元素可能包含零个或多个`<appender-ref>`元素; 这样引用的每个追加器都被添加到命名记录器中。 请注意，与log4j不同，在配置给定的记录器时，logback-classic 不会关闭或删除任何以前引用的追加器。
+
+#### 配置 root 层次，即 <root>节点
+
+`<root>`元素配置根记录器。 它支持单个属性，即level属性。它不允许任何其他属性，因为加性标志不适用于根记录器。 此外，由于根记录器已经被命名为“ROOT”，它也不允许使用name属性。level属性的值可以是不区分大小写的字符串TRACE，DEBUG，INFO，WARN，ERROR，ALL或OFF之一。 请注意，根记录器的级别不能设置为INHERITED或NULL。
+
+与`<logger>`元素类似，`<root>`元素可能包含零个或多个`<appender-ref>`元素; 这样引用的每个`appender`被添加到根记录器中。请注意，与`log4j`不同，在配置根记录器时，logback-classic不会关闭或删除任何先前引用的追加器。
+
+示例：
+
+设置记录器或根记录器的级别与声明它并设置其级别一样简单，如下例所示。假设我们不再需要从属于`chapters.configuration`包的任何组件查看任何DEBUG消息,以下配置文件显示如何实现。
+
+例：设置 logger级别(logback-examples/src/main/resources/chapters/configuration/sample2.xml)
+
+    <configuration>
+
+        <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+            <!-- encoders are assigned the type
+                ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
+            <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+            </encoder>
+        </appender>
+
+        <logger name="chapters.configuration" level="INFO"/>
+
+        <!-- Strictly speaking, the level attribute is not necessary since -->
+        <!-- the level of the root level is set to DEBUG by default.       -->
+        <root level="DEBUG">          
+            <appender-ref ref="STDOUT" />
+        </root>  
+    
+    </configuration>
+
+当上述配置文件作为`MyApp3`应用程序的参数给出时，它将产生以下输出：
+
+    17:34:07.578 [main] INFO  chapters.configuration.MyApp3 - Entering application.
+    17:34:07.578 [main] INFO  chapters.configuration.MyApp3 - Exiting application.
+
+请注意，由`chapters.configuration.Foo`记录器生成的级别`DEBUG`的消息已被抑制。 另请参阅Foo类。
+
+您可以根据需要配置尽可能多的记录器的级别。在下一个配置文件中，我们将`chapter.configuration logger`的级别设置为`INFO`，同时将`chapters.configuration.Foo`记录器的级别设置为`DEBUG`。
+
+例：设置logger级别(logback-examples/src/main/resources/chapters/configuration/sample3.xml)
+
+    <configuration>
+
+        <appender name="STDOUT"
+            class="ch.qos.logback.core.ConsoleAppender">
+            <encoder>
+            <pattern>
+                %d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
+            </pattern>
+            </encoder>
+        </appender>
+
+        <logger name="chapters.configuration" level="INFO" />
+        <logger name="chapters.configuration.Foo" level="DEBUG" />
+
+        <root level="DEBUG">
+            <appender-ref ref="STDOUT" />
+        </root>
+
+    </configuration>
+
+使用此配置文件运行`MyApp3`将导致控制台上的以下输出：
+
+    17:39:27.593 [main] INFO  chapters.configuration.MyApp3 - Entering application.
+    17:39:27.593 [main] DEBUG chapters.configuration.Foo - Did it again!
+    17:39:27.593 [main] INFO  chapters.configuration.MyApp3 - Exiting application.
+
+下表列出了日志记录器及其级别，`JoranConfigurator`已经使用`sample3.xml`配置文件进行了配置。
+
+<table>
+     <tbody>
+        <tr>
+            <th>Logger name</th>
+            <th>Assigned Level</th>
+            <th>Effective Level</th>
+        </tr>
+        <tr>
+            <td>root</td>
+            <td><code>DEBUG</code></td>
+            <td><code>DEBUG</code></td>
+        </tr>
+        <tr>
+            <td>chapters.configuration</td>
+            <td><code>INFO</code></td>
+            <td><code>INFO</code></td>
+        </tr>
+        <tr>
+            <td>chapters.configuration.MyApp3</td>
+            <td><code>null</code></td>
+            <td><code>INFO</code></td>
+        </tr>
+        <tr>
+            <td>chapters.configuration.Foo</td>
+            <td><code>DEBUG</code></td>
+            <td><code>DEBUG</code></td>
+        </tr>
+    </tbody>
+</table>
+
+因此，`MyApp3`类中的级别`INFO`和`Foo.doIt（）`中的`DEBUG`消息的两个日志记录语句都被启用。请注意，根记录器的级别始终设置为非空值，默认为`DEBUG`。
+
+让我们注意，基本选择规则取决于被调用的记录器的有效级别，而不是追加者附加的记录器的级别。Logback将首先确定是否启用日志记录语句，如果启用，它将调用记录器层次结构中找到的`appender`，而不管其级别如何。配置文件`sample4.xml`就是一个例子：
+
+例：logger最小级别(logback-examples/src/main/resources/chapters/configuration/sample4.xml)
+
+    <configuration>
+
+        <appender name="STDOUT"
+        class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>
+                %d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
+            </pattern>
+            </encoder>
+        </appender>
+
+        <logger name="chapters.configuration" level="INFO" />
+
+        <!-- turn OFF all logging (children can override) -->
+        <root level="OFF">
+            <appender-ref ref="STDOUT" />
+        </root>
+
+    </configuration>
+
+下表列出了应用`sample4.xml`配置文件后的记录器及其级别。
+
+<table>
+    <tbody>
+        <tr>
+            <th>Logger name</th>
+            <th>Assigned Level</th>
+            <th>Effective Level</th>
+        </tr>
+        <tr>
+            <td>root</td>
+            <td><code>OFF</code></td>
+            <td><code>OFF</code></td>
+        </tr>
+        <tr>
+            <td>chapters.configuration</td>
+            <td><code>INFO</code></td>
+            <td><code>INFO</code></td>
+        </tr>
+        <tr>
+            <td>chapters.configuration.MyApp3</td>
+            <td><code>null</code></td>
+            <td><code>INFO</code></td>
+        </tr>
+        <tr>
+            <td>chapters.configuration.Foo</td>
+            <td><code>null</code></td>
+            <td><code>INFO</code></td>
+        </tr>
+  </tbody>
+</table>
+
+名为`STDOU`T的`ConsoleAppender`是`sample4.xml`中唯一配置的`appender`，附加到其级别设置为`OFF`的根记录器。但是，使用配置脚本`sample4.xml`运行`MyApp3`将会产生：
+
+    17:52:23.609 [main] INFO chapters.configuration.MyApp3 - Entering application.
+    17:52:23.609 [main] INFO chapters.configuration.MyApp3 - Exiting application.
+
+因此，根记录器的级别没有明显的影响，因为对于`INFO`级别都会启用`chapters.configuration.MyApp3`和`chapters.configuration.Foo`类中的记录器。作为附注，章节配置记录器凭借其在配置文件中的声明而存在 - 即使Java源代码不直接引用它。
+
+#### Appenders配置

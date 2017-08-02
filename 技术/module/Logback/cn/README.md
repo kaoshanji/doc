@@ -14,5 +14,5 @@ logback-access 模块与Tomcat和Jetty等Servlet容器集成，提供HTTP访问�
 #### 相关项目
 [logback-audit](http://audit.qos.ch/) 旨在处理具有长期业务意义的记录事件，基于logback-core。
 
-- [手册](manual/Index.md)
+- [手册](manual/README.md)
 - [使用logback-access访问HTTP日志](access.md)
