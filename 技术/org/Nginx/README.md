@@ -15,17 +15,18 @@ Nginx doc
 ### 实践
 - [安装与管理](doc/practice/install.md)
 - [基础配置指令](doc/practice/configuration.md)
-- [静态网站站点](doc/practice/static.md)
-- [动态网站](doc/practice/dynamic.md)
-- [Gzip压缩](doc/practice/compression.md)
+    - 了解主要配置功能
+- [静态资源](doc/practice/static.md)
+    - 服务器静态文件对外提供访问
 - [Rewrite功能](doc/practice/rewrite.md)
+    - 服务重定向
+    - 不同URI映射到指定路径
+- [Gzip压缩](doc/practice/compression.md)
+    - 11
 - [代理服务](doc/practice/proxy.md)
-- [反向代理](doc/practice/reverse.md)
-- [缓存机制](doc/practice/cache.md)
-- [负载均衡](doc/practice/alanced.md)
-- [邮件服务](doc/practice/mail.md)
+    - 把内外不通的区域连接起来
+- [缓存](doc/practice/cache.md)
 ### 源码
 - 源码结构
-- 基本数据结构
 - 启动初始化
 - 工作进程
