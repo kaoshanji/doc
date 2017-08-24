@@ -3,21 +3,9 @@
 
 ### 目录
 - tmp
+    - 备用
 - 技术
-  - apache
-    - Struts2
-  - item
-    - build
-      - Gitbook
-      - ubuntu 开发环境
-    - OS
-      - 装回win7
-      - u盘
-  - org
-    - Logback
-    - OAuth2
-      - OAuth2-doc
-      - spring-security-oauth-doc
+    - 技术
 - plan
-  - 2017
-    - 08
+    - 计划
+    - 记录
