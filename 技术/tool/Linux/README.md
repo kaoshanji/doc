@@ -2,6 +2,7 @@ Linux doc
 
 ### 认识Linux
 - Linux简介
+    - [公社](http://www.linuxidc.com/)
 - 娱乐
 - 用户、文件、权限
 - 磁盘

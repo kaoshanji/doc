@@ -1,6 +1,11 @@
 vue2 doc
 
 ### 简介
+- [中文](https://cn.vuejs.org/)
+- [官方仓库](https://github.com/vuejs)
+- [ElemeFE](https://github.com/ElemeFE/element)
+- [vue-strap](https://github.com/yuche/vue-strap)
+- [vue-manage-system](https://github.com/lin-xin/vue-manage-system)
 ### 适用场景
 ### 组件
 - 环境搭建

@@ -2,6 +2,9 @@ Struts2 doc
 
 ### 简介
 - Struts2是MVC框架，帮助我们编写Web应用程序
+- [官网](http://struts.apache.org/)
+- [github-struts](https://github.com/apache/struts)
+- [struts-examples](https://github.com/apache/struts-examples)
 
 ### 适用场景
 - 复杂的Web应用。

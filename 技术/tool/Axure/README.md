@@ -2,6 +2,8 @@ Axure doc
 
 ### 简介
 - 软件应用里原型设计，把需求转变为看得见的东西，构建表达基本功能
+- [官网](https://www.axure.com/)
+- [中文网](https://www.axure.com.cn/)
 
 ### 组件
 - 元件

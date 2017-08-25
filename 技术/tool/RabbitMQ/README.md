@@ -1,5 +1,7 @@
 ### 简介
 - [官网](http://www.rabbitmq.com/)
+- [tutorials](https://github.com/rabbitmq/rabbitmq-tutorials)
+- [rabbitmq-java-client](https://github.com/rabbitmq/rabbitmq-java-client)
 - 提供消息代理的一种软件，左边连接着发送消息者，右边连接着接收消息者，本身并不产生消息，是发送和接收消息的中介
 - 比如：邮局
 ### 适用场景
