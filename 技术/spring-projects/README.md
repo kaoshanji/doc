@@ -11,6 +11,4 @@ spring-projects doc
     - [springBatch](springBatch/README.md)
     - [springCloud](springCloud/README.md)
     - [springData](springData/README.md)
-    - [springAMQP](springAMQP/README.md)
     - [sprignSecurity](sprignSecurity/README.md)
-    
