@@ -1,6 +1,7 @@
 vue2 doc
 
 ### 简介
+- 一套构建用户界面的框架，仅关注视图层.
 - [中文](https://cn.vuejs.org/)
 - [官方仓库](https://github.com/vuejs)
 - [ElemeFE](https://github.com/ElemeFE/element)
@@ -8,12 +9,25 @@ vue2 doc
 - [vue-manage-system](https://github.com/lin-xin/vue-manage-system)
 ### 适用场景
 ### 组件
-- 环境搭建
-- 基本工具
-- 项目结构
-- 添加依赖
-- 路由与页面间导航
-- 页面的区块化与组件的封装
-- 视图与表单的处理
-- 状态管理
+- 创建项目
+    - 新建项目
+    - 测试环境
+- 导航
+    - 概念
+    - 路由
+    - 页面跳转
+- 重用组件
+    - 概念
+    - 页面区块
+    - 封装组建
+- 视图
+    - 概念
+    - 列表视图
+    - 视图功能项
+    - 丰富表单内容
+- 状态
+    - 概念
+    - 11 
+- 测试
+- 插件
 ### 实践
