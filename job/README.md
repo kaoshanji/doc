@@ -7,7 +7,7 @@
 - [中间件](serve/README.md)
     - 独立提供某种服务的程序
     - 转为针对某方面开发，无需或只需少量参与
-- [框架](framewokr/README.md)
+- [框架](framework/README.md)
     - 特定领域里通用解决方案，强调结构化，非完整
     - 场景优先，强调应用，提供某种封装，补充原生不足
 - [工具](tool/README.md)
