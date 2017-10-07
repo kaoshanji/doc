@@ -72,27 +72,7 @@
       ```
       检查是否安装vsftp：rpm -qa | grep vsftpd
       ```
-2. 给安装文件找个地方
-  - 软件安装在opt下，以组织新建文件夹，然后就是对应软件目录，例如：
-      ```
-        /opt
-          /apache
-            /apache-maven-3.3.9           //maven文件，需修改镜像和本地仓库
-            /apache-tomcat-8.5.6          //tomcat，其实还不是很了解
-            /maven                        //放置jar包
-            /node-v4.4.4                  //node环境
-          /docs                           //文档
-            /glassfish4
-            /Java-API-6
-            /jdk-7u79-docs-all
-            /jdk-8u102-docs-all
-            /tomcat-8.5-doc
-          /idea                          //IDE
-            各种IDE的地方
-          /orcale
-            JDK。。。
-      ```
-3. 安装git
+2. 安装git
   - 安装git 
       ```
       sudo add-apt-repository ppa:git-core/ppa
@@ -148,7 +128,7 @@
       ```   
       git pull
       ```
-4. Java环境
+3. Java环境
   - JDK
     - 删除自带JDK
       ```
@@ -160,22 +140,22 @@
        ```
       sudo gedit /etc/profile
       #set java environment
-      JAVA_HOME=/opt/orcale/jdk1.8
-      export JRE_HOME=/opt/orcale/jdk1.8/jre
+      JAVA_HOME=/home/kaoshanji/app/start/Java/jdk1.8
+      export JRE_HOME=/home/kaoshanji/app/start/Java/jdk1.8/jre
       export CLASSPATH=.:$JAVA_HOME/lib:$JRE_HOME/lib:$CLASSPATH
       export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
       ```
   - 配置maven
       ```
       sudo gedit /etc/profile
-      M2_HOME=/opt/apache/apache-maven-3
+      M2_HOME=/home/kaoshanji/app/start/Maven/apache-maven-3.5.0
       export MAVEN_OPTS="-Xms256m -Xmx512m"
       export PATH=$M2_HOME/bin:$PATH
       ```
     - 打开apache-maven-3.3.9\conf目录，编辑settings.xml
       - 修改本地仓库位置
       ```
-      修改：<localRepository>/opt/apache/maven</localRepository> 中间的路径为放置jar包路径
+      修改：<localRepository>/home/kaoshanji/app/start/Maven/repository</localRepository> 中间的路径为放置jar包路径
       ```
       - 修改镜像
       ```
@@ -194,30 +174,9 @@
       - 从 http://repo1.maven.org/maven2/archetype-catalog.xml下载的内容，本地生成一个archetype-catalog.xml 文件 放入archetype-catalog\2.4 目录下
       - 设置maven -> Runner/VM:Options 添加 -DarchetypeCatalog=local
       - 重新引入maven 刷新项目
-
-5. IDEA
+4. IDEA
   - 快捷图标放在启动栏上
-    - 打开命令界面
-      - sudo gedit /usr/share/applications/android_studio.desktop
-    - 输入
-      ```
-      [Desktop Entry]
-      Type=Application
-      Name=Android Studio
-      Exec="/opt/android-studio/bin/studio.sh" %f
-      Icon=/opt/android-studio/bin/studio.png
-      Categories=development;IDE;
-      Terminal=false
-      StartupNotify=true
-      StartupWMClass=jetbrains-android-studio
-      // 替换里面的Exec和Icon路径
-      ```
-    - 保存文件，运行
-      - sudo chmod +x /usr/share/applications/android_studio.desktop
-    - 运行
-      - sudo nautilus /usr/share/applications
-    - 拖
-      - android_studio.desktop文件，把文件拖动到Launcher条上
+    - 打开软件，然后 锁定启动栏
   - 设置软件界面主题
     - ![图](image/2017/07/008.png)
   - 设置编辑界面主题
@@ -236,15 +195,15 @@
     - ![图](image/2017/07/007.png)
     - 配置web项目:点击右下角"Fix"，列出可以运行的Web项目
 
-6. MySQL
+5. MySQL
   > https://my.oschina.net/zzq911013/blog/724036
 
-7. Node
+6. Node
   - 安装：下载解压到指定目录，像Java那样配置就行
     ```
     sudo gedit /etc/profile
     #set Node
-    export NODE_HOME=/opt/apache/node-v4.4.4
+    export NODE_HOME=/home/kaoshanji/app/start/Node/node-v6.11.3
     export PATH=$NODE_HOME/bin:$PATH
     ```
   - 设置镜像
