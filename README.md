@@ -23,7 +23,7 @@
     - Tomcat
 - tmp
     - 临时保留文件
-    - cache
+    - cache
 - workspace
     - 工作空间
     - sts
