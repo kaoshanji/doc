@@ -1,21 +1,21 @@
 ### 职业技术 doc
 
 ### 目录
-- [编程语言](ccc/README.md)
+- [编程语言(ccc)](ccc/README.md)
     - 依赖某种虚拟机与操作系统沟通
     - 如：语法、标准、环境
-- [中间件](serve/README.md)
+- [中间件(serve)](serve/README.md)
     - 独立提供某种服务的程序
     - 转为针对某方面开发，无需或只需少量参与
-- [框架](framework/README.md)
+- [框架(framework)](framework/README.md)
     - 特定领域里通用解决方案，强调结构化，非完整
     - 场景优先，强调应用，提供某种封装，补充原生不足
-- [工具](tool/README.md)
+- [工具(tool)](tool/README.md)
     - 为完成某件工作而借助的软件
-- [理论](theory/README.md)
+- [理论(theory)](theory/README.md)
     - 比较抽象描述某方面成体系概念，没有具体的技术
     - 如：微服务、架构、性能、Web API设计等
-- [底层](bottom/README.md)
+- [底层(bottom)](bottom/README.md)
     - 算法
     - 网络
 
@@ -90,6 +90,6 @@
     - 计划
     - 列项
 - 百度网盘
-    - 资源、电子书
+    - 资源、电子书
 - 说明
     - github、幕布、石墨、百度网盘等应用目录保存一致
