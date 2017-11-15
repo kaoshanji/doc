@@ -7,3 +7,4 @@
 - [JavaScript](JavaScript/README.md)
 - [Node](Node/README.md)
 - [Python](Python/README.md)
+- [C++](C++/README.md)

@@ -3,7 +3,7 @@
 ### URL
 - 中文文档
     - 第一章：基础
-        - [1.1.1 执行请求](http://blog.csdn.net/u011179993/article/details/47131773)
+        - [1.1.1 执行请求](http://blog.csdn.net/u011179993/article/details/47131773?_blank)
         - [1.1.2 执行请求](http://blog.csdn.net/u011179993/article/details/47147909)
         - [1.1.3 执行请求](http://blog.csdn.net/u011179993/article/details/47172215)
         - [1.2 HttpClient接口](http://blog.csdn.net/u011179993/article/details/47251909)
