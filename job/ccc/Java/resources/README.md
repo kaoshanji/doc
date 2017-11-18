@@ -1,7 +1,58 @@
 ## 资源索引
 
 ### books
-- 百度云
+- PDF
+	- Effective Java2.pdf
+	- FreeMarker_Manual_zh_CN.pdf
+	- Java 7编程高级进阶.pdf
+	- Java 8实战.pdf
+	- java-explore.pdf
+	- Java并发编程实战.pdf
+	- JAVA并发编程实践.pdf
+	- Java并发编程的艺术.pdf
+	- Java核心技术9 卷1.pdf
+	- Java核心技术9 卷2.pdf
+	- Java程序员修炼之道.pdf
+	- Java编程思想4.pdf
+	- Java网络编程4.pdf
+	- Java网络编程精解.pdf
+	- Java虚拟机规范（Java SE 7）.pdf
+	- Java语言程序设计1.pdf
+	- Java语言程序设计2.pdf
+	- JUnit.in.Action中文版.pdf
+	- Servlet3.1规范（最终版）.pdf
+	- Servlet与JSP核心编程（第2版）.pdf
+	- [Java.Web开发详解].孙鑫.清晰扫描版.pdf
+	- [JAVA解惑]（美）布洛赫.扫描版.pdf
+	- [疯狂JAVA讲义].李刚.高清扫描版.pdf
+	- 深入理解Java7：核心技术与最佳实践pdf.pdf
+	- 深入理解Java虚拟机：JVM高级特性与最佳实践.pdf
 - 书桌
+    - Java网络编程
+    - Java 7 并发编程实战手册
+    - Java 并发编程的艺术
+    - Java并发编程实战
+    - HotSpot实战
+    - Java 程序员修炼之道
+    - Java 8 实战
+    - Java-Reflection实战
+    - JPA2实战
+    - Java-NIO.2实战
+    - Java-RESTful-Web-service实战
+    - Java特种兵
+    - 架构探险：从零开始写Java Web框架
+    - 架构探险：轻量级微服务架构（未）
+    - JavaEE7权威指南(二)
+    - Java技术手册
+    - Java核心技术(二)
+    - Java编程思想
+    - Effective-Java
+    - 深入理解Java7
+    - JavaWeb高级编程
+    - 大型网站系统与Java中间件实践
 
 ### URL
+- [官网]()
+- [文档]()
+- [中文网]()
+- [社区]()

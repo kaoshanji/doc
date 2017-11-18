@@ -5,9 +5,9 @@ Hibernate doc
 - [官网](http://hibernate.org/)
 - [github-Hibernate](https://github.com/hibernate)
 
-- 目录
-    - [HierbateORM](HierbateORM/README.md)
-    - [HierbateValidator](HierbateValidator/README.md)
-    - [HierbateSearch](HierbateSearch/README.md)
-    - [HierbateOGM](HierbateOGM/README.md)
-    - [HierbateTools](HierbateTools/README.md)
+### 目录
+- [HierbateORM](HierbateORM/README.md)
+- [HierbateValidator](HierbateValidator/README.md)
+- [HierbateSearch](HierbateSearch/README.md)
+- [HierbateOGM](HierbateOGM/README.md)
+- [HierbateTools](HierbateTools/README.md)

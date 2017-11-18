@@ -8,3 +8,5 @@
 - [Node](Node/README.md)
 - [Python](Python/README.md)
 - [C++](C++/README.md)
+- [Scala](Scala/README.md)
+- [Haskell](Haskell/README.md)

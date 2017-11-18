@@ -1,5 +1,8 @@
 vue2 doc
 
+### 资源
+- [resources](resources/README.md)
+
 ### 简介
 - 一套构建用户界面的框架，仅关注视图层.
 - [中文](https://cn.vuejs.org/)

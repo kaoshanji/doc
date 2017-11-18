@@ -1,5 +1,8 @@
 Hierbate ORM doc
 
+### 资源
+- [resources](resources/README.md)
+
 ### 简介
 - Hibernate以Java面向对象的方式操作数据库
 - 把数据库与POJO映射，屏蔽数据库细节，ORM框架产品

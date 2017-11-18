@@ -3,9 +3,8 @@
 > 环境搭建
 
 ### 目录
-- build
-    - Gitbook
-    - ubuntu开发环境
-- OS
-    - u盘
-    - 装回win7
+- [build](build/README.md)
+- [OS](OS/README.md)
+- [Axure](Axure/README.md)
+- [Git](Git/README.md)
+- [Linux](Linux/README.md)
