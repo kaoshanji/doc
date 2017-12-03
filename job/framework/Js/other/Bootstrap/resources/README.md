@@ -3,10 +3,9 @@
 ### books
 - PDF
 - 书桌
-    - Jenkins权威指南
 
 ### URL
-- [官网](https://jenkins.io/)
+- [官网](http://getbootstrap.com/)
 - [文档]()
-- [中文网]()
+- [中文网](http://www.bootcss.com/)
 - [社区]()

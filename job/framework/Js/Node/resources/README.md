@@ -12,5 +12,9 @@
 ### URL
 - [官网]()
 - [文档]()
-- [中文网]()
+- [中文网](http://nodejs.cn/)
 - [社区]()
+
+### 补充
+- [npm](https://www.npmjs.com/)
+- [从零开始系列文章](http://blog.fens.me/series-nodejs/)

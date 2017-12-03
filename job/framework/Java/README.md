@@ -7,3 +7,6 @@
 - [MyBatis](MyBatis/README.md)
 - [Maven](Maven/README.md)
 - [Quartz](Quartz/README.md)
+
+## 库
+- [Guava](http://ifeve.com/google-guava/)

@@ -11,3 +11,6 @@
 - [文档]()
 - [中文网]()
 - [社区]()
+
+## 文档
+- [关注于2008](https://github.com/wecite/papers/tree/master/An-Overview-of-the-Scala-Programming-Language)

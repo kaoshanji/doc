@@ -3,7 +3,7 @@
 ### books
 - PDF
 - 书桌
-    - Spring-boot实战
+
 ### URL
 - [官网]()
 - [文档]()
@@ -11,5 +11,4 @@
 - [社区]()
 
 ### 文档
-- [1.5.2](http://blog.geekidentity.com/spring/spring_boot_translation/)
-
+- [指南](https://gitlore.com/subject/59/README.md)

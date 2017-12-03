@@ -6,7 +6,7 @@
     - Redis实战
 
 ### URL
-- [官网]()
+- [官网](https://redis.io/)
 - [文档]()
-- [中文网]()
+- [中文网](http://www.redis.cn/)
 - [社区]()

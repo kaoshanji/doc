@@ -10,5 +10,5 @@
 - [中文网]()
 - [社区]()
 
-## 文档
-- [趣学指南](http://fleurer-lee.com/lyah/chapters.htm)
+## 补充
+- [gitignore](https://github.com/github/gitignore)

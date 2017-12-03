@@ -3,10 +3,9 @@
 ### books
 - PDF
 - 书桌
-    - Jenkins权威指南
 
 ### URL
-- [官网](https://jenkins.io/)
+- [官网](http://www.layui.com/)
 - [文档]()
 - [中文网]()
 - [社区]()

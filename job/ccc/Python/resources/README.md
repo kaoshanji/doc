@@ -20,3 +20,7 @@
     - 内置库
     - 语言细节
 - [第三方库](https://pypi.python.org/pypi)
+
+### 文档
+- [Think Python 2e](http://codingpy.com/books/thinkpython2/)
+- [Python Cookbook 3rd](http://python3-cookbook.readthedocs.io/zh_CN/latest/)
