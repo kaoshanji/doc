@@ -4,8 +4,6 @@
 ### 目录
 - tmp
     - 备用
-- [职业](job/README.md)
-    - 技术
 - [plan](plan/README.md)
     - 计划
     - 记录
