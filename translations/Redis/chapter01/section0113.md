@@ -1,0 +1,26 @@
+#   Strings
+
+-   [APPEND](http://www.redis.cn/commands/append.html):如果 key 已经存在，并且值为字符串，那么这个命令会把 value 追加到原来值（value）的结尾
+-   [BITCOUNT](http://www.redis.cn/commands/bitcount.html):统计字符串被设置为1的bit数
+-   [BITFIELD](http://www.redis.cn/commands/bitfield.html):把Redis字符串当作位数组，并能对变长位宽和任意未字节对齐的指定整型位域进行寻址
+-   [BITOP](http://www.redis.cn/commands/bitop.html):对一个或多个保存二进制位的字符串 key 进行位元操作，并将结果保存到 destkey 上
+-   [BITPOS](http://www.redis.cn/commands/bitpos.html):返回字符串里面第一个被设置为1或者0的bit位
+-   [DECR](http://www.redis.cn/commands/decr.html):对key对应的数字做减1操作。如果key不存在，那么在操作之前，这个key对应的值会被置为0
+-   [DECRBY](http://www.redis.cn/commands/decrby.html):将key对应的数字减decrement。如果key不存在，操作之前，key就会被置为0
+-   [GET](http://www.redis.cn/commands/get.html):返回key的value。如果key不存在，返回特殊值nil
+-   [GETBIT](http://www.redis.cn/commands/getbit.html):返回key对应的string在offset处的bit值
+-   [GETRANGE](http://www.redis.cn/commands/getrange.html):返回key对应的字符串value的子串，这个子串是由start和end位移决定的（两者都在string内）
+-   [GETSET](http://www.redis.cn/commands/getset.html):自动将key对应到value并且返回原来key对应的value
+-   [INCR](http://www.redis.cn/commands/incr.html):对存储在指定key的数值执行原子的加1操作
+-   [INCRBY](http://www.redis.cn/commands/incrby.html):将key对应的数字加decrement
+-   [INCRBYFLOAT](http://www.redis.cn/commands/incrbyfloat.html):通过指定浮点数key来增长浮点数(存放于string中)的值. 当键不存在时,先将其值设为0再操作
+-   [MGET](http://www.redis.cn/commands/mget.html):返回所有指定的key的value
+-   [MSET](http://www.redis.cn/commands/mset.html):对应给定的keys到他们相应的values上
+-   [MSETNX](http://www.redis.cn/commands/msetnx.html):对应给定的keys到他们相应的values上
+-   [PSETEX](http://www.redis.cn/commands/psetex.html):PSETEX和SETEX一样，唯一的区别是到期时间以毫秒为单位,而不是秒
+-   [SET](http://www.redis.cn/commands/set.html):将键key设定为指定的“字符串”值
+-   [SETBIT](http://www.redis.cn/commands/setbit.html):设置或者清空key的value(字符串)在offset处的bit值
+-   [SETEX](http://www.redis.cn/commands/setex.html):设置key对应字符串value，并且设置key在给定的seconds时间之后超时过期
+-   [SETNX](http://www.redis.cn/commands/setnx.html):将key设置值为value，如果key不存在，这种情况下等同SET命令
+-   [SETRANGE](http://www.redis.cn/commands/setrange.html):这个命令的作用是覆盖key对应的string的一部分，从指定的offset处开始，覆盖value的长度
+-   [STRLEN](http://www.redis.cn/commands/strlen.html):返回key的string类型value的长度。如果key对应的非string类型，就返回错误

@@ -2,11 +2,11 @@
 记录，留下印记，输出成果...存档..存档
 
 ### 目录
-- tmp
-    - 备用
-- [plan](plan/README.md)
-    - 计划
-    - 记录
+-   [日志](log/README.md)
+-   [资料](material/README.md)
+-   [读书](read/README.md)
+-   [场景](scenes/README.md)
+-   [译文](translations/README.md)
 
 ### 本机目录/app
 - github

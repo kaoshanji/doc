@@ -1,0 +1,24 @@
+#   Keys
+
+-   [DEL](http://www.redis.cn/commands/del.html):删除指定的一批keys，如果删除中的某些key不存在，则直接忽略
+-   [DUMP](http://www.redis.cn/commands/dump.html):序列化给定 key ，并返回被序列化的值
+-   [EXISTS](http://www.redis.cn/commands/exists.html):返回key是否存在
+-   [EXPIRE](http://www.redis.cn/commands/expire.html):设置key的过期时间，超过时间后，将会自动删除该key
+-   [EXPIREAT](http://www.redis.cn/commands/expireat.html):EXPIREAT 的作用和 EXPIRE类似，都用于为 key 设置生存时间
+-   [KEYS](http://www.redis.cn/commands/keys.html):查找所有符合给定模式pattern（正则表达式）的 key
+-   [MIGRATE](http://www.redis.cn/commands/migrate.html):将 key 原子性地从当前实例传送到目标实例的指定数据库上，一旦传送成功， key 保证会出现在目标实例上，而当前实例上的 key 会被删除
+-   [MOVE](http://www.redis.cn/commands/move.html):将当前数据库的 key 移动到给定的数据库 db 当中
+-   [OBJECT](http://www.redis.cn/commands/object.html):OBJECT 命令可以在内部调试(debugging)给出keys的内部对象，它用于检查或者了解你的keys是否用到了特殊编码 的数据类型来存储空间z
+-   [PERSIST](http://www.redis.cn/commands/persist.html):移除给定key的生存时间，将这个 key 从『易失的』(带生存时间 key )转换成『持久的』(一个不带生存时间、永不过期的 key )
+-   [PEXPIRE](http://www.redis.cn/commands/pexpire.html):这个命令和EXPIRE命令的作用类似，但是它以毫秒为单位设置 key 的生存时间
+-   [PEXPIREAT](http://www.redis.cn/commands/pexpireat.html):PEXPIREAT 这个命令和EXPIREAT命令类似，但它以毫秒为单位设置 key 的过期 unix 时间戳
+-   [PTTL](http://www.redis.cn/commands/pttl.html):这个命令类似于TTL命令，但它以毫秒为单位返回 key 的剩余生存时间
+-   [RANDOMKEY](http://www.redis.cn/commands/randomkey.html):从当前数据库返回一个随机的key
+-   [RENAME](http://www.redis.cn/commands/rename.html):将key重命名为newkey，如果key与newkey相同，将返回一个错误
+-   [RENAMENX](http://www.redis.cn/commands/renamenx.html):当且仅当 newkey 不存在时，将 key 改名为 newkey 
+-   [RESTORE](http://www.redis.cn/commands/restore.html):反序列化给定的序列化值，并将它和给定的 key 关联
+-   [SORT](http://www.redis.cn/commands/sort.html):返回或存储key的list、 set 或sorted set 中的元素
+-   [TTL](http://www.redis.cn/commands/ttl.html):返回key剩余的过期时间
+-   [TYPE](http://www.redis.cn/commands/type.html):返回key所存储的value的数据结构类型，它可以返回string, list, set, zset 和 hash等不同的类型
+-   [WAIT](http://www.redis.cn/commands/wait.html):此命令阻塞当前客户端，直到所有以前的写命令都成功的传输和指定的slaves确认
+-   [SCAN](http://www.redis.cn/commands/scan.html):SCAN 命令及其相关的 SSCAN, HSCAN 和 ZSCAN 命令都用于增量迭代一个集合元素

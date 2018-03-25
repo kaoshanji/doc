@@ -1,0 +1,22 @@
+#   Cluster：集群
+
+-   [CLUSTER ADDSLOTS](http://www.redis.cn/commands/cluster-addslots.html):修改某个节点上的集群配置
+-   [CLUSTER COUNT-FAILURE-REPORTS](http://www.redis.cn/commands/cluster-count-failure-reports.html):返回指定节点的故障报告个数
+-   [CLUSTER COUNTKEYSINSLOT](http://www.redis.cn/commands/cluster-countkeysinslot.html):返回连接节点负责的指定hash slot的key的数量
+-   [CLUSTER DELSLOTS](http://www.redis.cn/commands/cluster-delslots.html):在Redis Cluster中，每个节点都会知道哪些主节点正在负责哪些特定的哈希槽DELSLOTS命令使一个特定的Redis Cluster节点去忘记一个主节点正在负责的哈希槽，这些哈希槽通过参数指定
+-   [CLUSTER FAILOVER](http://www.redis.cn/commands/cluster-failover.html):发送到Redis集群从节点，强制从节点启动其主节点的手动故障转移
+-   [CLUSTER FORGET](http://www.redis.cn/commands/cluster-forget.html):告知其他节点某节点无效
+-   [CLUSTER GETKEYSINSLOT](http://www.redis.cn/commands/cluster-getkeysinslot.html):返回存储在连接节点的指定hash slot里面的key的列表
+-   [CLUSTER INFO](http://www.redis.cn/commands/cluster-info.html):使用 INFO 风格的形式展现了关于Redis集群的重要参数
+-   [CLUSTER KEYSLOT](http://www.redis.cn/commands/cluster-keyslot.html):返回一个整数，用于标识指定键所散列到的哈希槽。该命令主要用来调试和测试
+-   [CLUSTER MEET](http://www.redis.cn/commands/cluster-meet.html):连接不同的开启集群支持的 Redis 节点，以进入工作集群
+-   [CLUSTER NODES](http://www.redis.cn/commands/cluster-nodes.html):当前连接节点所属集群的配置信息
+-   [CLUSTER REPLICATE](http://www.redis.cn/commands/cluster-replicate.html):将节点重新配置为指定主站的从站
+-   [CLUSTER RESET](http://www.redis.cn/commands/cluster-reset.html):重置Redis群集节点
+-   [CLUSTER SAVECONFIG](http://www.redis.cn/commands/cluster-saveconfig.html):强制节点将nodes.conf配置保存到磁盘上
+-   [CLUSTER SET-CONFIG-EPOCH](http://www.redis.cn/commands/cluster-set-config-epoch.html):在新节点中设置特定的配置时期
+-   [CLUSTER SETSLOT](http://www.redis.cn/commands/cluster-setslot.html):以不同的方式改变接收节点中的散列槽的状态
+-   [CLUSTER SLAVES](http://www.redis.cn/commands/cluster-slaves.html):从指定主节点复制的从节点列表
+-   [CLUSTER SLOTS](http://www.redis.cn/commands/cluster-slots.html):返回哈希槽和Redis实例映射关系
+-   [READONLY](http://www.redis.cn/commands/readonly.html):开启与 Redis Cluster 从节点连接的读请求
+-   [READWRITE](http://www.redis.cn/commands/readwrite.html):禁止与Redis Cluster从节点连接的读请求
