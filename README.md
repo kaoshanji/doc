@@ -2,11 +2,12 @@
 记录，留下印记，输出成果...存档..存档
 
 ### 目录
+-   [计划](plan/README.md)
 -   [日志](log/README.md)
--   [资料](material/README.md)
+-   [技术](material/README.md)
 -   [读书](read/README.md)
--   [场景](scenes/README.md)
--   [译文](translations/README.md)
+-   [历史](historyREADME.md)
+
 
 ### 本机目录/app
 - github：源码，以github上面用户名称组织

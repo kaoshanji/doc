@@ -1,6 +1,0 @@
-[docker](https://docs.docker-cn.com/)
-[mongodb](https://docs.mongodb.com/)
-[nginx](http://nginx.org/en/docs/)
-[RabbitMQ](http://www.rabbitmq.com/documentation.html)
-[redis](http://www.redis.cn/documentation.html)
-[netty](http://netty.io/wiki/user-guide-for-4.x.html)
