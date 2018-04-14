@@ -4,9 +4,9 @@
 ### 目录
 -   [计划](plan/README.md)
 -   [日志](log/README.md)
--   [技术](material/README.md)
+-   [技术](technology/README.md)
 -   [读书](read/README.md)
--   [历史](historyREADME.md)
+-   [历史](history/README.md)
 
 
 ### 本机目录/app

@@ -22,7 +22,8 @@ ava SE 由 Java Development Kit (JDK)、Java Runtime Environment (JRE) 和 Java 
 
 
 ### [Java SE8](SE/README.md)
-###  [教程](SE/tutorial/REAMDE.md)
+### [教程](SE/tutorial/README.md)
+### [语言环境](langenv/README.md)
 
 ----
 
@@ -32,7 +33,7 @@ Java Platform, Enterprise Edition (Java EE) 是构建 Web 应用程序和企业�
 
 
 ### [Java EE7](EE/README.md)
-###  [教程](EE/tutorial/REAMDE.md)
+###  [教程](EE/tutorial/README.md)
 ---
 
 
@@ -80,3 +81,5 @@ JavaServer Pages，JPA，EJB，JAX-RS和Servlet - 对于新手和有经验的开
 -   [Java编程新手中心](http://www.oracle.com/technetwork/cn/topics/newtojava/overview/index.html)
 -   [Java SE](http://www.oracle.com/technetwork/cn/java/javase/overview/index.html)
 -   [Java EE](http://www.oracle.com/technetwork/cn/java/javaee/overview/index.html)
+-   [Java语言和虚拟机规范](https://docs.oracle.com/javase/specs/)
+-   [Java语言环境](http://www.oracle.com/technetwork/java/langenv-140151.html)

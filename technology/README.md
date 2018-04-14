@@ -1,4 +1,4 @@
-#   资料
+#   技术
 
 技术或应用不以大不以全不以多为重，而是可用，能够解决某类问题
 
@@ -48,3 +48,4 @@
 ##  xx技术-目录
 -   translations（官方文档译文）
 -   book（相关书籍）
+-   源码地址 `https://github.com/kaoshanji/example`
