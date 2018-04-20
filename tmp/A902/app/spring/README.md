@@ -3,6 +3,7 @@
 ##  应用场景
 -   Java 企业应用
     -   [spring-framework](spring-framework/README.md)
+    -   [spring-ws](spring-ws/README.md)
 -   项目构建
     -   [spring-boot](spring-boot/README.md)
 -   持久化

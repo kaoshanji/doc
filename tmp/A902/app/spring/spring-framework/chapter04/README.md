@@ -35,7 +35,6 @@ Spring擅长的领域之一是将视图技术与MVC框架的其余部分分开�
 
 跨源资源共享 （CORS）是由大多数浏览器实现 的W3C规范，允许您以灵活的方式指定哪种跨域请求被授权，而不是使用一些安全性较低和功能较弱的黑客（如IFRAME或JSONP）。
 
-从Spring Framework 4.2开始，CORS得到支持。CORS请求（包括使用`OPTIONS`方法的预检）将自动发送到各种注册`HandlerMapping`的服务器。它们处理CORS预检请求并通过CorsProcessor 实现（ 默认为DefaultCorsProcessor）拦截CORS简单和实际的请求 ，以便`Access-Control-Allow-Origin`根据您提供的CORS配置添加相关的CORS响应头（例如）
 
 
 
