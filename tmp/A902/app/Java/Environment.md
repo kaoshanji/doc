@@ -32,18 +32,26 @@
     ```
     sudo dpkg --list | grep -i jdk
     sudo apt-get purge openjdk*
+-   Cent OS
+    -   删除自带JDK
+    ```
+    su root
+    rpm -qa | grep java
+    yum remove java-xx-opxx-hexx
     // 然后再看看
+    ```
+-   配置
     ```
     -   解压放在某路径下
     -   环境变量配置
     ```
-    sudo gedit /etc/profile
-    // 输入
-    #set java environment
-    JAVA_HOME=/opt/orcale/jdk1.8    // 放置的路径
-    export JRE_HOME=/opt/orcale/jdk1.8/jre
-    export CLASSPATH=.:$JAVA_HOME/lib:$JRE_HOME/lib:$CLASSPATH
-    export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
+        sudo gedit /etc/profile
+        // 输入
+        #set java environment
+        JAVA_HOME=/opt/orcale/jdk1.8    // 放置的路径
+        export JRE_HOME=/opt/orcale/jdk1.8/jre
+        export CLASSPATH=.:$JAVA_HOME/lib:$JRE_HOME/lib:$CLASSPATH
+        export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
     ```
 -   验证
     -   ![WIN-JDK-005.png](image/WIN-JDK-005.png)

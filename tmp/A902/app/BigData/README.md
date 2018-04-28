@@ -43,6 +43,31 @@ machine learning，是计算机科学和统计学的交叉学科，基本目标�
 deep learning，机器学习里面现在比较火的一个topic（大坑），本身是神经网络算法的衍生，在图像，语音等富媒体的分类和识别上取得了非常好的效果，所以各大研究机构和公司都投入了大量的人力做相关的研究和开发。
 
 
+##  导图
+-   ![机器学习技能图](image/142734.jpg)
+-   [一个程序员能不能用2年挣到50万+,看他是否在做这件事就知道了](https://mp.weixin.qq.com/s/B0fLLgDal5bvZg209VT2_w)
+-   [我是学Java的，想尝试大数据和数据挖掘，该怎么规划学习？](https://www.zhihu.com/question/21380122/answer/237421875)
+-   [机器学习入门课程](https://zhuanlan.zhihu.com/p/34292209)
+-   [机器学习该怎么入门？](https://www.zhihu.com/question/20691338/answer/142221700)
+-   [机器学习应该准备哪些数学预备知识？](https://www.zhihu.com/question/36324957/answer/67098507)
+-   [怎样进行大数据的入门级学习？](https://www.zhihu.com/question/24761255/answer/59803163)
+-   [机器学习中用到哪些矩阵知识，如果要补这些知识，求推荐合适的书籍资料？](https://www.zhihu.com/question/25866010/answer/134274425)
+-   [机器学习需要哪些理论知识，哪些比较成体系的书籍可以看？](https://www.zhihu.com/question/66868344/answer/246675018)
+-   [从入门到高阶，读懂机器学习需要哪些数学知识（附网盘）机器之心](https://zhuanlan.zhihu.com/p/36018667)
+-   [机器学习从入门到出家](https://zhuanlan.zhihu.com/p/26590763)
+-   [如何系统入门机器学习？](https://www.zhihu.com/question/266127835/answer/331399383)
+-   [机器学习入门导引](https://zhuanlan.zhihu.com/p/23796060)
+-   [我的机器学习入门学习清单及路线](https://zhuanlan.zhihu.com/p/27018536)
+-   [机器学习入门教程分享](https://zhuanlan.zhihu.com/p/27381779)
+-   [机器学习入门书单](https://zhuanlan.zhihu.com/p/25320185)
+-   [机器学习入门2：逻辑回归](https://zhuanlan.zhihu.com/p/35927764)
+-   [机器学习的入门“秘籍”](https://zhuanlan.zhihu.com/p/29302786)
+-   [8个入门级趣味机器学习项目（附教程和数据源）](https://zhuanlan.zhihu.com/p/32119848)
+-   [机器学习入门一定要避开的几大陷阱](https://zhuanlan.zhihu.com/p/32322378)
+-   [机器学习进阶笔记之一 | TensorFlow安装与入门](https://zhuanlan.zhihu.com/p/22410917)
+-   [入门机器学习到底需要多少数学知识](https://zhuanlan.zhihu.com/p/30691582)
+
+
 
 ##  连接
 -   [数据挖掘、机器学习、和人工智能(AI)的区别是什么](https://www.cnblogs.com/DonJiang/p/5744535.html)

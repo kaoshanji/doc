@@ -1,6 +1,6 @@
 -   [docker](https://docs.docker-cn.com/)
 -   [mongodb](https://docs.mongodb.com/)
--   [nginx*](http://nginx.org/en/docs/)
+-   [nginx](http://nginx.org/en/docs/)
 -   [RabbitMQ](http://www.rabbitmq.com/documentation.html)
 -   [redis](http://www.redis.cn/documentation.html)
 -   [netty](http://netty.io/wiki/user-guide-for-4.x.html)
@@ -11,3 +11,5 @@
 -   [lucene](http://lucene.apache.org/)
 -   [Git](https://git-scm.com/docs)
 -   [jenkins](https://jenkins.io/)
+-   [Dubbo](dubbo/tmp.md)
+-   [maven](https://maven.apache.org/index.html)
