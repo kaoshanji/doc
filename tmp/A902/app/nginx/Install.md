@@ -28,10 +28,22 @@ cd /usr/sbin
 ./nginx
 ```
 
+### 常见命令
+```
+./nginx  #打开 nginx
+nginx -s reload|reopen|stop|quit  #重新加载配置|重启|停止|退出 nginx
+nginx -t   #测试配置是否有语法错误
+
+// 查看进程号
+$ ps -ef|grep nginx
+```
+
 ### 查看Nginx并发进程数
 ```
 ps -ef | grep nginx | wc -l
 ```
+
+### 其他
 
 Nginx不会自行启动。要运行Nginx，请输入：
 
@@ -47,6 +59,8 @@ sudo firewall-cmd --permanent --zone=public --add-service=https
 sudo firewall-cmd --reload
 ```
 您将会看到默认的CentOS 7 Nginx网页，这是为了提供信息和测试目的。它应该看起来像这样：
+
+### 成功
 
 ![nginx_default.png](image/nginx_default.png)
 
