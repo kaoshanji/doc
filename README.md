@@ -13,9 +13,8 @@
 
 
 ## 目录
--   [技术](technology/README.md)
+-   [资料](data/README.md)
 -   [应用](app/README.md)
--   [读书](read/README.md)
 -   [日志](log/README.md)
 -   [计划](plan/README.md)
 -   博客
