@@ -7,14 +7,13 @@
 -   MySQL
 -   Nginx
 -   Git
--   Java
-    -   Spring
-    -   Logback
-    -   Maven
-    -   Junit
-    -   google-gson/Jackson
--   Html/Css/Js
-    -   Vue
+-   编程语言
+    -   Java
+        -   Spring
+        -   Logback
+        -   Maven
+        -   Junit
+        -   google-gson/Jackson
 
 ### 数据支撑
 -   Redis
@@ -28,7 +27,7 @@
 -   CI
 -   Netty
 -   Dubbo
--   微信小程序
 
-##  底层
+##  支持
 -   HTTP
+-   TCP/IP
