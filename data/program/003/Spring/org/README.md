@@ -1,7 +1,5 @@
 #   Spring：Java应用相关全家桶
 
-已经`合并`到了`主分支`
-
 ##  应用场景
 -   Java 企业应用
     -   [spring-framework](spring-framework/README.md)

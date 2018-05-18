@@ -31,8 +31,6 @@ machine learning，是计算机科学和统计学的交叉学科，基本目标�
 自然语言处理=文本处理+机器学习
 
 
-
-
 ##  深度学习
 基于神经网络的，是基于神经认知科学发展的产物。
 
@@ -45,6 +43,7 @@ deep learning，机器学习里面现在比较火的一个topic（大坑），�
 
 ##  导图
 -   ![机器学习技能图](image/142734.jpg)
+-   ![人工智能和机器学习](image/AI.png)
 -   [一个程序员能不能用2年挣到50万+,看他是否在做这件事就知道了](https://mp.weixin.qq.com/s/B0fLLgDal5bvZg209VT2_w)
 -   [我是学Java的，想尝试大数据和数据挖掘，该怎么规划学习？](https://www.zhihu.com/question/21380122/answer/237421875)
 -   [机器学习入门课程](https://zhuanlan.zhihu.com/p/34292209)

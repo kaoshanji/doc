@@ -14,9 +14,9 @@
 ----
 
 ##  xx技术-目录
--   content(内容)
--   org（官方文档）
--   books（相关书籍）
+-   content(个人理解)
+-   org(权威资源、结构化输出)
+-   books(相关书籍)
 -   源码地址 `https://github.com/kaoshanji/example`
 
 ----
