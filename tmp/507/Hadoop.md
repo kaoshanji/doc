@@ -7,3 +7,4 @@
 
 
 -   [coursera](https://www.coursera.org/)
+-   [Google全新AI实战课发布：从原理到代码，手把手带你入门机器学习](https://mp.weixin.qq.com/s/d8tw62Fr3RopxjrguMCNaw)
