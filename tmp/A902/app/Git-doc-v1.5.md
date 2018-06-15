@@ -93,3 +93,9 @@
     ```
 
 ----
+
+##  资源
+-   [Pro Git中文版(第二版)](https://progit.bootcss.com/)
+-   [官网](https://git-scm.com/)
+
+----
