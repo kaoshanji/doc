@@ -16,6 +16,8 @@
 
 起承转合
 
+[0-1-100](plan.md)
+
 ----
 
 ##  系统框架
@@ -87,13 +89,7 @@
 ##  目录
 -   [编程](program/README.md)
 -   [历史](history/README.md)
--   [方法/规律](method/README.md)
--   [数学](mathematics/README.md)
--   [物理](physics/README.md)
--   [文言文](classical/README.md)
--   [科普](science/README.md)
--   [经济](economics/README.md)
--   [传记/选集](biography/README.md)
+
 
 ### 目录结构
 -   以上为一级目录
