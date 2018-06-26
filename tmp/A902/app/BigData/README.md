@@ -50,6 +50,9 @@ deep learning，机器学习里面现在比较火的一个topic（大坑），�
 ----
 
 ##  导图
+-   [一文读懂机器学习、数据科学、人工智能、深度学习和统计学之间的区别](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650723678&idx=1&sn=5cb049e37427dd2b2a4e30e42bcc2fff&chksm=871b1120b06c983651bf92526cd8554225304200364d39cd18592fd8a6848d1f84cf80aeea22&scene=21#wechat_redirect)
+-   [业界 | 人工智能、机器学习、深度学习，三者之间的同心圆关系](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650717606&idx=4&sn=b94b58d4fe75c1a1e42274720a269a99&scene=21#wechat_redirect)
+-   [三张图读懂机器学习：基本概念、五大流派与九种常见算法](https://mp.weixin.qq.com/s/yIa1IkBrNdQlxgqfyoCIgg)
 -   ![机器学习技能图](image/142734.jpg)
 -   ![人工智能和机器学习](image/AI.png)
 -   [一个程序员能不能用2年挣到50万+,看他是否在做这件事就知道了](https://mp.weixin.qq.com/s/B0fLLgDal5bvZg209VT2_w)
@@ -89,6 +92,9 @@ deep learning，机器学习里面现在比较火的一个topic（大坑），�
 -   [数据挖掘-基于贝叶斯算法及KNN算法的newsgroup18828文本分类器的JAVA实现（下）](https://blog.csdn.net/yangliuy/article/details/7401142)
 -   [推荐引擎算法学习导论](https://blog.csdn.net/v_july_v/article/details/7184318)
 -   [HMM学习最佳范例](http://www.52nlp.cn/category/hidden-markov-model/page/4)
+-   [机器学习概览](http://www.cnblogs.com/shanyou/p/9189901.htm)
+-   [机器学习入门之19问](https://mp.weixin.qq.com/s/ghJtrIjCvIxAeZz8H7JUjw)
+-   [零基础AI入门指南](https://www.jianshu.com/p/bb94ac37f4a2)
 
 ----
 

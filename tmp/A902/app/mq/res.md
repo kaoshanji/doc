@@ -1,0 +1,3 @@
+-   [消息队列事务型消息原理浅析](https://mp.weixin.qq.com/s/ufTdKKYHENWRXlarbybgvg)
+-   [理解 RabbitMQ Exchange](https://mp.weixin.qq.com/s/tM4R-2QdNATkoC1BukV8Ew)
+-   
