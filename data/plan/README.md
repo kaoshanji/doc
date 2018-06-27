@@ -50,7 +50,7 @@
 -   服务端即后端
     -   Java：应用逻辑，业务抽象
     -   MySQL：应用支撑，数据存储
-    -   Sql：Java和MySQL沟通
+    -   Sql：取回和更新数据库中的数据
 
 学习演示功能特性很合适。
 
@@ -75,10 +75,9 @@
     -   Gson：json格式数据转换
     -   MyBatis：Java操作Sql
     -   Apache-HttpComponents/Commons*：工具库
-    -   okHTTP：客户端网络
     -   SpringFrameWork：一站式企业应用项目结构
-    -   Tomcat：为Java Web应用提供网络
-    -   Jersey：为Java REST应用提供网络
+    -   Tomcat：Servlet/JSP规范实现
+    -   Jersey：Java REST规范实现
 
 ### 项目部署
 
