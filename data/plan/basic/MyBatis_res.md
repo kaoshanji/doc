@@ -13,6 +13,7 @@ MyBatis 可以使用简单的 XML 或注解来配置和映射原生信息，将�
 ----
 
 ##  内容
+-   概念
 -   XML 映射配置文件：影响 MyBatis 行为的设置（settings）和属性（properties）信息
 -   Mapper XML 文件：针对 SQL 构建
 -   动态 SQL：根据不同条件拼接 SQL 语句
