@@ -1,4 +1,4 @@
-#   第一阶段：基础
+#   第一阶段：上山学艺-v.0.2.2
 
 知道有什么，可以做什么事情，在什么地方使用，也就足够了
 
@@ -11,9 +11,9 @@
     -   Css：页面视觉效果
     -   JavaScript：客户端逻辑
 -   服务端即后端
-    -   Java：应用逻辑，业务抽象
+    -   [Java](Java_res.md)：应用逻辑，业务抽象
     -   MySQL：应用支撑，数据存储
-    -   Sql：取回和更新数据库中的数据
+    -   [Sql](sql_res.md)：取回和更新数据库中的数据
 
 学习演示功能特性很合适。
 
@@ -33,16 +33,16 @@
     -   Npm：项目结构/依赖管理
     -   Flutter：在IOS和Android 上创建高质量的原生用户体验
 -   后端
-    -   Maven：项目结构/依赖管理
-    -   Logback：日志，额外辅助信息
-    -   Jsoup：分析页面结构
-    -   Junit：测试，验证程序
-    -   Gson：json格式数据转换
-    -   MyBatis：Java操作Sql
-    -   Apache-HttpComponents/Commons*：工具库
-    -   SpringFrameWork：一站式企业应用项目结构
-    -   Tomcat：Servlet/JSP规范实现
-    -   Jersey：Java REST规范实现
+    -   [Maven](tool_res.md)：项目结构/依赖管理
+    -   [Logback](tool_res.md)：日志，额外辅助信息
+    -   [Jsoup](tool_res.md)：分析页面结构
+    -   [Junit](tool_res.md)：测试，验证程序
+    -   [Gson](tool_res.md)：json格式数据转换
+    -   [MyBatis](MyBatis_res.md)：Java操作Sql
+    -   [Apache-HttpComponents/Commons*](tool_res.md)：工具库
+    -   [SpringFrameWork](spring_res.md)：一站式企业应用项目结构
+    -   [Tomcat](tomcat_res.md)：Servlet/JSP规范实现
+    -   [Jersey](jersey_res.md)：Java REST规范实现
 
 ----
 
