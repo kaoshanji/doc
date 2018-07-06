@@ -1,4 +1,5 @@
-#   一些工具 资源
+#   一些工具 资源-v.0.2.4
+
 
 特殊场景下针对性解决方式
 
@@ -78,7 +79,7 @@ Java解析HTML页面
 
 ----
 
-##  Gson
+##  Google Gson
 
 Java对象与Json格式字符串相互转换
 
@@ -90,6 +91,30 @@ Java对象与Json格式字符串相互转换
 ### 网站
 -   [官网](https://github.com/google/gson)
 -   [教程文档](https://github.com/google/gson/blob/master/UserGuide.md)
+
+----
+
+##  Google Guava
+
+Guava工程包含了若干被Google的 Java项目广泛依赖 的核心库
+
+### 内容
+-   基本工具
+-   集合
+-   缓存
+-   函数式风格
+-   并发
+-   字符串处理
+-   原生类型
+-   区间
+-   I/O
+-   散列
+-   事件总线
+-   数据运算
+-   反射
+
+### 网站
+-   [中文文档](http://ifeve.com/google-guava/)
 
 ----
 

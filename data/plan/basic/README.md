@@ -37,9 +37,10 @@
     -   [Logback](tool_res.md)：日志，额外辅助信息
     -   [Jsoup](tool_res.md)：分析页面结构
     -   [Junit](tool_res.md)：测试，验证程序
-    -   [Gson](tool_res.md)：json格式数据转换
+    -   [Google Gson](tool_res.md)：json格式数据转换
     -   [MyBatis](MyBatis_res.md)：Java操作Sql
     -   [Apache-HttpComponents/Commons*](tool_res.md)：工具库
+    -   [Google Guava](tool_res.md)：工具库
     -   [SpringFrameWork](spring_res.md)：一站式企业应用项目结构
     -   [Tomcat](tomcat_res.md)：Servlet/JSP规范实现
     -   [Jersey](jersey_res.md)：Java REST规范实现
