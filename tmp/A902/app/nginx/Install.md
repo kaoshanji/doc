@@ -73,15 +73,8 @@ sudo systemctl enable nginx
 ```
 恭喜！Nginx现在已经安装并运行了！
 
+### 异常
 
-
-
-
-
-
-
-
-
-
+![启动异常](image/3624.png)
 
 
