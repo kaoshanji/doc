@@ -1,0 +1,1 @@
+-   [HBase高性能随机查询之道 – HFile原理解析](https://mp.weixin.qq.com/s/hLqdjio8Cu72vdOQrm0fBA)

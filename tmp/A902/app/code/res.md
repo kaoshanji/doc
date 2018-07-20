@@ -1,0 +1,4 @@
+-   [腾讯把需求和代码统一的内幕](https://mp.weixin.qq.com/s/PXBhKPbgivd8X9p0-L3AXQ)
+-   [沪江订单系统分表项目实践](https://mp.weixin.qq.com/s/TGJiwqd4wcQ4KWsbJLLvfA)
+-   [如何避免陷入流量旋涡](https://mp.weixin.qq.com/s?__biz=MzI3OTUwMjM4MA==&mid=2247484170&idx=1&sn=98768b18d6ae9d850257c2d9aba85ba1)
+-   [什么时候能用上设计模式？](http://www.wangtianyi.top/blog/2017/10/08/shi-yao-shi-hou-neng-yong-shang-she-ji-mo-shi/)

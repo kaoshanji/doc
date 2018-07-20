@@ -1,0 +1,1 @@
+-   [文件句柄？文件描述符？傻傻分不清楚](https://mp.weixin.qq.com/s/s8RxsKJrXuQlRsEQB2GYgw)

@@ -1,0 +1,3 @@
+-   [如何Docker化任意一个应用？你需要参照这10步](https://mp.weixin.qq.com/s/bJX6DVEhM7Ti11tIgjUSsQ)
+-   [知乎十万级容器规模的分布式镜像仓库实践](https://zhuanlan.zhihu.com/p/39004143)
+-   [Docker底层技术](https://www.jianshu.com/p/7a1ce51a0eba)

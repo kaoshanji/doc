@@ -1,0 +1,2 @@
+-   [Java面试宝典](https://github.com/xbox1994/2018-Java-Interview)
+-   [一个使用Spring Boot与前后端缓存、队列、分布式来秒杀小鸡的系统](https://github.com/xbox1994/chicken-seckill)

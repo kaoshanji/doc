@@ -1,1 +1,2 @@
 -   [选择合适的构建打包工具](https://zhuanlan.zhihu.com/p/37267736)
+-   [声明提升 this 原型链 作用域链 一篇就够](http://blog.404mzk.com/thiszhi-shi-kan-zhe-jiu-gou.html)

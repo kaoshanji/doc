@@ -1,0 +1,1 @@
+-   [中国互联网20年简史（1998-2018），告诉你本质是什么、规律是什么](https://mp.weixin.qq.com/s/X195WPlHz6IyMyg-lpc9Yg)

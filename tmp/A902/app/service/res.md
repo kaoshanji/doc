@@ -5,6 +5,11 @@
 -   [互联网应用常见验证码技术一览](https://mp.weixin.qq.com/s/RaUSBBQeH0NKw2WeXE7fCg)
 -   [闲话高并发的那些神话，看京东架构师如何把它拉下神坛](https://mp.weixin.qq.com/s/FLpdT9wZFT0sJBmNTCIObw)
 -   [微服务化的基石——持续集成](https://mp.weixin.qq.com/s/PDrzITSgkDgvnm01APOixQ)
+-   [微服务架构实践（API Gateway）](https://mp.weixin.qq.com/s/Lk8XfCKwhfs44h5Nu2CqTw)
+-   [51信用卡在微服务架构下的监控平台架构实践](https://mp.weixin.qq.com/s/VYH8rUt9Inrdzys2r3S6kQ)
+-   [[case20]聊聊rest api设计](https://segmentfault.com/a/1190000014944895)
+
+
 
 
 ##  系列
