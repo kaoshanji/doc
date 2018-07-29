@@ -32,3 +32,10 @@ Java是软件开发平台，Java语言运行在服务器上，应用的重点是
 
 Web应用介绍：[百科](https://baike.baidu.com/item/web/150564)，简而言之，使用HTTP(网络协议)让`浏览器`和服务器交换数据，最终数据是展示在浏览器里，控制浏览器里面的页面是另外一种技术(Html/Css/JavaScript)。当然可以显示很简洁基础：`Hello World!`
 
+##  清单
+-   程序基础结构(base)
+-   [常见数据格式](dataformat/README.md)
+-   核心组件(corecomponent)
+-   面向对象(objectoriented)
+-   Web应用
+-   Web服务
