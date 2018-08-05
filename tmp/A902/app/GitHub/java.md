@@ -7,14 +7,15 @@
 
 -   依赖库：Maven
     ```
-        // 镜像
+        // 镜像 地址也许会变动...
         <mirror>
             <id>alimaven</id>
             <name>aliyun maven</name>
-            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <url>https://maven.aliyun.com/repository/public</url>
             <mirrorOf>central</mirrorOf>
         </mirror>
     ```
+    -   [alimaven网站](http://maven.aliyun.com/mvn/view)
     -   [mvnrepository](http://mvnrepository.com/)
     -   [sourceforge](https://sourceforge.net/)
     -   [mvnjar](http://www.mvnjar.com/)
@@ -39,6 +40,7 @@
     -   [Spring Guides(github)](https://github.com/spring-guides)
     -   [spring-projects(github)](https://github.com/spring-projects/)
     -   [spring boot 实践学习案例](https://github.com/JeffLi1993/springboot-learning-example)
+    -   [spring文件下载](http://repo.spring.io/release/org/springframework/)
 -   Java应用程序容器化：jib
     -   [GitHub](https://github.com/GoogleContainerTools/jib)
 -   网络通信：Netty
