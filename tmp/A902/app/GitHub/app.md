@@ -28,6 +28,7 @@
 -   [TypeScript中文](https://www.tslang.cn/)
 -   [nodejs](https://nodejs.org/en/)
 -   [angular](https://angular.io/)
+    -   [angular中文](https://v6.angular.live/)
     -   [angular-starter](https://github.com/gdi2290/angular-starter)
     -   [ngx-admin](https://github.com/akveo/ngx-admin)
 -   [webpackjs](https://www.webpackjs.com/)

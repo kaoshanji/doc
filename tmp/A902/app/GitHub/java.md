@@ -61,6 +61,8 @@
     -   [官网](http://www.quartz-scheduler.org/)
 -   Web框架：Nutz
     -   [官网](http://nutzam.com/)
+-   高效Bean映射框架：Orika
+    -   [官网](http://orika-mapper.github.io/orika-docs/)
 -   ORM：mybatis
     -   [官网](http://www.mybatis.org/mybatis-3/zh/index.html)
     -   [官网(GitHub)](https://github.com/mybatis/mybatis-3)
