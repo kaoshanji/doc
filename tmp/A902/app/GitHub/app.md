@@ -41,8 +41,10 @@
 -   [npmjs中文](https://www.npmjs.com.cn/)
 -   [*flutter](https://flutter.io/)
     -   [github](https://github.com/flutter)
--   [flutter中文](https://flutterchina.club/)
--   [flutter社区中文资源](https://flutter-io.cn/)
+    -   [中文网](https://flutterchina.club/)
+    -   [文档](https://docs.flutter.io/)
+    -   [http请求库dio](https://github.com/flutterchina/dio)
+    -   [flutter社区中文资源](https://flutter-io.cn/)
 -   [expressjs](http://expressjs.com/)
 
 
