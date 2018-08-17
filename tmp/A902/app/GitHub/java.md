@@ -1,5 +1,22 @@
 #   Java
 
+----
+
+-   [官网](http://www.oracle.com/technetwork/java/index.html)
+-   [Java SE 首页](http://www.oracle.com/technetwork/java/javase/overview/index.html)
+-   [Java EE 首页](http://www.oracle.com/technetwork/java/javaee/overview/index.html)
+-   [Jcp](https://jcp.org/en/home/index)
+-   [Java SE 教程](https://docs.oracle.com/javase/tutorial/index.html)
+-   [Java SE API](https://docs.oracle.com/javase/8/docs/api/)
+-   [Java EE 资源](https://javaee.github.io/)
+-   [Java EE 教程及示例](https://javaee.github.io/tutorial/)
+-   [Java EE API](https://javaee.github.io/javaee-spec/javadocs/)
+-   [开发工具：IDEA](http://www.jetbrains.com/idea/)
+-   [开发工具：Eclipse](http://www.eclipse.org/)
+-   [Maven](http://maven.apache.org)
+
+----
+
 -   汇总
     -   [java生态圈](https://github.com/aalansehaiyang/technology-talk)
 
@@ -51,9 +68,11 @@
     -   [官网](https://jodd.org/)
     -   [教程](http://joddframework.org/)
     -   [GitHub](https://github.com/oblac)
+-   无界面浏览器Java程序：HtmlUnit
+    -   [官网](http://htmlunit.sourceforge.net/)
 -   日志：logback
     -   [GitHub](https://github.com/qos-ch)
--   对象转换：jackson
+-   Json对象转换：jackson
     -   [GitHub](https://github.com/FasterXML/jackson)
 -   视图模板：thymeleaf
     -   [官网](https://www.thymeleaf.org/index.html)

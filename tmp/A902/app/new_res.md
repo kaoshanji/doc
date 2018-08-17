@@ -1,1 +1,6 @@
 -   [中国互联网20年简史（1998-2018），告诉你本质是什么、规律是什么](https://mp.weixin.qq.com/s/X195WPlHz6IyMyg-lpc9Yg)
+-   [集群、分布式、负载均衡区别](https://www.cnblogs.com/xzwblog/p/7255364.html)
+-   [集群 & 负载均衡](https://www.cnblogs.com/SkySoot/p/6119968.html)
+-   [浅谈服务器集群、负载均衡、与分布式](https://blog.csdn.net/nicewuranran/article/details/52860769)
+-   [Web集群与负载均衡服务实现](https://blog.csdn.net/wuqingzhu8080/article/details/78693268)
+-   [Nginx+Tomcat搭建高性能负载均衡集群](https://blog.csdn.net/wang379275614/article/details/47778201)
