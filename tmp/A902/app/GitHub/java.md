@@ -60,10 +60,13 @@
     -   [spring文件下载](http://repo.spring.io/release/org/springframework/)
 -   Java应用程序容器化：jib
     -   [GitHub](https://github.com/GoogleContainerTools/jib)
--   网络通信：Netty
+-   网络通信：`Netty`
     -   [官网](http://netty.io/index.html)
     -   [GitHub](https://github.com/netty)
     -   [netty-4-user-guide](https://github.com/waylau/netty-4-user-guide/)
+-   高性能的线程间消息传递库：`disruptor`
+    -   [官网](http://lmax-exchange.github.io/disruptor/)
+    -   [GitHub](https://github.com/LMAX-Exchange/disruptor)
 -   工具库：Jodd
     -   [官网](https://jodd.org/)
     -   [教程](http://joddframework.org/)
