@@ -14,7 +14,7 @@
     -   [cplusplus](http://www.cplusplus.com/)
     -   [cppreference](https://en.cppreference.com/w/)
 -   [lua](http://www.lua.org/)
--   Go
+-   Golang
     -   [golang(中国)](https://studygolang.com/)
     -   [github](https://github.com/golang)
 -   前端
