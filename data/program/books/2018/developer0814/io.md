@@ -58,8 +58,8 @@ Path不一定代表真实的文件或目录，可以随心所欲的操作Path，
 
 ##  处理目录和目录树
 
--   处理目录和目录树：books.developer0814.DirectoryToFile
--   遍历目录树：books.developer0814.FindToFile
+-   处理目录和目录树：books.developer0814.s2.DirectoryToFile
+-   遍历目录树：books.developer0814.s2.FindToFile
 
 ----
 
@@ -71,7 +71,7 @@ Path不一定代表真实的文件或目录，可以随心所欲的操作Path，
 -   文件的复制和移动
 -   文件的属性
 -   快速读写数据
--   文件修改通知：books.developer0814.FileEvent
+-   文件修改通知：books.developer0814.s2.FileEvent
 -   SeekableButeChannel。。。。
 
 ----
@@ -90,7 +90,7 @@ NIO.2另一个新特性是异步能力，这种能力对套接字和文件I/O都
 
 ![20180826007](images/20180826007.png)
 
--   异步I/O：将来式：books.developer0814.AsynFileChannel
+-   异步I/O：将来式：books.developer0814.s2.AsynFileChannel
 
 2.  回调式
 
@@ -98,7 +98,7 @@ NIO.2另一个新特性是异步能力，这种能力对套接字和文件I/O都
 
 ![20180826008](images/20180826008.png)
 
--   异步I/O：回调式：books.developer0814.AsynFileChannelCompletionHandler
+-   异步I/O：回调式：books.developer0814.s2.AsynFileChannelCompletionHandler
 
 ----
 
@@ -106,10 +106,10 @@ NIO.2另一个新特性是异步能力，这种能力对套接字和文件I/O都
 
 java.nio.channels.NetworkChannel代表一个连接到网络套接字通道的映射
 
--   NetworkChannel：books.developer0814.NetworkChannel
+-   NetworkChannel：books.developer0814.s2.NetworkChannel
 
 像BitTorrent这样的对等网络程序一般都具备多播的功能，术语多播(或组播)表示一对多的网络通讯，通常用来指代IP多播。其基本前提是将一个包发送到一个组播地址，然后网络对该包进行复制，分发给所有接收端(注册到组播地址中)
 
--   DatagramChannel：books.developer0814.MultChannel
+-   DatagramChannel：books.developer0814.s2.MultChannel
 
 ----

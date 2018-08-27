@@ -11,6 +11,8 @@
 ##  高并发
 -   [深入理解RPC——你看或没看见 它都在那里](https://zhuanlan.zhihu.com/p/40188978)
 -   [一个使用Spring Boot与前后端缓存、队列、分布式来秒杀小鸡的系统](https://github.com/xbox1994/chicken-seckill)
+-   [Java 架构技术，该怎么学？](https://mp.weixin.qq.com/s/bOvURWuOfMpxhQTOGBmFpA)
+-   [1.25亿用户以后，Netflix总结的系统高可用经验](https://mp.weixin.qq.com/s/Pak3ADWx5Wlgtkn8lTODVA)
 
 ----
 
