@@ -8,7 +8,7 @@
 -   [Spring技术内幕：深入解析Spring架构与设计原理(第2版)_](SYe0808/README.md)
 -   [Java编程思想_](thinking0814/README.md)
 -   [Java核心技术(10) 卷1:基础知识_](corejava/README.md)
--   [深入理解Java7_](java70814/README.md)
+-   [深入理解Java7核心技术与最佳实践_](java70814/README.md)
 -   [Java8实战_](java80814/README.md)
 -   [Java技术手册_](nutshell0814/README.md)
 -   [Java程序员修炼之道_](developer0814/README.md)
