@@ -26,7 +26,6 @@
     -   [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
 -   [TypeScript](http://www.typescriptlang.org/)
 -   [TypeScript中文](https://www.tslang.cn/)
--   [nodejs](https://nodejs.org/en/)
 -   [angular](https://angular.io/)
     -   [angular中文](https://v6.angular.live/)
     -   [angular-starter](https://github.com/gdi2290/angular-starter)
@@ -37,14 +36,11 @@
     -   [Webpack中文](https://github.com/zhaoda/webpack-handbook)
     -   [深入浅出Webpack](https://github.com/gwuhaolin/dive-into-webpack)
     -   [Webpack 最佳实践](https://github.com/xiaoyann/webpack-best-practice)
--   [npmjs](https://www.npmjs.com)
--   [npmjs中文](https://www.npmjs.com.cn/)
 -   [*flutter](https://flutter.io/)
     -   [github](https://github.com/flutter)
     -   [中文网](https://flutterchina.club/)
     -   [文档](https://docs.flutter.io/)
     -   [http请求库dio](https://github.com/flutterchina/dio)
     -   [flutter社区中文资源](https://flutter-io.cn/)
--   [expressjs](http://expressjs.com/)
 
 

@@ -1,6 +1,6 @@
 #   资源-资源
 
-
+##  分类
 -   [笔记](notes.md)
 -   [编程语言](language.md)
 -   [部署安装](build.md)
@@ -11,19 +11,12 @@
 -   [Python](python.md)
 -   [OS](os.md)
 -   [前端](app.md)
+-   [NodeJs](NodeJs.md)
+-   [swift](swift.md)
+-   [Going](Going.md)
 
--   网站
-    -   [GitHub](https://github.com/features)
-    -   [Apache](http://www.apache.org/)
-    -   [W3C](http://www.w3school.com.cn/)
-    -   [opensymphony](https://bitbucket.org/opensymphony/profile/repositories)
-
--   []()
--   []()
--   []()
--   []()
-    -   []()
-    -   []()
-    -   []()
-    -   []()
-    -   []()
+##  网站
+-   [GitHub](https://github.com/features)
+-   [Apache](http://www.apache.org/)
+-   [W3C](http://www.w3school.com.cn/)
+-   [opensymphony](https://bitbucket.org/opensymphony/profile/repositories)
