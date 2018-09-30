@@ -13,11 +13,13 @@
 
 ----
 
-##  下载
+##  依赖管理
 -   开发平台：anaconda
     -   [anaconda](https://www.anaconda.com/)
 -   依赖库：pypi
     -   [pypi](https://pypi.org/project/selenium/)
+
+----
 
 ##  框架
 -   爬虫：scrapy
@@ -33,20 +35,6 @@
     -   [中文](https://www.crummy.com/software/BeautifulSoup/bs4/doc/index.zh.html)
 -   驱动浏览器：selenium
     -   [Selenium with Python](http://selenium-python.readthedocs.io/)
--   []()
--   []()
--   []()
--   []()
--   []()
--   []()
--   []()
--   []()
 
-
-
-
-
-
-
-
+----
 
