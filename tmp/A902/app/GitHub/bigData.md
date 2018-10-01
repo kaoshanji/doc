@@ -1,4 +1,4 @@
-#   数据挖掘//大数据//分布式
+#   数据挖掘
 
 
 -   [GitHub](https://github.com/collections/machine-learning)
@@ -32,14 +32,6 @@
     -   [FiveThirtyEight文章和图形背后的数据和代码](https://github.com/fivethirtyeight/data)
     -   [计算机视觉](https://github.com/jbhuang0604/awesome-computer-vision)
     -   [Oxford Deep NLP 2017课程](https://github.com/oxford-cs-deepnlp-2017/lectures)
--   Hadoop
-    -   [官网](http://hadoop.apache.org/)
-    -   [hbase](http://hbase.apache.org/)
-    -   [hive](http://hive.apache.org/)
-    -   [pig](http://pig.apache.org/)
-    -   [spark](http://spark.apache.org/)
-    -   [zookeeper](http://zookeeper.apache.org/)
-    -   [cassandra](http://cassandra.apache.org/)
 -   数据源
     -   [FiveThirtyEight](https://github.com/fivethirtyeight/)
     -   [data.fivethirtyeight](https://github.com/fivethirtyeight/data)
