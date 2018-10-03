@@ -23,14 +23,41 @@
         -   [Java核心技术系列:Java多线程编程核心技术_](threadB0814/README.md)
         -   [Java 7 并发编程实战手册_](threadC0814/README.md)
         -   [Java 并发编程的艺术_](threadD0814/README.md)
+        -   [Java多线程实战](http://jcip.net.s3-website-us-east-1.amazonaws.com/listings.html)
     -   JVM
     -   [深入理解Java虚拟机:JVM高级特性与最佳实践(第2版)_](jvmA0814/README.md)
     -   [Java虚拟机规范(Java SE 8版)_](jvmB0814/README.md)
     -   [HotSpot实战_](jvmC0814/README.md)
     -   [揭秘Java虚拟机:JVM设计原理与实现_](jvmD0814/README.md)
 -   Java工具
-    -   [有效的单元测试_](junitA0814/README.md)
-    -   [JUnit实战_](junitB0814/README.md)
+    -   测试
+        -   [有效的单元测试_](junitA0814/README.md)
+        -   [JUnit实战_](junitB0814/README.md)
+    -   对象操作
+        -   [Guava](https://github.com/google/guava)
+        -   工具库：Jodd
+            -   [官网](https://jodd.org/)
+            -   [教程](http://joddframework.org/)
+            -   [GitHub](https://github.com/oblac)
+        -   Json对象转换：jackson
+            -   [GitHub](https://github.com/FasterXML/jackson)
+        -   高效Bean映射框架：Orika
+            -   [官网](http://orika-mapper.github.io/orika-docs/)
+    -   apache
+        -   [HttpComponents](http://hc.apache.org/index.html)
+        -   [tomcat](http://tomcat.apache.org/)
+        -   [struts](http://struts.apache.org/)
+        -   [lucene](http://lucene.apache.org/)
+        -   [maven](http://maven.apache.org/)
+        -   [commons-dbutils](http://commons.apache.org/proper/commons-dbutils/)
+        -   [commons-lang](http://commons.apache.org/proper/commons-lang/)
+        -   [commons-dbcp](http://commons.apache.org/proper/commons-dbcp/)
+    -   工具实现
+        -   [无界面浏览器Java程序：HtmlUnit](http://htmlunit.sourceforge.net/)
+        -   [HTML解析：jsoup](https://jsoup.org/)
+        -   [连接SSH2](http://www.jcraft.com/)
+        -   [定时任务：quartz](http://www.quartz-scheduler.org/)
+        -   [Java应用程序容器化：jib](https://github.com/GoogleContainerTools/jib)
 
 ----
 

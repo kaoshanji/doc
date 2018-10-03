@@ -3,10 +3,56 @@
 ##  资料
 -   设计/工具
     -   [HTTP权威指南_](httpz/README.md)
+    -   [码农翻身：用故事给技术加点料](2018/1002020/README.md)
     -   [Java工程师修炼之道_](JHan0805/README.md)
+    -   [Web API的设计与开发](2018/1002001/README.md)
+    -   [Web性能权威指南](2018/1002002/README.md)
+    -   [深⼊浅出 HTTPS：从原理到实战](2018/1002003/README.md)
+    -   [App后台开发运维和架构实践](2018/1002004/README.md)
+    -   [RESTful Web APIs中⽂版](2018/1002005/README.md)
+    -   [ProGit-zh](2018/1002006/README.md)
 -   框架
     -   Spring Framework
+        -   [官网](https://spring.io/projects/spring-framework)
+        -   [Spring实战](2018/1002007/README.md)
         -   [Spring技术内幕：深入解析Spring架构与设计原理(第2版)_](SYe0808/README.md)
-    -   ORM框架（MyBat is）：对象关系映射，即数据库的表和Java对象之间转换
-        -   MyBatis技术内幕
+        -   [SprIng框架⾼级编程](2018/1002009/README.md)
+    -   Spring Boot实战
+        -   [官网](https://projects.spring.io/spring-data/)
+        -   [Spring Boot实战](2018/1002020/README.md)
+    -   安全
+        -   [Apache Shiro](http://shiro.apache.org/)
+        -   [spring-security](https://spring.io/projects/spring-security)
+    -   批处理：Spring Batch
+        -   [官网](https://spring.io/projects/spring-batch)
+        -   [Spring Batch批处理框架](2018/1002010/README.md)
+    -   数据集成：Spring Data
+        -   [官网](https://spring.io/projects/spring-data)
+    -   对象关系映射，即数据库的表和Java对象之间转换(ORM)：MyBatis
+        -   [官网](http://www.mybatis.org/mybatis-3/zh/index.html)
+        -   [官网(GitHub)](https://github.com/mybatis/mybatis-3)
+        -   [mybatis集成spring](http://www.mybatis.org/spring/zh/index.html)
+        -   [mybatis集成spring(GitHub)](https://github.com/mybatis/spring)
+        -   [MyBatis分页插件PageHelper](https://pagehelper.github.io/)
+        -   [MyBatis分页插件PageHelper(GitHub)](https://github.com/pagehelper/Mybatis-PageHelper)
+        -   [generator](http://www.mybatis.org/generator/)
+        -   [generator(GitHub)](https://github.com/mybatis/generator)
+        -   [MyBatis技术内幕](2018/1002011/README.md)
 -   部署上线
+    -   OS：Linux
+        -   [⻦哥的私房菜(上)](2018/1002012/README.md)
+        -   [⻦哥的私房菜(下)](2018/1002012/README.md)
+        -   [Linux就是这么事⼉](2018/1002014/README.md)
+    -   应⽤服务器：Tomcat
+        -   [官网]()
+        -   [Tomcat内核设计剖析](2018/1002015/README.md)
+        -   [Tomcat架构解析](2018/1002016/README.md)
+    -   网络服务器：Nginx
+        -   [官网](http://nginx.org/)
+        -   [Nginx⾼性能Web服务器详解](2018/1002017/README.md)
+    -   ⾃动部署：Jenkins
+        -   [官网](https://jenkins.io/)
+        -   [Jenkins权威指南](2018/1002018/README.md)
+        -   [持续交付](2018/1002019/README.md)
+    -   压力测试：Jmeter
+        -   [官网](http://jmeter.apache.org/)
