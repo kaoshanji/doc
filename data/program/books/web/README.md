@@ -14,20 +14,26 @@
 -   框架
     -   Spring Framework
         -   [官网](https://spring.io/projects/spring-framework)
+        -   [Spring Guides(github)](https://github.com/spring-guides)
+        -   [spring-projects(github)](https://github.com/spring-projects/)
+        -   [spring boot 实践学习案例](https://github.com/JeffLi1993/springboot-learning-example)
+        -   [spring文件下载](http://repo.spring.io/release/org/springframework/)
         -   [Spring实战](2018/1002007/README.md)
         -   [Spring技术内幕：深入解析Spring架构与设计原理(第2版)_](SYe0808/README.md)
         -   [SprIng框架⾼级编程](2018/1002009/README.md)
-    -   Spring Boot实战
-        -   [官网](https://projects.spring.io/spring-data/)
-        -   [Spring Boot实战](2018/1002020/README.md)
     -   安全
         -   [Apache Shiro](http://shiro.apache.org/)
         -   [spring-security](https://spring.io/projects/spring-security)
+    -   [视图模板：thymeleaf](https://www.thymeleaf.org/index.html)
+    -   [Web框架：Nutz](http://nutzam.com/)
     -   批处理：Spring Batch
         -   [官网](https://spring.io/projects/spring-batch)
         -   [Spring Batch批处理框架](2018/1002010/README.md)
     -   数据集成：Spring Data
-        -   [官网](https://spring.io/projects/spring-data)
+        -   [官网](https://projects.spring.io/spring-data/)
+        -   [Spring Boot实战](2018/1002020/README.md)
+    -   [RESTful：jersey](https://jersey.github.io/)
+    -   [定时任务：quartz](http://www.quartz-scheduler.org/)
     -   对象关系映射，即数据库的表和Java对象之间转换(ORM)：MyBatis
         -   [官网](http://www.mybatis.org/mybatis-3/zh/index.html)
         -   [官网(GitHub)](https://github.com/mybatis/mybatis-3)
@@ -44,7 +50,7 @@
         -   [⻦哥的私房菜(下)](2018/1002012/README.md)
         -   [Linux就是这么事⼉](2018/1002014/README.md)
     -   应⽤服务器：Tomcat
-        -   [官网]()
+        -   [官网](https://tomcat.apache.org/)
         -   [Tomcat内核设计剖析](2018/1002015/README.md)
         -   [Tomcat架构解析](2018/1002016/README.md)
     -   网络服务器：Nginx
@@ -56,3 +62,9 @@
         -   [持续交付](2018/1002019/README.md)
     -   压力测试：Jmeter
         -   [官网](http://jmeter.apache.org/)
+-   项目模板
+    -   [spring-boot-api-project-seed](https://github.com/lihengming/spring-boot-api-project-seed)
+    -   [zheng](https://github.com/shuzheng/zheng)
+    -   [hsweb-framework](https://github.com/hs-web/hsweb-framework)
+    -   [nutz](http://nutzam.com/index.html)
+    -   [jeesite](https://gitee.com/thinkgem/jeesite4)

@@ -4,6 +4,7 @@
 
 -   [文字](blog/README.md)
 -   [读书](books/README.md)
+-   [排位](ranking/README.md)
 
 ##  数据：量（难度）
 -   数据来源

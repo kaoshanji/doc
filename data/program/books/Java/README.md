@@ -11,13 +11,20 @@
     -   [Java程序员修炼之道_](developer0814/README.md)
     -   [Java语言规范:基于Java SE8!_](language80814/README.md)
     -   [Java网络编程(第四版)_](network40814/README.md)
-    -   [Java语言程序设计(基础篇 原书第10版)(机工出版)_](Introduction0814/README.md)
-    -   [Java语言程序设计(进阶篇 原书第10版)(机工出版)_](Introduction0814/README.md)
--   Java进阶
     -   [Java编程的逻辑_](logic0814/README.md)
     -   [Java特种兵](forces0814/README.md)
     -   [Effective-Java_](Effective0814/README.md)
+    -   [Java语言程序设计(基础篇 原书第10版)(机工出版)_](Introduction0814/README.md)
+    -   [Java语言程序设计(进阶篇 原书第10版)(机工出版)_](Introduction0814/README.md)
     -   [Java性能权威指南_](performance0814/README.md)
+-   项目
+    -   Maven
+        -   [官网](http://maven.apache.org/)
+        -   maven-definitive-guide_zh
+    -   日志：logback
+        -   [官网](https://github.com/qos-ch)
+        -   Logback中文文档
+-   Java进阶
     -   多线程
         -   [Java并发编程实战_](threadA0814/README.md)
         -   [Java核心技术系列:Java多线程编程核心技术_](threadB0814/README.md)
@@ -25,10 +32,10 @@
         -   [Java 并发编程的艺术_](threadD0814/README.md)
         -   [Java多线程实战](http://jcip.net.s3-website-us-east-1.amazonaws.com/listings.html)
     -   JVM
-    -   [深入理解Java虚拟机:JVM高级特性与最佳实践(第2版)_](jvmA0814/README.md)
-    -   [Java虚拟机规范(Java SE 8版)_](jvmB0814/README.md)
-    -   [HotSpot实战_](jvmC0814/README.md)
-    -   [揭秘Java虚拟机:JVM设计原理与实现_](jvmD0814/README.md)
+        -   [深入理解Java虚拟机:JVM高级特性与最佳实践(第2版)_](jvmA0814/README.md)
+        -   [Java虚拟机规范(Java SE 8版)_](jvmB0814/README.md)
+        -   [HotSpot实战_](jvmC0814/README.md)
+        -   [揭秘Java虚拟机:JVM设计原理与实现_](jvmD0814/README.md)
 -   Java工具
     -   测试
         -   [有效的单元测试_](junitA0814/README.md)

@@ -32,6 +32,17 @@
 -   [mvnrepository](http://mvnrepository.com/)
 -   [mvnjar](http://www.mvnjar.com/)
 
+
+----
+
+##  项目
+-   Maven
+    -   [官网](http://maven.apache.org/)
+    -   maven-definitive-guide_zh
+-   日志：logback
+    -   [官网](https://github.com/qos-ch)
+    -   Logback中文文档
+
 ----
 
 ##  网络
@@ -46,30 +57,6 @@
     -   [netty-4-user-guide](https://github.com/waylau/netty-4-user-guide/)
 -   HTTP+HTTP/2客户端：okhttp
     -   [GitHub](https://github.com/square/okhttp)
-
-----
-
-##  Web
--   一站式框架：Spring
-    -   [Spring Guides(github)](https://github.com/spring-guides)
-    -   [spring-projects(github)](https://github.com/spring-projects/)
-    -   [spring boot 实践学习案例](https://github.com/JeffLi1993/springboot-learning-example)
-    -   [spring文件下载](http://repo.spring.io/release/org/springframework/)
--   [视图模板：thymeleaf](https://www.thymeleaf.org/index.html)
--   [Web框架：Nutz](http://nutzam.com/)
--   [RESTful：jersey](https://jersey.github.io/)
--   [日志：logback](https://github.com/qos-ch)
--   [定时任务：quartz](http://www.quartz-scheduler.org/)
--   ORM：mybatis
-    -   [官网](http://www.mybatis.org/mybatis-3/zh/index.html)
-    -   [官网(GitHub)](https://github.com/mybatis/mybatis-3)
-    -   [mybatis集成spring](http://www.mybatis.org/spring/zh/index.html)
-    -   [mybatis集成spring(GitHub)](https://github.com/mybatis/spring)
-    -   [MyBatis分页插件PageHelper](https://pagehelper.github.io/)
-    -   [MyBatis分页插件PageHelper(GitHub)](https://github.com/pagehelper/Mybatis-PageHelper)
-    -   [generator](http://www.mybatis.org/generator/)
-    -   [generator(GitHub)](https://github.com/mybatis/generator)
--   [ORM：hibernate](http://hibernate.org/)
 
 ----
 
@@ -91,7 +78,6 @@
 -   [tomcat](http://tomcat.apache.org/)
 -   [struts](http://struts.apache.org/)
 -   [lucene](http://lucene.apache.org/)
--   [maven](http://maven.apache.org/)
 -   [commons-dbutils](http://commons.apache.org/proper/commons-dbutils/)
 -   [commons-lang](http://commons.apache.org/proper/commons-lang/)
 -   [commons-dbcp](http://commons.apache.org/proper/commons-dbcp/)
