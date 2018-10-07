@@ -7,20 +7,21 @@
 ----
 
 ##  [青铜：初来乍到](bronze.md)
--   Java SE 语法
--   常用工具
+-   Java 项目
     -   Maven
     -   Git
+-   Java SE
+-   Java 库
     -   Logback
     -   Junit
     -   Guava
     -   Jackson
     -   Orika
     -   Apache*
-    -   数据处理
--   设计模式
--   数据结构
+    -   Jodd
 -   实践
+    -   数据处理
+    -   设计模式
     -   爬虫
     -   服务器txt网文实践：基于Netty
 

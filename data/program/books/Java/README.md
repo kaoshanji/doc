@@ -1,8 +1,15 @@
 #   Java
 
 ##  资料
--   Java语法
-    -   [文档](doc/README.md)
+-   Java 项目
+    -   Maven
+        -   [官网](http://maven.apache.org/)
+        -   maven-definitive-guide_zh
+    -   日志：logback
+        -   [官网](https://github.com/qos-ch)
+        -   Logback中文文档
+-   Java SE
+    -   [官方文档](doc/README.md)
     -   [Java编程思想_](thinking0814/README.md)
     -   [Java核心技术(10) 卷1:基础知识_](corejava/README.md)
     -   [Java核心技术 卷2：高级特性(第9版)_](corejava/README.md)
@@ -18,26 +25,8 @@
     -   [Java语言程序设计(基础篇 原书第10版)(机工出版)_](Introduction0814/README.md)
     -   [Java语言程序设计(进阶篇 原书第10版)(机工出版)_](Introduction0814/README.md)
     -   [Java性能权威指南_](performance0814/README.md)
--   项目
-    -   Maven
-        -   [官网](http://maven.apache.org/)
-        -   maven-definitive-guide_zh
-    -   日志：logback
-        -   [官网](https://github.com/qos-ch)
-        -   Logback中文文档
--   Java进阶
-    -   多线程
-        -   [Java并发编程实战_](threadA0814/README.md)
-        -   [Java核心技术系列:Java多线程编程核心技术_](threadB0814/README.md)
-        -   [Java 7 并发编程实战手册_](threadC0814/README.md)
-        -   [Java 并发编程的艺术_](threadD0814/README.md)
-        -   [Java多线程实战](http://jcip.net.s3-website-us-east-1.amazonaws.com/listings.html)
-    -   JVM
-        -   [深入理解Java虚拟机:JVM高级特性与最佳实践(第2版)_](jvmA0814/README.md)
-        -   [Java虚拟机规范(Java SE 8版)_](jvmB0814/README.md)
-        -   [HotSpot实战_](jvmC0814/README.md)
-        -   [揭秘Java虚拟机:JVM设计原理与实现_](jvmD0814/README.md)
--   Java工具
+-   Java EE
+-   Java 库
     -   测试
         -   [有效的单元测试_](junitA0814/README.md)
         -   [JUnit实战_](junitB0814/README.md)
@@ -66,6 +55,20 @@
         -   [连接SSH2](http://www.jcraft.com/)
         -   [定时任务：quartz](http://www.quartz-scheduler.org/)
         -   [Java应用程序容器化：jib](https://github.com/GoogleContainerTools/jib)
+-   JVM
+    -   [深入理解Java虚拟机:JVM高级特性与最佳实践(第2版)_](jvmA0814/README.md)
+    -   [Java虚拟机规范(Java SE 8版)_](jvmB0814/README.md)
+    -   [HotSpot实战_](jvmC0814/README.md)
+    -   [揭秘Java虚拟机:JVM设计原理与实现_](jvmD0814/README.md)
+-   Java 深入
+    -   多线程
+        -   [Java并发编程实战_](threadA0814/README.md)
+        -   [Java核心技术系列:Java多线程编程核心技术_](threadB0814/README.md)
+        -   [Java 7 并发编程实战手册_](threadC0814/README.md)
+        -   [Java 并发编程的艺术_](threadD0814/README.md)
+        -   [Java多线程实战](http://jcip.net.s3-website-us-east-1.amazonaws.com/listings.html)
+    -   JDK 源码
+    -   Java 优化
 
 ----
 

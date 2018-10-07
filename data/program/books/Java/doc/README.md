@@ -1,16 +1,14 @@
 #   文档
 
+-   版本：v8u101
 -   [官网](http://www.oracle.com/technetwork/java/index.html)
-
-
-````
--   [Java编程新手中心](http://www.oracle.com/technetwork/cn/topics/newtojava/overview/index.html)
--   [Java SE](http://www.oracle.com/technetwork/cn/java/javase/overview/index.html)
--   [Java EE](http://www.oracle.com/technetwork/cn/java/javaee/overview/index.html)
+-   [Java™ 平台概述](https://docs.oracle.com/javase/8/docs/technotes/guides/index.html)
 -   [Java语言和虚拟机规范](https://docs.oracle.com/javase/specs/)
 -   [Java语言环境](http://www.oracle.com/technetwork/java/langenv-140151.html)
+-   [Java™ 8 自述文件](http://www.oracle.com/technetwork/java/javase/jdk-8-readme-2095712.html)
+-   [Java编程新手中心](http://www.oracle.com/technetwork/cn/topics/newtojava/overview/index.html)
 
-````
+
 
 ----
 
@@ -31,45 +29,9 @@ Java 平台的两个主要组成部分是 Java 应用程序编程接口 (API) �
 
 ----
 
-##  [Java平台](I05.md)
-
-一个平台是在程序运行的硬件或软件环境。我们已经提到了一些最流行的平台，如Microsoft Windows，Linux，Solaris OS和Mac OS。大多数平台可以被描述为操作系统和底层硬件的组合。Java平台不同于大多数其他平台，因为它是一个运行在其他基于硬件的平台之上的纯软件平台。
-
-Java平台有两个组件：
--   在Java虚拟机
--   在Java应用程序编程接口（API）
-
-您已经被引入Java虚拟机; 它是Java平台的基础，并被移植到各种基于硬件的平台上。
-
-API是大量现成的软件组件，提供许多有用的功能。它被分组到相关类和接口的库中; 这些库被称为包。
-
-![getStarted-jvm.gif](images/getStarted-jvm.gif)
-
-API和Java虚拟机将程序与底层硬件隔离开来
-
-作为一个独立于平台的环境，Java平台可能比本地代码慢一点。然而，编译器和虚拟机技术的进步使性能接近本机代码的性能，而不会威胁到可移植性。
-
-术语“Java虚拟机”和“JVM”是指用于Java平台的虚拟机。
-
-### [Java SE](se/README.md)
-
-Java SE 让用户可以在桌面和服务器上以及嵌入式环境中开发和部署 Java 应用程序。Java SE 包含 Java 编程语言库的核心，提供了当今应用程序所需的丰富的用户界面，性能，多功能性，可移植性和安全性
-
-Java SE 由 Java Development Kit (JDK)、Java Runtime Environment (JRE) 和 Java SE 应用程序编程接口 (API) 组成。JDK 包含 JRE 以及开发小程序和应用程序所必需的编译器和调试器。JRE 提供运行用 Java 小程序和应用程序所需的库、Java 虚拟机 (JVM) 和组件。
-
-Java运行时环境（JRE）提供库，Java虚拟机和其他组件来运行用Java编程语言编写的小程序和应用程序。另外，两个关键的部署技术是JRE的一部分： Java Plug-in，它使小程序可以在流行的浏览器中运行; 以及 通过网络部署独立应用程序的 Java Web Start。它也是Java 2 Platform，Enterprise Edition（J2EE）中用于企业软件开发和部署的技术的基础。JRE不包含用于开发小应用程序和应用程序的工具和实用程序，例如编译器或调试器。
-
-### [Java EE和Glassfish](ee/README.md)
-
-Java平台企业版的简称（Java Platform, Enterprise Edition），提供了一个丰富的企业软件平台，用于开发便于组装、健壮、可扩展、安全的服务器端Java应用。Java EE建立于Java SE之上，具有Web服务、组件模型、以及通信API等特性，这些为面向服务的架构（SOA）以及开发Web2.0应用提供了支持。
-
-Java EE 是社区驱动的企业软件标准。Java EE 是利用 Java Community Process 开发的，业界专家、商业组织和开源组织、Java 用户组以及数不清的个人为此做出了巨大贡献。每个版本都集成了符合业界需求的新特性，提高了应用可移植性，提高了开发人员的工作效率
-
-Glassfish 是 Java EE的参考实现.
-
-----
-
 ##  Java编程语言
+
+Java™编程语言是一种通用的，并发的，强类型的，基于类的面向对象语言。它通常编译为Java虚拟机规范中定义的字节码指令集和二进制格式。
 
 Java编程语言是一种高级语言，可以用以下所有流行语来表征：
 -   简单
@@ -93,6 +55,46 @@ Java编程语言是一种高级语言，可以用以下所有流行语来表征�
 由于Java VM在许多不同的操作系统上都可用，因此相同的.class文件能够在Microsoft Windows，Solaris™操作系统（Solaris OS），Linux或Mac OS上运行。一些虚拟机（例如 [Java SE HotSpot概览](http://www.oracle.com/technetwork/java/javase/tech/index-jsp-136373.html)）在运行时执行其他步骤，以提高应用程序的性能。这包括各种任务，如查找性能瓶颈和重新编译（本地代码）经常使用的代码部分。
 
 ![helloWorld.gif](images/helloWorld.gif)
+
+----
+
+##  [Java平台](I05.md)
+
+一个平台是在程序运行的硬件或软件环境。我们已经提到了一些最流行的平台，如Microsoft Windows，Linux，Solaris OS和Mac OS。大多数平台可以被描述为操作系统和底层硬件的组合。Java平台不同于大多数其他平台，因为它是一个运行在其他基于硬件的平台之上的纯软件平台。
+
+Java平台有两个组件：
+-   在Java虚拟机
+-   在Java应用程序编程接口（API）
+
+您已经被引入Java虚拟机; 它是Java平台的基础，并被移植到各种基于硬件的平台上。
+
+API是大量现成的软件组件，提供许多有用的功能。它被分组到相关类和接口的库中; 这些库被称为包。
+
+![getStarted-jvm.gif](images/getStarted-jvm.gif)
+
+API和Java虚拟机将程序与底层硬件隔离开来
+
+作为一个独立于平台的环境，Java平台可能比本地代码慢一点。然而，编译器和虚拟机技术的进步使性能接近本机代码的性能，而不会威胁到可移植性。
+
+术语“Java虚拟机”和“JVM”是指用于Java平台的虚拟机。
+
+主要有两个版本。
+
+1.  标准版：[Java SE](se/README.md)
+
+Java SE 让用户可以在桌面和服务器上以及嵌入式环境中开发和部署 Java 应用程序。Java SE 包含 Java 编程语言库的核心，提供了当今应用程序所需的丰富的用户界面，性能，多功能性，可移植性和安全性
+
+Java SE 由 Java Development Kit (JDK)、Java Runtime Environment (JRE) 和 Java SE 应用程序编程接口 (API) 组成。JDK 包含 JRE 以及开发小程序和应用程序所必需的编译器和调试器。JRE 提供运行用 Java 小程序和应用程序所需的库、Java 虚拟机 (JVM) 和组件。
+
+Java运行时环境（JRE）提供库，Java虚拟机和其他组件来运行用Java编程语言编写的小程序和应用程序。另外，两个关键的部署技术是JRE的一部分： Java Plug-in，它使小程序可以在流行的浏览器中运行; 以及 通过网络部署独立应用程序的 Java Web Start。它也是Java 2 Platform，Enterprise Edition（J2EE）中用于企业软件开发和部署的技术的基础。JRE不包含用于开发小应用程序和应用程序的工具和实用程序，例如编译器或调试器。
+
+2.  企业应用：[Java EE和Glassfish](ee/README.md)
+
+Java平台企业版的简称（Java Platform, Enterprise Edition），提供了一个丰富的企业软件平台，用于开发便于组装、健壮、可扩展、安全的服务器端Java应用。Java EE建立于Java SE之上，具有Web服务、组件模型、以及通信API等特性，这些为面向服务的架构（SOA）以及开发Web2.0应用提供了支持。
+
+Java EE 是社区驱动的企业软件标准。Java EE 是利用 Java Community Process 开发的，业界专家、商业组织和开源组织、Java 用户组以及数不清的个人为此做出了巨大贡献。每个版本都集成了符合业界需求的新特性，提高了应用可移植性，提高了开发人员的工作效率
+
+Glassfish 是 Java EE的参考实现.
 
 ----
 

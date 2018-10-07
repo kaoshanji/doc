@@ -1,7 +1,5 @@
 #   Java SE
 
-Java™编程语言是一种通用的，并发的，强类型的，基于类的面向对象语言。它通常编译为Java虚拟机规范中定义的字节码指令集和二进制格式。
-
 通用的高级Java编程语言是一个功能强大的软件平台。Java平台的每个完整实现都会为您提供以下功能：
 -   开发工具：开发工具提供编译，运行，监视，调试和记录应用程序所需的一切。作为一名新开发人员，您将使用的主要工具是javac编译器，java启动器和javadoc文档工具。
 -   应用程序编程接口（API）：该API提供了Java编程语言的核心功能。它提供了大量有用的类，可以在您自己的应用程序中使用。它涵盖了从基本对象到网络和安全，到XML生成和数据库访问等等的所有内容。核心API非常大
@@ -15,45 +13,9 @@ Java™编程语言是一种通用的，并发的，强类型的，基于类的�
     -   [Java SE 首页](http://www.oracle.com/technetwork/java/javase/overview/index.html)
     -   [Java SE 概览](http://www.oracle.com/technetwork/cn/java/javase/overview/index.html)
     -   [Java SE 技术](http://www.oracle.com/technetwork/java/javase/tech/index.html)
-    -   [Java™ 8 自述文件](http://www.oracle.com/technetwork/java/javase/jdk-8-readme-2095712.html)
-    -   [Java™ 平台概述](https://docs.oracle.com/javase/8/docs/technotes/guides/index.html)
     -   [Java™ 8 规范API](https://docs.oracle.com/javase/8/docs/api/)
     -   [Java™ 8 教程学习路径](https://docs.oracle.com/javase/tutorial/tutorialLearningPaths.html)
     -   [Java™ 8 教程](https://docs.oracle.com/javase/tutorial/index.html)
-
------
-
-##  概念图
-
-![2167990.jpg](images/2167990.jpg)
-
-[Oracle的Java SE产品的组件](S01.md)
-
-----
-
-##  概念图简介
-
--   Java Development Kit（JDK） 
-
-JDK是JRE的超集，包含JRE中的所有内容，以及用于开发小应用程序和应用程序所需的编译器和调试器等工具。上面的 概念图说明了Java SE平台中的所有组件技术以及它们如何组合在一起。
-
--   Java SE API 
-
-Java SE应用程序编程接口（API）定义了applet或应用程序可以向编译的Java SE类库提供请求并使用其可用功能的方式。（Java SE类库也是Java SE平台的一部分。）
-
-Java SE API由核心技术，桌面（或客户端）技术和其他技术组成。
-
-核心组件为在数据库访问，安全性，远程方法调用（RMI）和通信等关键领域编写功能强大的企业级程序提供了基本功能。
-桌面组件添加了全面的功能来帮助构建提供丰富用户体验的应用程序？部署产品（如Java Plug-in），组件建模API（如JavaBeans）和图形用户界面。
-其他组件完善了功能。
-
--   Java虚拟机 
-
-Java虚拟机负责Java SE平台的硬件和操作系统的独立性，编译代码的小尺寸（字节码），和平台安全性。
-
--   Java平台工具 
-
-Java SE平台与一系列工具协同工作，包括集成开发环境（IDE），性能和测试工具以及性能监控工具。
 
 ----
 
