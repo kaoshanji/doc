@@ -2,6 +2,7 @@
 
 ##  资料
 -   Java语法
+    -   [文档](doc/README.md)
     -   [Java编程思想_](thinking0814/README.md)
     -   [Java核心技术(10) 卷1:基础知识_](corejava/README.md)
     -   [Java核心技术 卷2：高级特性(第9版)_](corejava/README.md)

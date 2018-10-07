@@ -6,7 +6,7 @@
 
 ----
 
-##  [青铜：混个脸熟](bronze.md)
+##  [青铜：初来乍到](bronze.md)
 -   Java SE 语法
 -   常用工具
     -   Maven
