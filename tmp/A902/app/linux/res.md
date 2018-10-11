@@ -1,1 +1,3 @@
 -   [文件句柄？文件描述符？傻傻分不清楚](https://mp.weixin.qq.com/s/s8RxsKJrXuQlRsEQB2GYgw)
+-   [Linux中ftp服务器搭建](https://www.cnblogs.com/xiaojiaocx/p/6410015.html)
+-   [Linux中搭建一个ftp服务器详解](https://www.linuxidc.com/Linux/2015-06/118442.htm)

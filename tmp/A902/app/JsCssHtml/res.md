@@ -1,2 +1,4 @@
 -   [选择合适的构建打包工具](https://zhuanlan.zhihu.com/p/37267736)
 -   [声明提升 this 原型链 作用域链 一篇就够](http://blog.404mzk.com/thiszhi-shi-kan-zhe-jiu-gou.html)
+-   [Mac下node.js卸载方法收集](https://www.cnblogs.com/EasonJim/p/6287141.html)
+-   [Node.js安装及环境配置之Windows篇](https://www.cnblogs.com/zhouyu2017/p/6485265.html)

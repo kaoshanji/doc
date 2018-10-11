@@ -1,2 +1,3 @@
 -   [官网](http://dubbo.apache.org/)
 -   [Dubbo-从入门到深入](http://ifeve.com/dubbo-learn-book/)
+-   [dubbo服务注册三种方式](https://blog.csdn.net/wangyy130/article/details/51741431)
