@@ -41,8 +41,9 @@
         -   [mybatis集成spring(GitHub)](https://github.com/mybatis/spring)
         -   [MyBatis分页插件PageHelper](https://pagehelper.github.io/)
         -   [MyBatis分页插件PageHelper(GitHub)](https://github.com/pagehelper/Mybatis-PageHelper)
-        -   [generator](http://www.mybatis.org/generator/)
-        -   [generator(GitHub)](https://github.com/mybatis/generator)
+        -   [极其方便的使用Mybatis单表的增删改查](https://gitee.com/free/Mapper)
+        -   [代码生成器：generator](http://www.mybatis.org/generator/)
+        -   [代码生成器：generator(GitHub)](https://github.com/mybatis/generator)
         -   [MyBatis技术内幕](2018/1002011/README.md)
 -   部署上线
     -   OS：Linux
