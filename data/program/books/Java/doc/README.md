@@ -25,7 +25,7 @@ Java 平台的两个主要组成部分是 Java 应用程序编程接口 (API) �
 -   [白皮书](I04.md)
 -   [语言规范](I03.md)
 -   [虚拟机](I02.md)
--   [语言环境](langenv/README.md)
+-   //[语言环境](I04.md)
 
 ----
 
@@ -58,7 +58,7 @@ Java编程语言是一种高级语言，可以用以下所有流行语来表征�
 
 ----
 
-##  [Java平台](I05.md)
+##  Java平台
 
 一个平台是在程序运行的硬件或软件环境。我们已经提到了一些最流行的平台，如Microsoft Windows，Linux，Solaris OS和Mac OS。大多数平台可以被描述为操作系统和底层硬件的组合。Java平台不同于大多数其他平台，因为它是一个运行在其他基于硬件的平台之上的纯软件平台。
 
@@ -76,15 +76,15 @@ API和Java虚拟机将程序与底层硬件隔离开来
 
 作为一个独立于平台的环境，Java平台可能比本地代码慢一点。然而，编译器和虚拟机技术的进步使性能接近本机代码的性能，而不会威胁到可移植性。
 
-术语“Java虚拟机”和“JVM”是指用于Java平台的虚拟机。
+术语“Java虚拟机”和“JVM”是指用于Java平台虚拟机。
 
 主要有两个版本。
 
-1.  标准版：[Java SE](se/README.md)
+1.  标准版：Java SE
 
 Java SE 让用户可以在桌面和服务器上以及嵌入式环境中开发和部署 Java 应用程序。Java SE 包含 Java 编程语言库的核心，提供了当今应用程序所需的丰富的用户界面，性能，多功能性，可移植性和安全性
 
-Java SE 由 Java Development Kit (JDK)、Java Runtime Environment (JRE) 和 Java SE 应用程序编程接口 (API) 组成。JDK 包含 JRE 以及开发小程序和应用程序所必需的编译器和调试器。JRE 提供运行用 Java 小程序和应用程序所需的库、Java 虚拟机 (JVM) 和组件。
+Java SE 由 Java Development Kit (JDK)、Java Runtime Environment (JRE) 和 [Java SE 应用程序编程接口 (API)](se/README.md) 组成。JDK 包含 JRE 以及开发小程序和应用程序所必需的编译器和调试器。JRE 提供运行用 Java 小程序和应用程序所需的库、[Java 虚拟机 (JVM)](vm/README.md) 和组件。
 
 Java运行时环境（JRE）提供库，Java虚拟机和其他组件来运行用Java编程语言编写的小程序和应用程序。另外，两个关键的部署技术是JRE的一部分： Java Plug-in，它使小程序可以在流行的浏览器中运行; 以及 通过网络部署独立应用程序的 Java Web Start。它也是Java 2 Platform，Enterprise Edition（J2EE）中用于企业软件开发和部署的技术的基础。JRE不包含用于开发小应用程序和应用程序的工具和实用程序，例如编译器或调试器。
 

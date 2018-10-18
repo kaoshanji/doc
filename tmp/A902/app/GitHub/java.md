@@ -5,6 +5,7 @@
 -   [Java SE 首页](http://www.oracle.com/technetwork/java/javase/overview/index.html)
 -   [Java EE 首页](http://www.oracle.com/technetwork/java/javaee/overview/index.html)
 -   [Jcp](https://jcp.org/en/home/index)
+-   [Java语言和JVM规范](https://docs.oracle.com/javase/specs/)
 -   [Java SE 教程](https://docs.oracle.com/javase/tutorial/index.html)
 -   [Java SE API](https://docs.oracle.com/javase/8/docs/api/)
 -   [Java EE 资源](https://javaee.github.io/)
