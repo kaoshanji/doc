@@ -1,13 +1,11 @@
 #   文档
 
--   版本：v8u101
 -   [官网](http://www.oracle.com/technetwork/java/index.html)
 -   [Java™ 平台概述](https://docs.oracle.com/javase/8/docs/technotes/guides/index.html)
 -   [Java语言和虚拟机规范](https://docs.oracle.com/javase/specs/)
 -   [Java语言环境](http://www.oracle.com/technetwork/java/langenv-140151.html)
 -   [Java™ 8 自述文件](http://www.oracle.com/technetwork/java/javase/jdk-8-readme-2095712.html)
 -   [Java编程新手中心](http://www.oracle.com/technetwork/cn/topics/newtojava/overview/index.html)
-
 
 
 ----
@@ -92,9 +90,6 @@ Java运行时环境（JRE）提供库，Java虚拟机和其他组件来运行用
 
 Java平台企业版的简称（Java Platform, Enterprise Edition），提供了一个丰富的企业软件平台，用于开发便于组装、健壮、可扩展、安全的服务器端Java应用。Java EE建立于Java SE之上，具有Web服务、组件模型、以及通信API等特性，这些为面向服务的架构（SOA）以及开发Web2.0应用提供了支持。
 
-Java EE 是社区驱动的企业软件标准。Java EE 是利用 Java Community Process 开发的，业界专家、商业组织和开源组织、Java 用户组以及数不清的个人为此做出了巨大贡献。每个版本都集成了符合业界需求的新特性，提高了应用可移植性，提高了开发人员的工作效率
-
-Glassfish 是 Java EE的参考实现.
 
 ----
 
