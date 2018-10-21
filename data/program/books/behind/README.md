@@ -2,15 +2,12 @@
 
 ##  资料
 -   设计/工具
-    -   [HTTP权威指南_](httpz/README.md)
-    -   [码农翻身：用故事给技术加点料](2018/1002020/README.md)
+
     -   [Java工程师修炼之道_](JHan0805/README.md)
     -   [Web API的设计与开发](2018/1002001/README.md)
-    -   [Web性能权威指南](2018/1002002/README.md)
-    -   [深⼊浅出 HTTPS：从原理到实战](2018/1002003/README.md)
     -   [App后台开发运维和架构实践](2018/1002004/README.md)
     -   [RESTful Web APIs中⽂版](2018/1002005/README.md)
-    -   [ProGit-zh](2018/1002006/README.md)
+
 -   框架
     -   Spring Framework
         -   [官网](https://spring.io/projects/spring-framework)
@@ -46,10 +43,6 @@
         -   [代码生成器：generator(GitHub)](https://github.com/mybatis/generator)
         -   [MyBatis技术内幕](2018/1002011/README.md)
 -   部署上线
-    -   OS：Linux
-        -   [⻦哥的私房菜(上)](2018/1002012/README.md)
-        -   [⻦哥的私房菜(下)](2018/1002012/README.md)
-        -   [Linux就是这么事⼉](2018/1002014/README.md)
     -   应⽤服务器：Tomcat
         -   [官网](https://tomcat.apache.org/)
         -   [Tomcat内核设计剖析](2018/1002015/README.md)

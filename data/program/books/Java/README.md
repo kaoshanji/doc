@@ -61,6 +61,7 @@
     -   [HotSpot实战_](jvmC0814/README.md)
     -   [揭秘Java虚拟机:JVM设计原理与实现_](jvmD0814/README.md)
 -   Java 深入
+    -   [码农翻身：用故事给技术加点料](2018/1002020/README.md)
     -   多线程
         -   [Java并发编程实战_](threadA0814/README.md)
         -   [Java核心技术系列:Java多线程编程核心技术_](threadB0814/README.md)
