@@ -1,6 +1,7 @@
 #   搭建安装
 
 ##  目录
+-   [Linux](linux/README.md)
 -   [Redis](redis/README.md)
 
 
