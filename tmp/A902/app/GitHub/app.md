@@ -46,18 +46,6 @@
 
 ----
 
-##  Vuejs
--   [官网](https://cn.vuejs.org/)
--   [github](https://github.com/vuejs)
--   [相关开源项目库汇总](https://github.com/RuMengkai/awesome-vue)
--   [高仿网易云音乐的webapp](https://github.com/javaSwing/NeteaseCloudWebApp)
--   [网易云音乐 WebAPI](https://github.com/u3u/NeteaseCloudMusicApi)
--   [vue2 + vue-router + vuex 入门项目](https://github.com/bailicangdu/vue2-happyfri)
--   [库列表](https://github.com/vuejs/awesome-vue)
--   [electron-vue](https://github.com/SimulatedGREG/electron-vue)
--   [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
-
-----
 
 ##  Webpackjs
 

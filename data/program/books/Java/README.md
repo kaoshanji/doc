@@ -9,7 +9,7 @@
         -   [官网](https://github.com/qos-ch)
         -   Logback中文文档
 -   Java SE
-    -   [官方文档](doc/README.md)
+    -   [官方文档](doc/README.md)，内容已经组织，依次延伸出去
     -   [Java编程思想_](thinking0814/README.md)
     -   [Java核心技术(10) 卷1:基础知识_](corejava/README.md)
     -   [Java核心技术 卷2：高级特性(第9版)_](corejava/README.md)

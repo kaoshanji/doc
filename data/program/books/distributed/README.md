@@ -14,14 +14,13 @@
 
 ##  组件
 
-### 软件项目
-
-
-### 基础技术
 
 ----
 
 ##  资料
+
+1.  理论
+
 -   综合
     -   [⼤型⽹站技术架构：核⼼原理与案例分析_](2018/1002005/README.md)
     -   [机⼯出版:分布式系统：概念与设计（原书第5版）_](2018/1002001/README.md)
@@ -54,57 +53,91 @@
     -   [分布式数据库架构及企业实践-基于Mycat中间件](2018/1002027/README.md)
 -   计算
     -   [分布式实时处理系统：原理、架构与实现](2018/1002028/README.md)
--   组件
-    -   Linux
-        -   [⾼性能⽹站构建实战](2018/1002034/README.md)
-        -   [构建⾼可⽤Linux服务器](2018/1002035/README.md)
-    -   Netty
-        -   [官网](http://netty.io/index.html)
-        -   [GitHub](https://github.com/netty)
-        -   [netty-4-user-guide](https://github.com/waylau/netty-4-user-guide/)
-        -   [Netty实战](2018/1002029/README.md)
-        -   [Netty权威指南](2018/1002030/README.md)
-    -   应用服务
-        -   RPC：dubbo
-            -   [官网](http://dubbo.incubator.apache.org/#!/?lang=en-us)
-            -   [GitHub](https://github.com/apache/incubator-dubbo)
-        -   RPC：zeroc ice
-            -   [官网](https://zeroc.com/)
-        -   Spring Cloud
-            -   [官网](http://projects.spring.io/spring-cloud/)
-            -   [中文文档](https://springcloud.cc/)
-            -   [Spring Cloud微服务实战](2018/1002031/README.md)
-            -   [Spring Cloud与Docket微服务架构实战](2018/1002032/README.md)
-        -   应用容器引擎：Docker
-            -   [官网](www.docker.com)
-            -   [第⼀本Docker书](2018/1002033/README.md)
-        -   部署容器：kubernetes
-            -   [官网](https://kubernetes.io/)
-            -   [中文社区](https://www.kubernetes.org.cn/)
-        -   协调服务：zookeeper
-            -   [官网](http://zookeeper.apache.org/)
-        -   并发
-            -   [七周七并发模型](2018/1002034/README.md)
-    -   数据存储
-        -   数据库中间件：mycat
-            -   [官网](http://www.mycat.io/)
-        -   文件存储：gluster
-            -   [官网](https://www.gluster.org/)
-        -   文件存储：ceph
-            -   [官网](https://ceph.com/)
-            -   [开源社区](http://ceph.org.cn/)
-        -   网络社交结构化数据存储：cassandra
-            -   [官网](http://cassandra.apache.org/)
-        -   面向列：hbase
-            -   [官网](http://hbase.apache.org/)
-    -   计算
-        -   离线计算：Hadoop
-            -   [官网](http://hadoop.apache.org/)
-            -   [hive](http://hive.apache.org/)
-            -   [pig](http://pig.apache.org/)
-        -   计算引擎：spark
-            -   [官网](http://spark.apache.org/)
-        -   流处理平台：kafka
+
+2.  服务
+-   治理/监控
+    -   协调服务：zookeeper
+        -   [官网](http://zookeeper.apache.org/)
+-   消息
+    -   RabbitMQ
+        -   [官网](http://www.rabbitmq.com/)
+        -   [Rabbit MQ实战](2018/1022007/README.md)
+    -   流处理平台：kafka
             -   [官网](http://kafka.apache.org/)
+-   Netty
+    -   [官网](http://netty.io/index.html)
+    -   [GitHub](https://github.com/netty)
+    -   [netty-4-user-guide](https://github.com/waylau/netty-4-user-guide/)
+    -   [Netty实战](2018/1022029/README.md)
+    -   [Netty权威指南](2018/1022030/README.md)
+-   RPC：dubbo
+    -   [官网](http://dubbo.incubator.apache.org/#!/?lang=en-us)
+    -   [GitHub](https://github.com/apache/incubator-dubbo)
+-   RPC：zeroc ice
+    -   [官网](https://zeroc.com/)
+
+3.  存储
+
+-   数据关系设计
+    -   [领域驱动设计.软件核⼼复杂性应对之道.软件核⼼复杂性应对之道](2018/1022001/README.md)
+-   Sql：关系型数据库语⾔
+    -   [SQL学习指南](2018/1022002/README.md)
+-   MySQL：关系型数据库
+    -   [官网](https://www.mysql.com/)
+    -   [⾼性能MySql](2018/1022003/README.md)
+-   postgresql
+    -   [官网](https://www.postgresql.org/)
+    -   [中文](http://www.postgres.cn/home)
+-   Redis：KV数据库/缓存
+    -   [官网](http://www.redis.cn/)
+    -   [Redis实战](2018/1022004/README.md)
+    -   [Redis开发与运维](2018/1022005/README.md)
+-   MongoDB：⽂档数据库
+    -   [官网](https://www.mongodb.com/)
+    -   [MongoDB权威指南 第2版](2018/1022006/README.md)
+-   Solr
+    -   [官网](https://lucene.apache.org/solr/)
+    -   [Solr实战](2018/1022008/README.md)
+-   Elasticsearch
+    -   [官网](https://github.com/elastic/elasticsearch)
+-   文件存储
+    -   [分布式文件系统：fastdfs](https://github.com/happyfish100/fastdfs)
+-   mycat：数据库中间件
+    -   [官网](http://www.mycat.io/)
+-   gluster：文件存储
+    -   [官网](https://www.gluster.org/)
+-   ceph：文件存储
+    -   [官网](https://ceph.com/)
+    -   [开源社区](http://ceph.org.cn/)
+-   cassandra：网络社交结构化数据存储
+    -   [官网](http://cassandra.apache.org/)
+-   hbase：面向列
+    -   [官网](http://hbase.apache.org/)
+
+
+4.  计算
+-   Hadoop
+    -   [官网](http://hadoop.apache.org/)
+    -   [hive](http://hive.apache.org/)
+    -   [pig](http://pig.apache.org/)
+-   spark
+    -   [官网](http://spark.apache.org/)
+
+
+5.  工具库
+-   Spring Cloud
+    -   [官网](http://projects.spring.io/spring-cloud/)
+    -   [中文文档](https://springcloud.cc/)
+    -   [Spring Cloud微服务实战](2018/1022031/README.md)
+    -   [Spring Cloud与Docket微服务架构实战](2018/1022032/README.md)
+-   应用容器引擎：Docker
+    -   [官网](www.docker.com)
+    -   [第⼀本Docker书](2018/1022033/README.md)
+-   部署容器：kubernetes
+    -   [官网](https://kubernetes.io/)
+    -   [中文社区](https://www.kubernetes.org.cn/)
+-   Linux
+    -   [⾼性能⽹站构建实战](2018/1022034/README.md)
+    -   [构建⾼可⽤Linux服务器](2018/1002235/README.md)
 
 ----
