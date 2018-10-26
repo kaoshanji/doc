@@ -19,7 +19,7 @@
 
 ##  资料
 
-1.  理论
+1.  理论：theory
 
 -   综合
     -   [⼤型⽹站技术架构：核⼼原理与案例分析_](2018/1002005/README.md)
@@ -54,7 +54,7 @@
 -   计算
     -   [分布式实时处理系统：原理、架构与实现](2018/1002028/README.md)
 
-2.  服务
+2.  服务：service
 -   治理/监控
     -   协调服务：zookeeper
         -   [官网](http://zookeeper.apache.org/)
@@ -76,7 +76,7 @@
 -   RPC：zeroc ice
     -   [官网](https://zeroc.com/)
 
-3.  存储
+3.  存储：storage
 
 -   数据关系设计
     -   [领域驱动设计.软件核⼼复杂性应对之道.软件核⼼复杂性应对之道](2018/1022001/README.md)
@@ -115,7 +115,7 @@
     -   [官网](http://hbase.apache.org/)
 
 
-4.  计算
+4.  计算：compute
 -   Hadoop
     -   [官网](http://hadoop.apache.org/)
     -   [hive](http://hive.apache.org/)
