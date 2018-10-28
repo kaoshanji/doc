@@ -1,5 +1,6 @@
 #   搭建安装
 
+
 ##  目录
 -   Java，蹲马步
     -   Java SE
@@ -9,7 +10,7 @@
     -   代码风格
 -   Web后端，三脚猫功夫
     -   HTTP/HTTPs
-    -   MySQL
+    -   MySQL
     -   SQL
     -   MyBatis
     -   Java EE
