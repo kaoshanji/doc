@@ -18,4 +18,16 @@
     -   [security](guides/security.md)
     -   [jmx](guides/jmx.md)
     -   [xml](guides/xml.md)
+    -   [xml](guides/jni.md)
+-   集成库
+    -   [jdbc](guides/jdbc.md)
+    -   [rmi](guides/rmi.md)
+    -   [idl](guides/idl.md)
+    -   [rmi-iiop](guides/rmi-iiop.md)
+    -   [jndi](guides/jndi.md)
+-   工具规格
+    -   [jpda](guides/jpda.md)
+    -   [jvmti](guides/jvmti.md)
+    -   [javadoc](guides/javadoc.md)
+    -   [tools](guides/tools.md)
 

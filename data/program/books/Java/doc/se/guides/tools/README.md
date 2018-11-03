@@ -1,4 +1,5 @@
-#   工具和工具API：只有简介，具体参数还需看原文
+#   [JDK工具和实用程序](https://docs.oracle.com/javase/8/docs/technotes/tools/index.html)
+
 
 >   `注` - 某些工具的Windows和Solaris，Linux和OS X引用页面在配置和使用方面略有差异 - 例如，用于指定目录分隔符的字符可能不同
 
@@ -176,3 +177,5 @@
 |jrunscript|实验 - 用于Java的脚本shell - 运行脚本。这个工具本质上是不受支持和实验性的，应该考虑到这一点。它可能在未来的JDK版本中不可用|
 
 ------
+
+

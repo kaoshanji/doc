@@ -86,11 +86,29 @@ Java SE 由 Java Development Kit (JDK)、Java Runtime Environment (JRE) 和 [Jav
 
 Java运行时环境（JRE）提供库，Java虚拟机和其他组件来运行用Java编程语言编写的小程序和应用程序。另外，两个关键的部署技术是JRE的一部分： Java Plug-in，它使小程序可以在流行的浏览器中运行; 以及 通过网络部署独立应用程序的 Java Web Start。它也是Java 2 Platform，Enterprise Edition（J2EE）中用于企业软件开发和部署的技术的基础。JRE不包含用于开发小应用程序和应用程序的工具和实用程序，例如编译器或调试器。
 
-2.  企业应用：[Java EE和Glassfish](ee/README.md)
+-   官方文档
+    -   [Java SE 首页](http://www.oracle.com/technetwork/java/javase/overview/index.html)
+    -   [Java SE 概览](http://www.oracle.com/technetwork/cn/java/javase/overview/index.html)
+    -   [Java SE 技术](http://www.oracle.com/technetwork/java/javase/tech/index.html)
+    -   [Java™ 8 规范API](https://docs.oracle.com/javase/8/docs/api/)
+    -   [Java™ 8 教程学习路径](https://docs.oracle.com/javase/tutorial/tutorialLearningPaths.html)
+    -   [Java™ 8 教程](https://docs.oracle.com/javase/tutorial/index.html)
+-   中文版
+    -   [Java SE API指南](se/README.md)
+    -   [Java SE API教程](se/tutorial/README.md)
+    -   //Java SE API包简介
+
+2.  企业应用：Java EE和Glassfish
 
 Java平台企业版的简称（Java Platform, Enterprise Edition），提供了一个丰富的企业软件平台，用于开发便于组装、健壮、可扩展、安全的服务器端Java应用。Java EE建立于Java SE之上，具有Web服务、组件模型、以及通信API等特性，这些为面向服务的架构（SOA）以及开发Web2.0应用提供了支持。
 
-
+-   官方文档
+    -   [Java EE 首页](http://www.oracle.com/technetwork/java/javaee/overview/index.html)
+    -   [Java EE 资源](https://javaee.github.io/)
+    -   [Java EE 教程及示例](https://javaee.github.io/tutorial/)
+    -   [Java EE API](https://javaee.github.io/javaee-spec/javadocs/)
+-   中文版
+    -   [Java EE 文档](ee/README.md)
 ----
 
 ##  Java技术术语

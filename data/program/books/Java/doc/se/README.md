@@ -1,4 +1,4 @@
-#   Java SE
+#   [Java SE](https://docs.oracle.com/javase/8/docs/technotes/guides/index.html)
 
 -   版本：v8u101
 
@@ -9,15 +9,6 @@
 -   用户界面工具包：JavaFX，Swing和Java 2D工具包使创建复杂的图形用户界面（GUI）成为可能。
 -   集成库：Java IDL API，JDBC API，Java命名和目录接口（JNDI）API，Java RMI和基于因特网ORB间协议技术的Java远程方法调用（Java RMI-IIOP技术）等集成库支持数据库访问和远程对象的操纵。
 
-----
-
--   来源
-    -   [Java SE 首页](http://www.oracle.com/technetwork/java/javase/overview/index.html)
-    -   [Java SE 概览](http://www.oracle.com/technetwork/cn/java/javase/overview/index.html)
-    -   [Java SE 技术](http://www.oracle.com/technetwork/java/javase/tech/index.html)
-    -   [Java™ 8 规范API](https://docs.oracle.com/javase/8/docs/api/)
-    -   [Java™ 8 教程学习路径](https://docs.oracle.com/javase/tutorial/tutorialLearningPaths.html)
-    -   [Java™ 8 教程](https://docs.oracle.com/javase/tutorial/index.html)
 
 ----
 ##  概念图
@@ -75,121 +66,136 @@ Java编程语言是一种通用的，并发的，强类型的，基于类的面�
 
 为Java平台提供基本功能和基本功能的类和接口
 
--   [Lang和Util包](guides/lang.md)
+-   [Lang和Util包](guides/lang/README.md)
 
 提供基本的Object和Class 类，基本类型的包装类，基本的数学类等等。
 
--   [数学](guides/math.md)
+-   [数学](guides/math/README.md)
 
 数学功能包括浮点库和任意精度数学。
 
--   [监测和管理](guides/management.md)
+-   [监测和管理](guides/management/README.md)
 
 Java平台的全面监控和管理支持，包括用于Java虚拟机的Monitoring and Management API，用于日志工具的监控和管理API，jconsole和其他监控实用程序，开箱即用的监控和管理，Java Management Extensions（JMX）和Oracle的平台扩展。
 
--   [包版本识别](guides/versioning.md)
+-   [包版本识别](guides/versioning/README.md)
 
 软件包版本控制功能支持软件包级版本控制，以便应用程序和applet可以在运行时识别特定Java运行时环境，VM和类软件包的版本。
 
--   [反射对象](api/lang-ref.md)
+-   [反射对象](api/lang-ref/README.md)
 
 引用对象支持与垃圾收集器进行有限程度的交互。程序可以使用引用对象来维护对某个其他对象的引用，使得后者的对象仍然可以被收集器收回。程序还可以安排在收集器确定给定对象的可达性已经改变之后一段时间被通知。因此，引用对象可用于构建简单缓存以及内存不足时刷新的缓存，用于实现不妨碍其键（或值）被回收的映射，以及更灵活地安排事前清理操作比Java最终化机制可能的方式。
 
--   [反射](guides/reflection.md)
+-   [反射](guides/reflection/README.md)
 
 反射使Java代码可以发现有关已加载类的字段，方法和构造函数的信息，并且可以在安全限制内使用反射字段，方法和构造函数在对象上对其基础对象进行操作。该API适用于需要访问目标对象的公共成员（基于其运行时类）或由给定类声明的成员的应用程序。程序可以禁止默认的反射访问控制。
 
--   [集合框架](guides/collections.md)
+-   [集合框架](guides/collections/README.md)
 
 集合是表示一组对象中的对象。集合框架是用于表示集合的统一体系结构，允许独立于其表示的细节来操纵集合。它减少了编程工作，同时提高了性能 它允许不相关API之间的互操作性，减少设计和学习新API的工作量，并促进软件重用。有
 
--   [并发工具](guides/concurrency.md)
+-   [并发工具](guides/concurrency/README.md)
 
 Concurrency Utilities包提供了一个强大的可扩展的高性能线程实用程序框架，如线程池和阻塞队列。这个包使程序员免去了手动创建这些实用程序的需要，这与集合框架为数据结构所做的几乎相同。另外，这些软件包为高级并发编程提供了低级原语。
 
--   [Java归档（JAR）文件](guides/jar.md)
+-   [Java归档（JAR）文件](guides/jar/README.md)
 
 JAR（Java归档）是一种独立于平台的文件格式，可将多个文件合并为一个文件。多个Java小应用程序及其必需的组件（.class文件，图像和声音）可以捆绑到一个JAR文件中，然后在单个HTTP事务中下载到浏览器中，从而大大提高了下载速度。JAR格式还支持压缩，这可以减小文件大小，进一步缩短下载时间。此外，小程序作者可以对JAR文件中的单个条目进行数字签名，以验证其来源。它是完全可扩展的。
 
--   [Logging](guides/logging.md)
+-   [Logging](guides/logging/README.md)
 
 Logging API通过生成适合最终用户，系统管理员，现场服务工程师和软件开发团队分析的日志报告，为客户现场的软件维护和维护提供便利。Logging API捕获应用程序或平台中的安全失败，配置错误，性能瓶颈和/或错误等信息。有关更多信息，请参阅日志记录文档。
 
--   [Preferences](guides/preferences.md)
+-   [Preferences](guides/preferences/README.md)
 
 Preferences API为应用程序提供了一种存储和检索用户和系统首选项和配置数据的方法。数据永久存储在依赖于实现的后台存储中。有两个独立的偏好节点树，一个用于用户偏好，一个用于系统偏好
 
 ### 其他基本包
 
--   [I/O](guides/io.md)
+-   [I/O](guides/io/README.md)
 
 在java.io和java.nio包管理应用程序的I / O提供了丰富的API集。该功能包括文件和设备I / O，对象序列化，缓冲区管理和字符集支持。此外，这些API支持可扩展服务器的功能，包括多路复用，非阻塞I / O，内存映射和文件锁定。
 
--   [对象序列化](guides/serialization.md)
+-   [对象序列化](guides/serialization/README.md)
 
 对象序列化扩展了核心Java输入/输出类，并支持对象。对象序列化支持对象的编码和从它们到达的对象编码成字节流; 它支持从流中补充重构对象图。序列化用于轻量级持久性和通过套接字或远程方法调用（RMI）进行通信。
 
--   [Networking](guides/net.md)
+-   [Networking](guides/net/README.md)
 
 提供网络功能类，包括寻址，使用URL和URI的类，连接服务器的套接字类，网络安全功能等
 
--   [安全](guides/security.md)
+-   [安全](guides/security/README.md)
 
 用于安全相关功能的API，如可配置的访问控制，数字签名，身份验证和授权，加密，安全的Internet通信等。
 
--   [国际化](guides/intl.md)
+-   [国际化](guides/intl/README.md)
 
 支持开发国际化应用程序的API。国际化是设计一个应用程序的过程，以便它可以适应各种语言和地区而无需改变工程。
 
--   [JavaBeans™组件API](guides/beans.md)
+-   [JavaBeans™组件API](guides/beans/README.md)
 
 包含与开发bean相关的类 - 基于JavaBeans™体系结构的组件，可以作为开发应用程序的一部分拼凑在一起。
 
--   [Java管理扩展（JMX）](guides/jmx.md)
+-   [Java管理扩展（JMX）](guides/jmx/README.md)
 
 Java管理扩展（JMX）API是用于管理和监视资源（如应用程序，设备，服务和Java虚拟机）的标准API。典型用途包括咨询和更改应用程序配置，累积有关应用程序行为的统计信息，以及通知状态更改和错误条件。JMX API包含远程访问，因此远程管理程序可以与正在运行的应用程序交互以达到这些目的。
 
--   [XML（JAXP）](guides/xml.md)
+-   [XML（JAXP）](guides/xml/README.md)
 
 Java平台提供了一套丰富的API来处理XML文档和数据
 
--   [Java本地接口（JNI）](guides/jni.md)
+-   [Java本地接口（JNI）](guides/jni/README.md)
 
 Java本地接口（JNI）是用于编写Java本机方法并将Java虚拟机嵌入本机应用程序的标准编程接口。主要目标是跨给定平台上所有Java虚拟机实现的本地方法库的二进制兼容性。
 
--   延伸机制
-
-可选包是应用程序开发人员可用来扩展核心平台功能的Java类（以及任何关联的本机代码）的包。扩展机制允许Java虚拟机（VM）以类似于Java平台中的类的方式使用可选扩展的类。当JDK或运行时环境中尚未安装需要的可选软件包时，扩展机制还可以从指定的URL中检索。
-
--   认可的标准覆盖机制
-
-认可的标准是通过除Java Community ProcessSM（JCP）以外的标准过程定义的Java API。由于认可的标准是在JCP之外定义的，因此可以预期这些标准可能会在Java平台的发行版之间进行修改。
 
 ### 集成库
 
--   Java数据库连接（JDBC）API
+-   [Java数据库连接（JDBC）API](guides/jdbc/README.md)
 
 JDBC™API提供了来自Java编程语言的通用数据访问。使用JDBC 3.0 API，开发人员可编写应用程序，从而可以访问几乎任何数据源，从关系数据库到电子表格和平面文件。JDBC技术还提供了可以构建工具和备用接口的通用基础。
 
--   远程方法调用（RMI）
+-   [远程方法调用（RMI）](guides/rmi/README.md)
 
 远程方法调用（RMI）通过提供用Java编程语言编写的程序之间的远程通信来支持分布式应用程序的开发。RMI使运行在一个Java虚拟机中的对象可以调用另一个Java VM中运行的对象上的方法，该Java VM可能位于不同的主机上。
 
--   Java IDL（CORBA）
+-   [Java IDL（CORBA）](guides/idl/README.md)
 
 Java IDL技术为Java平台增加了CORBA（公共对象请求代理体系结构）功能，提供基于标准的互操作性和连接性。Java IDL使分布式启用Web的Java应用程序能够使用对象管理组定义的行业标准IDL（对象管理组接口定义语言）和IIOP（Internet Inter-ORB协议）透明地调用远程网络服务上的操作。运行时组件包括使用IIOP通信的分布式计算的Java ORB。
 
--   RMI-IIOP
+-   [RMI-IIOP](guides/rmi-iiop/README.md)
 
 互联网间ORB协议技术的Java远程方法调用RMI编程模型支持通过RMI API编程CORBA服务器和应用程序。您可以选择使用Java远程方法协议（JRMP）作为传输工具在Java编程语言中完全工作，或使用Internet InterORB协议（IIOP）与其他符合CORBA的编程语言一起工作。您可以使用rmic编译器生成将应用程序通过Internet InterORB协议（IIOP）连接到使用任何CORBA兼容语言编写的应用程序所需的代码。要使用其他语言的CORBA应用程序，可以使用rmic编译器和-idl选项从Java编程语言接口生成IDL。要生成IIOP存根和绑定类，请使用带-i选项的rmic编译器。
 
--   为Java平台编写脚本
-
-Java SE包含JSR 223：用于Java™平台 API的脚本。这是Java应用程序可以“托管”脚本引擎的框架。Java SE包含Nashorn Engine，它是EMCAScript Edition 5.1语言规范的实现。脚本框架通过jar“服务发现”机制支持第三方脚本引擎。可以在CLASSPATH中“放”任何符合JSR-223的脚本引擎，并从Java应用程序中访问相同的脚本。
-
--   Java命名和目录接口（JNDI）API
+-   [Java命名和目录接口（JNDI）API](guides/jndi/README.md)
 
 Java命名和目录接口（JNDI）为用Java编程语言编写的应用程序提供命名和目录功能。它旨在独立于任何特定的命名或目录服务实现。因此，各种各样的服务 - 新兴，新兴和已经部署的服务 - 可以通过一种共同的方式访问。JNDI体系结构由一个API和一个SPI（服务提供者接口）组成。Java应用程序使用此API来访问各种命名和目录服务。SPI支持透明地插入各种命名和目录服务，从而允许使用JNDI API的Java应用程序访问其服务
+
+### 工具规格
+
+-   [调试器架构](guides/jpda/README.md)
+
+调试器在开发环境中使用的体系结构和规范。
+
+-   [VM工具接口](guides/jvmti/README.md)
+
+Java虚拟机工具接口（JVM TI）是一种用于检查状态和控制JVM中运行的应用程序执行的规范。Java虚拟机概要分析程序接口（JVMPI）已被弃用。
+
+-   [Javadoc工具](guides/javadoc/README.md)
+
+Javadoc是一个解析声明和文档注释源文件的工具，用于生成一组描述程序元素的HTML页面。Doclet API为客户端提供了一种检查程序和库的源级结构的机制，包括源中嵌入的Javadoc注释。doclet可以使用此API生成文档。
+
+-   [动态附加](guides/attach/README.md)
+
+com.sun.tools.attach包中包含Java平台的Oracle扩展，允许应用程序连接到正在运行的Java虚拟机。完成附加后，可以在目标虚拟机中启动工具代理。
+
+-   JConsole API
+
+com.sun.tools.jconsole包中包含Java平台的Oracle扩展，它提供了访问JConsole的编程接口。
+
+-   [JDK工具和实用程序](guides/tools/README.md)
+
+JDK中包含的工具和实用程序的文档。涵盖了基本的工具（javac的，JAVA，javadoc的，贴切，appletviewer中，罐子，加多宝，JAVAH，javap的，extcheck），安全工具，国际化的工具，RMI工具，IDL和RMI-IIOP工具，部署工具，Java插件工具，和Java Web Start工具，监视和管理工具以及故障排除工具。
 
 
 ### 用户界面库

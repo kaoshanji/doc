@@ -1,4 +1,4 @@
-#   Java EE
+#   [Java EE](https://www.oracle.com/technetwork/java/javaee/tech/index.html)
 
 -   版本：v8
 
@@ -8,13 +8,6 @@ Java EE 是社区驱动的企业软件标准。Java EE 是利用 Java Community 
 
 常见Web应用规范实现：[Tomcat](http://tomcat.apache.org/)、[Jetty](http://www.eclipse.org/jetty/)
 
-----
-
--   来源
-    -   [Java EE 首页](http://www.oracle.com/technetwork/java/javaee/overview/index.html)
-    -   [Java EE 资源](https://javaee.github.io/)
-    -   [Java EE 教程及示例](https://javaee.github.io/tutorial/)
-    -   [Java EE API](https://javaee.github.io/javaee-spec/javadocs/)
 
 ----
 
