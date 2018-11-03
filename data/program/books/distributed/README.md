@@ -91,7 +91,9 @@
 -   Redis：KV数据库/缓存
     -   [官网](http://www.redis.cn/)
     -   [Redis实战](2018/1022004/README.md)
+    -   [Redis 4.x Cookbook中文版](2018/1102001/README.md)
     -   [Redis开发与运维](2018/1022005/README.md)
+    -   [Redis设计与实现](2018/1102002/README.md)
 -   MongoDB：⽂档数据库
     -   [官网](https://www.mongodb.com/)
     -   [MongoDB权威指南 第2版](2018/1022006/README.md)
@@ -120,7 +122,7 @@
     -   [官网](http://hadoop.apache.org/)
     -   [hive](http://hive.apache.org/)
     -   [pig](http://pig.apache.org/)
--   spark
+-   Spark
     -   [官网](http://spark.apache.org/)
 
 
