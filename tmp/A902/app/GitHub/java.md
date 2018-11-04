@@ -90,6 +90,7 @@
 -   [无界面浏览器Java程序：HtmlUnit](http://htmlunit.sourceforge.net/)
 -   [HTML解析：jsoup](https://jsoup.org/)
 -   [连接SSH2](http://www.jcraft.com/)
+-   [http下载工具，基于http代理，支持多连接分块下载](https://github.com/proxyee-down-org/proxyee-down)
 
 ----
 

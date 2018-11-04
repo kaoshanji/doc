@@ -1,6 +1,6 @@
 #   Java
 
-##  面试/要点
+##  GitHub
 -   [Java面试宝典](https://github.com/xbox1994/2018-Java-Interview)
 -   [大佬分享：180+道Java面试题目](https://zhuanlan.zhihu.com/p/38592736)
 -   [一个两年Java工程师的面试总结](https://zhuanlan.zhihu.com/p/40385212)
@@ -12,6 +12,9 @@
     -   做到了你想做而还没有动手的东西
 -   [`JavaGuide`](https://github.com/Snailclimb/JavaGuide)
     -   涵盖大部分Java程序员所需要掌握的核心知识
+-   [一款用 Java 实现的现代化社区（论坛/BBS/社交网络/博客）平台](https://github.com/b3log/symphony)
+-   [一系列小而专注的教程，每个教程都涵盖一个明确的开发领域](https://github.com/eugenp/tutorials)
+-   [设计应用程序或系统时可用来解决常见问题的最佳实践手册](https://github.com/iluwatar/java-design-patterns)
 
 ----
 

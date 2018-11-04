@@ -9,22 +9,20 @@
         -   [官网](https://github.com/qos-ch)
         -   Logback中文文档
 -   Java SE
-    -   [官方文档](doc/README.md)，内容已经组织，依次延伸出去
-    -   [Java编程思想_](thinking0814/README.md)
-    -   [Java核心技术(10) 卷1:基础知识_](corejava/README.md)
-    -   [Java核心技术 卷2：高级特性(第9版)_](corejava/README.md)
-    -   [深入理解Java7核心技术与最佳实践_](java70814/README.md)
-    -   [Java8实战_](java80814/README.md)
-    -   [Java技术手册_](nutshell0814/README.md)
-    -   [Java程序员修炼之道_](developer0814/README.md)
-    -   [Java语言规范:基于Java SE8!_](language80814/README.md)
-    -   [Java网络编程(第四版)_](network40814/README.md)
+    -   [官方文档](doc/README.md)
+    -   [Java编程思想](thinking0814/README.md)
+    -   [Java核心技术(10) 卷1:基础知识](corejava/README.md)
+    -   [Java核心技术 卷2：高级特性(第9版)](corejava/README.md)
+    -   [深入理解Java7核心技术与最佳实践](java70814/README.md)
+    -   [Java8实战](java80814/README.md)
+    -   [Java技术手册](nutshell0814/README.md)
+    -   [Java程序员修炼之道](developer0814/README.md)
+    -   [Java网络编程(第四版)](network40814/README.md)
     -   [Java编程的逻辑_](logic0814/README.md)
     -   [Java特种兵](forces0814/README.md)
     -   [Effective-Java_](Effective0814/README.md)
     -   [Java语言程序设计(基础篇 原书第10版)(机工出版)_](Introduction0814/README.md)
     -   [Java语言程序设计(进阶篇 原书第10版)(机工出版)_](Introduction0814/README.md)
-    -   [Java性能权威指南_](performance0814/README.md)
 -   Java EE
 -   Java 库
     -   测试
@@ -61,6 +59,8 @@
     -   [HotSpot实战_](jvmC0814/README.md)
     -   [揭秘Java虚拟机:JVM设计原理与实现_](jvmD0814/README.md)
 -   Java 深入
+    -   [Java语言规范:基于Java SE8!_](language80814/README.md)
+    -   [Java性能权威指南_](performance0814/README.md)
     -   [码农翻身：用故事给技术加点料](2018/1002020/README.md)
     -   多线程
         -   [Java并发编程实战_](threadA0814/README.md)
