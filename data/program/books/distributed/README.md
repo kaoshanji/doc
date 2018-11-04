@@ -32,6 +32,7 @@
     -   [极客时间：从0开始学微服务](2018/1002002/README.md)
     -   [架构解密：从分布式到微服务_](2018/1002006/README.md)
     -   [微服务设计](2018/1002007/README.md)
+    -   大规模分布式系统架构与设计实战
 -   ⾼⾼⾼
     -   [互联⽹创业核⼼技术：构建可伸缩的Web应⽤](2018/1002011/README.md)
     -   [构建⾼性能Web站点](2018/1002012/README.md)
@@ -53,6 +54,10 @@
     -   [分布式数据库架构及企业实践-基于Mycat中间件](2018/1002027/README.md)
 -   计算
     -   [分布式实时处理系统：原理、架构与实现](2018/1002028/README.md)
+-   云计算
+    -   云计算：概念、技术与架构
+    -   云计算与分布式系统：从并行处理到物联网
+    -   深入理解云计算：基本原理和应用程序编程技术
 
 2.  服务：service
 -   治理/监控
@@ -82,14 +87,18 @@
     -   [领域驱动设计.软件核⼼复杂性应对之道.软件核⼼复杂性应对之道](2018/1022001/README.md)
 -   Sql：关系型数据库语⾔
     -   [SQL学习指南](2018/1022002/README.md)
+    -   SQL经典案例
 -   MySQL：关系型数据库
     -   [官网](https://www.mysql.com/)
-    -   [⾼性能MySql](2018/1022003/README.md)
+    -   [⾼性能MySql](2018/1022003/README.md)，第3版都出了
+    -   MySQL 8 Cookbook
 -   postgresql
     -   [官网](https://www.postgresql.org/)
     -   [中文](http://www.postgres.cn/home)
+    -   数据架构师的postgresql修炼
 -   Redis：KV数据库/缓存
-    -   [官网](http://www.redis.cn/)
+    -   [官网](https://redis.io)
+    -   [中文网](http://www.redis.cn/)
     -   [Redis实战](2018/1022004/README.md)
     -   [Redis 4.x Cookbook中文版](2018/1102001/README.md)
     -   [Redis开发与运维](2018/1022005/README.md)
@@ -97,6 +106,8 @@
 -   MongoDB：⽂档数据库
     -   [官网](https://www.mongodb.com/)
     -   [MongoDB权威指南 第2版](2018/1022006/README.md)
+-   Neo4j
+    -   Neo4j实战
 -   Solr
     -   [官网](https://lucene.apache.org/solr/)
     -   [Solr实战](2018/1022008/README.md)
@@ -111,6 +122,8 @@
 -   ceph：文件存储
     -   [官网](https://ceph.com/)
     -   [开源社区](http://ceph.org.cn/)
+    -   ceph分布式存储学习指南
+    -   ceph分布式存储实战
 -   cassandra：网络社交结构化数据存储
     -   [官网](http://cassandra.apache.org/)
 -   hbase：面向列

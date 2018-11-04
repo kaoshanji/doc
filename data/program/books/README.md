@@ -3,6 +3,7 @@
 ##  目录
 -   [计算机通识](computer/README.md)
 -   [Java](Java/README.md)
+-   Redis
 -   [Web后端](webBehind/README.md)
 -   [代码](code/README.md)
 -   [分布式](distributed/README.md)
