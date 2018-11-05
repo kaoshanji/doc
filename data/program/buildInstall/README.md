@@ -14,6 +14,12 @@
         -   MyBatis
         -   Netty
         -   JDK源码
+        -   Spring IoC container
+        -   Spring Resources
+        -   Spring AOP
+        -   Spring Transaction
+        -   Spring DAO
+        -   Spring JDBC
 -   Web后端，三脚猫功夫
     -   HTTP/HTTPs
     -   SQL
@@ -23,7 +29,7 @@
     -   电商。。
     -   框架库
         -   Tomcat/Jetty
-        -   Spring Framework
+        -   Spring Web
 -   部署Web项目，进入舞台
     -   [Linux](linux/README.md)
     -   Nginx
