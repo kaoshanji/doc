@@ -5,7 +5,7 @@ XML（可扩展标记语言）是一种灵活的方法，用于创建通用信�
 ----
 
 ##  XML功能Java SE
--   [用于XML处理的Java API](https://docs.oracle.com/javase/8/docs/technotes/guides/xml/jaxp/index.html)（JAXP）
+-   [用于XML处理的Java API](jaxp.md)（JAXP）
 -   [XML绑定的Java体系结构](https://docs.oracle.com/javase/8/docs/technotes/guides/xml/jaxb/index.html)（JAXB）
 -   [用于XML Web服务的Java API](https://docs.oracle.com/javase/8/docs/technotes/guides/xml/jax-ws/index.html)（JAX-WS）
 
