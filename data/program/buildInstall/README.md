@@ -33,7 +33,7 @@
 -   部署Web项目，进入舞台
     -   [Linux](linux/README.md)
     -   Nginx
--   [技术痕迹，各处取经](a00/README.md)s
+-   [技术痕迹，各处取经](a00/README.md)
 -   [造Java框架轮子，身临其境](c00/README.md)
 -   Java编程进阶，小有所成
     -   JVM
@@ -44,6 +44,8 @@
     -   Spring 家族
     -   [Redis](redis/README.md)
 -   [回归源头，易筋经](x00/README.md)
+    -   设计理论
+    -   数据结构与算法
     -   网络协议
     -   网络编程
 

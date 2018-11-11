@@ -4,8 +4,8 @@
 Java数据库连接（JDBC）API提供Java编程语言的通用数据访问。使用JDBC API，您几乎可以访问任何数据源，从关系数据库到电子表格和平面文件。JDBC技术还提供了可以构建工具和备用接口的通用基础。
 
 JDBC API由两个包组成：
--   [java.sql](https://docs.oracle.com/javase/8/docs/api/java/sql/package-summary.html)
--   [javax.sql](https://docs.oracle.com/javase/8/docs/api/javax/sql/package-summary.html)
+-   [java.sql](../../api/java-sql.md)
+-   [javax.sql](../../api/javax-sql.md)
 
 下载Java Platform Standard Edition（Java SE）8时，您将自动获得这两个软件包。
 
@@ -14,7 +14,7 @@ JDBC API由两个包组成：
 ----
 
 ##  更多
--   [JDBC基础知识教程](https://docs.oracle.com/javase/tutorial/jdbc/basics/index.html)
+-   [JDBC基础知识教程](../../tutorial/jdbc/README.md)
 -   [关于JDBC的常见问题解答](https://www.oracle.com/technetwork/java/faq-142672.html)
 
 ----

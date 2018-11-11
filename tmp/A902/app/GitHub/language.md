@@ -15,6 +15,7 @@
     -   [NodeJs中文网](http://nodejs.cn/)
 -   [*python](https://www.python.org/)
 -   *Golang
+    -   [geneontology](http://www.geneontology.org/)
     -   [golang(中国)](https://studygolang.com/)
     -   [github](https://github.com/golang)
 -   [*scala](https://www.scala-lang.org/)
