@@ -3,10 +3,9 @@
 
 1.  技能堆积
 
-功能实践，语法熟悉，经验分享
+功能实践，语法熟悉，一个字干！
 
-##  蹲马步：Java
--   开发工具：IDEA/Eclipse/STS
+##  [蹲马步：Java](base/README.md)
 -   Java SE 语法
 -   日志框架：Logback
 -   打包工具：Maven
@@ -15,7 +14,7 @@
 
 ----
 
-##  起步搭建：完成流程
+##  [起步搭建：完成流程](satrt/README.md)
 -   基本技术
     -   关系型数据库语言：SQL
     -   Java 持久化框架：[MyBatis](MyBatis/README.md)
@@ -24,8 +23,8 @@
         -   JSON 格式化
         -   Guava
         -   JUnit
-    -   对象管理框架
     -   Java EE 技术
+    -   对象管理框架
     -   MVC框架
     -   安全框架
     -   应用容器：Tomcat
@@ -34,7 +33,7 @@
 
 ----
 
-##  外挂辅助：服务器
+##  [外挂辅助：服务器](service/README.md)
 -   OS：[Linux](linux/README.md)
 -   Nginx
 -   持久化
@@ -59,7 +58,7 @@
 
 ----
 
-##  升级基础：微服务
+##  [升级基础：微服务](increase/README.md)
 -   概念
 -   RPC框架
 -   微服务框架
@@ -99,8 +98,10 @@
 
 原理源码，拉开距离，修炼绝技
 
-##  Java深入
+##  [Java深入](java/README.md)
+-   经验分享
 -   设计模式
+-   语言规范
 -   JVM
 -   并发
 -   调优
@@ -108,7 +109,7 @@
 
 ----
 
-##  Java框架源码
+##  [Java框架源码](framework/README.md)
 > 围点打援，列出框架需要的技术，一一攻克，再读代码，Java官方文档很全
 -   MyBatis
 -   Spring FrameWork
