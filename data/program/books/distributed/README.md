@@ -90,7 +90,7 @@
     -   SQL经典案例
 -   MySQL：关系型数据库
     -   [官网](https://www.mysql.com/)
-    -   [⾼性能MySql](2018/1022003/README.md)，第3版都出了
+    -   ⾼性能MySql，第3版都出了
     -   MySQL 8 Cookbook
 -   postgresql
     -   [官网](https://www.postgresql.org/)
@@ -99,18 +99,18 @@
 -   Redis：KV数据库/缓存
     -   [官网](https://redis.io)
     -   [中文网](http://www.redis.cn/)
-    -   [Redis实战](2018/1022004/README.md)
-    -   [Redis 4.x Cookbook中文版](2018/1102001/README.md)
-    -   [Redis开发与运维](2018/1022005/README.md)
-    -   [Redis设计与实现](2018/1102002/README.md)
+    -   Redis实战
+    -   Redis 4.x Cookbook中文版
+    -   Redis开发与运维
+    -   Redis设计与实现
 -   MongoDB：⽂档数据库
     -   [官网](https://www.mongodb.com/)
-    -   [MongoDB权威指南 第2版](2018/1022006/README.md)
+    -   MongoDB权威指南 第2版
 -   Neo4j
     -   Neo4j实战
 -   Solr
     -   [官网](https://lucene.apache.org/solr/)
-    -   [Solr实战](2018/1022008/README.md)
+    -   Solr实战
 -   Elasticsearch
     -   [官网](https://github.com/elastic/elasticsearch)
 -   文件存储

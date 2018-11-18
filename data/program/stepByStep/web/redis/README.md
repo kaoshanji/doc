@@ -9,11 +9,9 @@ Redis
 -   [GitHub](https://github.com/antirez/redis)
 -   [中文网](http://www.redis.cn/)
 -   [中文网](http://www.redis.net.cn/)
--   [Redis实战](s1/README.md)
--   [Redis 4.x Cookbook中文版](s2/README.md)
--   [Redis开发与运维](s3/README.md)
--   [Redis设计与实现](s4/README.md)
--   掘金：Redis 深度历险：核心原理与应用实践
+-   [入门实践](action/README.md)
+-   [经验分享](experience/REAMDE.md)
+-   [原理源码](source/README.md)
 
 
 ----
