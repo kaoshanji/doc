@@ -2,8 +2,7 @@
 
 ##  Java SE 语法
 
--   [Java核心技术(10) 卷1:基础知识](corejava/README.md)
--   [Java核心技术(10) 卷2:高级特性](corejava/README.md)
+-   [Java核心技术(10)](corejava/README.md)
 -   [深入理解Java7核心技术与最佳实践](java70814/README.md)
 -   [Java程序员修炼之道](developer0814/README.md)
 -   [Java8实战](java80814/README.md)
