@@ -32,6 +32,7 @@
     -   [FiveThirtyEight文章和图形背后的数据和代码](https://github.com/fivethirtyeight/data)
     -   [计算机视觉](https://github.com/jbhuang0604/awesome-computer-vision)
     -   [Oxford Deep NLP 2017课程](https://github.com/oxford-cs-deepnlp-2017/lectures)
+    -   [`Kivy Developers From China，有很多译文`](https://github.com/Kivy-CN)
 -   数据源
     -   [FiveThirtyEight](https://github.com/fivethirtyeight/)
     -   [data.fivethirtyeight](https://github.com/fivethirtyeight/data)

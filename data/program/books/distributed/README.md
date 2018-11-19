@@ -131,12 +131,17 @@
 
 
 4.  计算：compute
+-   看看
+    -   数据算法：Hadoop/Spark大数据处理技巧
 -   Hadoop
     -   [官网](http://hadoop.apache.org/)
     -   [hive](http://hive.apache.org/)
     -   [pig](http://pig.apache.org/)
 -   Spark
     -   [官网](http://spark.apache.org/)
+-   Storm
+    -   [官网](http://storm.apache.org/)
+    -   Storm应用实战
 
 
 5.  工具库

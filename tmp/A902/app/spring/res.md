@@ -6,3 +6,16 @@
 -   [logback与Spring、SpringMVC结合使用教程](https://blog.csdn.net/evankaka/article/details/50637994)
 -   [《Spring 5 官方文档》1. Spring入门指南](http://ifeve.com/overview-getting-started-with-spring/comment-page-1/)
 -   [当前标签: spring](http://www.cnblogs.com/bigdataZJ/tag/spring/)
+
+##  Spring 源码编译
+
+1.  下载指定版本源码
+
+``` 
+git clone --branch v3.2.18.RELEASE https://github.com/spring-projects/spring-framework.git
+git clone -b 3.2.x https://github.com/spring-projects/spring-framework.git
+```
+
+下载最新 gradle ，如同java一样配置环境：gradle -version
+
+打开命令窗口切换到Spring源码路径.输入 “gradle cleanidea eclipse”  gradle cleanidea eclipse
