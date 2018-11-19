@@ -3,7 +3,7 @@
 
 1.  技能堆积
 
-功能实践，语法熟悉，一个字干！
+功能实践，语法熟悉，一个字干！
 
 ##  [蹲马步：Java](base/README.md)
 -   Java SE 语法
@@ -89,7 +89,7 @@
 
 ##  江湖路：求助资源
 
-
+-   [并发编程网](http://ifeve.com/)
 
 ----
 ----
@@ -105,7 +105,6 @@
 -   JVM
 -   并发
 -   调优
--   代码风格
 
 ----
 
@@ -113,6 +112,8 @@
 > 围点打援，列出框架需要的技术，一一攻克，再读代码，Java官方文档很全
 -   MyBatis
 -   Spring FrameWork
+    -   3.2.19 
+    -   已经编译完成，doc\api等在服务器：program/webBehid/SpringFrameWork
 -   JDK部分
     -   集合
     -   并发
@@ -126,6 +127,8 @@
 ----
 
 ##  服务器深入
+-   [Redis](redis/README.md)
+
 
 ----
 
