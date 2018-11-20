@@ -113,7 +113,7 @@
 -   MyBatis
 -   Spring FrameWork
     -   3.2.19 
-    -   已经编译完成，doc\api等在服务器：program/webBehid/SpringFrameWork
+    -   已经编译完成，doc、api等在服务器：program/webBehid/SpringFrameWork
 -   JDK部分
     -   集合
     -   并发
@@ -126,31 +126,13 @@
 
 ----
 
-##  服务器深入
+##  服务器经验分享
 -   [Redis](redis/README.md)
 
 
 ----
 
 ----
-
-
-````
-#   xxx 格式模板
-
-##  资料
-
-
-----
-
-##  功能实践
-
-----
-
-##  原理理解
-
-----
-````
 
 -   附录
     -   参见program/tmp/buildInstall.md

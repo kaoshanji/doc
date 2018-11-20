@@ -1,8 +1,11 @@
 #   Redis 入门实践
 
 ##   目录
--   Redis实战
--   Redis 4.x Cookbook中文版
+-   入门实践
+    -   [官网](https://redis.io)
+    -   Redis实战
+    -   Redis 4.x Cookbook中文版
+-   
 
 ----
 
@@ -48,17 +51,5 @@
     -   降低内存占用
     -   Redis阻塞！
     -   扩展Redis
-
-----
-
-##  深入理解
-
->   redis设计与实现
-
--   数据结构实现
--   理解内存
--   事件模型
--   通信协议
-
 
 ----

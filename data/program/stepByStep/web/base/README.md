@@ -7,6 +7,7 @@
 -   [Java程序员修炼之道](developer0814/README.md)
 -   [Java8实战](java80814/README.md)
 -   [Java技术手册](nutshell0814/README.md)
+-   [Java编程的逻辑(部分章节)](logic0814/README.md)
 -   [Java语言程序设计(原书第10版)(机工出版)](Introduction0814/README.md)
 
 ----

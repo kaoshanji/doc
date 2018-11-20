@@ -3,7 +3,7 @@
 数据为王，应用成形
 
 -   [文字](blog/README.md)
--   [读书](books/README.md)
+-   [主题](topic/README.md)
 -   [循序渐进](stepByStep/README.md)
 
 ##  数据：量（难度）
