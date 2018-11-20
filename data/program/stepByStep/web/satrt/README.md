@@ -1,0 +1,19 @@
+#   起步搭建：完成流程
+-   基本技术
+    -   关系型数据库语言：SQL
+    -   Java 持久化框架：[MyBatis](MyBatis/README.md)
+    -   日常工具库
+        -   apache-commons
+        -   JSON 格式化
+        -   Guava
+        -   JUnit
+    -   Java EE 技术
+    -   对象管理框架
+    -   MVC框架
+    -   安全框架
+    -   应用容器：Tomcat
+    -   Java 网络编程和框架：Netty
+-   面向项目
+    -   深入分析Java Web技术内幕
+    -   [Java⼯程师修炼之道](JHan0805/README.md)
+    -   云原⽣Java：Spring Boot、Spring Cloud与Cloud Foundry弹性系统设计

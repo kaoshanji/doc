@@ -30,6 +30,9 @@
     -   应用容器：Tomcat
     -   Java 网络编程和框架：Netty
 -   面向项目
+    -   深入分析Java Web技术内幕
+    -   Java⼯程师修炼之道
+    -   云原⽣Java：Spring Boot、Spring Cloud与Cloud Foundry弹性系统设计
 
 ----
 
@@ -52,9 +55,7 @@
     -   Elasticsearch
 -   ⾃动部署：Jenkins
 -   压力测试：Jmeter
--   通信协议
-    -   HTTP/HTTPs
-    -   RPC
+
 
 ----
 
@@ -75,15 +76,32 @@
 理论认知，开阔视野，身临其境
 
 ##  数据库表设计
+-   领域驱动设计.软件核心复杂性应对之道.软件核心复杂性应对之道
+-   领域驱动设计精粹
+-   实现领域驱动设计
 
 ----
 
-##  电商
+##  职业/电商
+-   奔跑吧，程序员
 
 ----
 
-##  技术组合
+##  web知识
 
+-   [通信协议](webprotocol/README.md)
+    -   HTTP/HTTPs
+    -   RPC
+    -   ⽩帽⼦讲Web安全
+    -   HTTP权威指南
+    -   深⼊浅出 HTTPS：从原理到实战
+-   经验分享
+    -   Web API的设计与开发
+    -   App后台开发运维和架构实践
+    -   Web性能权威指南
+    -   反应式Web应⽤开发
+    -   RESTful Web APIs中⽂版
+    -   码农翻身：⽤故事给技术加点料
 
 ----
 
