@@ -11,6 +11,7 @@
 -   打包工具：Maven
 -   代码管理：Git
 -   常见文件格式
+-   社区示例
 
 ----
 
@@ -29,14 +30,15 @@
     -   安全框架
     -   应用容器：Tomcat
     -   Java 网络编程和框架：Netty
+    -   社区示例
 -   面向项目
     -   深入分析Java Web技术内幕
     -   Java⼯程师修炼之道
-    -   云原⽣Java：Spring Boot、Spring Cloud与Cloud Foundry弹性系统设计
+    -   Spring Boot
 
 ----
 
-##  [外挂辅助：服务器](service/README.md)
+##  外挂辅助：服务器
 -   OS：[Linux](linux/README.md)
 -   Nginx
 -   持久化
@@ -48,7 +50,7 @@
 -   中间件层
     -   [Redis](redis/README.md)
 -   消息组件
-    -   RabbitMQ
+    -   [RabbitMQ](rabbbitmq/README.md)
     -   Kafka
 -   搜索引擎
     -   Solr
@@ -60,13 +62,18 @@
 ----
 
 ##  [升级基础：微服务](increase/README.md)
--   概念
--   RPC框架
--   微服务框架
--   服务注册
--   配置中心
+-   微服务理论
+-   服务治理： Spring Cloud
+    -   服务注册
+    -   配置中心
+    -   消息总线
+    -   负载均衡
+    -   断路器
+    -   数据监控
 -   持续集成
-
+-   待
+    -   Spring Boot + Docker + Jenkins
+    -   云原⽣Java：Spring Boot、Spring Cloud与Cloud Foundry弹性系统设计
 
 ----
 ----
@@ -87,9 +94,9 @@
 
 ----
 
-##  web知识
+##  [web知识](web/README.md)
 
--   [通信协议](webprotocol/README.md)
+-   通信协议
     -   HTTP/HTTPs
     -   RPC
     -   ⽩帽⼦讲Web安全
@@ -145,7 +152,7 @@
 ----
 
 ##  服务器经验分享
--   [Redis](redis/README.md)
+-   [Redis，源码包含很多东西](redis/README.md)
 
 
 ----
