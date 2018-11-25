@@ -1,7 +1,7 @@
 #   起步搭建：完成流程
 -   基本技术
     -   关系型数据库语言：SQL
-    -   Java 持久化框架：[MyBatis](MyBatis/README.md)
+    -   Java 持久化框架：[MyBatis](../mybatis/README.md)
     -   日常工具库
         -   apache-commons
         -   JSON 格式化

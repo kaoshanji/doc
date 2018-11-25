@@ -5,7 +5,7 @@
 
 功能实践，语法熟悉，一个字干！
 
-##  [蹲马步：Java](base/README.md)
+##  [蹲马步：Java](base.md)
 -   Java SE 语法
 -   日志框架：Logback
 -   打包工具：Maven
@@ -18,7 +18,8 @@
 ##  [起步搭建：完成流程](satrt/README.md)
 -   基本技术
     -   关系型数据库语言：SQL
-    -   Java 持久化框架：[MyBatis](MyBatis/README.md)
+    -   常用关系型数据库：MySQL
+    -   Java 持久化框架：MyBatis
     -   日常工具库
         -   apache-commons
         -   JSON 格式化
@@ -39,7 +40,7 @@
 ----
 
 ##  外挂辅助：服务器
--   OS：[Linux](linux/README.md)
+-   OS：Linux
 -   Nginx
 -   持久化
     -   MySQL
@@ -48,9 +49,9 @@
     -   Fatdfss
     -   ceph
 -   中间件层
-    -   [Redis](redis/README.md)
+    -   Redis
 -   消息组件
-    -   [RabbitMQ](rabbbitmq/README.md)
+    -   RabbitMQ
     -   Kafka
 -   搜索引擎
     -   Solr
