@@ -2,7 +2,7 @@
 
 -   使用 编程语言 实现 数据结构与算法
 -   [教程](https://github.com/tuvtran/project-based-learning)
--   *Java
+-   Java
     -   [jcp](https://jcp.org/en/home/index)
     -   [java](http://www.oracle.com/technetwork/cn/java/index.html)
 -   前端
@@ -11,24 +11,25 @@
     -   [MDN](https://developer.mozilla.org/zh-CN/) 
     -   [es6中文](https://github.com/zhoushengmufc/es6)
     -   [mozilla](https://mozilla.github.io/)
--   *NodeJs
+-   NodeJs
     -   [nodejs官网](https://nodejs.org/en/)
     -   [NodeJs中文网](http://nodejs.cn/)
--   [*python](https://www.python.org/)
--   *Golang
+-   [`python`](https://www.python.org/)
+    -   [库](python.md)
+-   Golang
     -   [geneontology](http://www.geneontology.org/)
     -   [golang(中国)](https://studygolang.com/)
     -   [github](https://github.com/golang)
--   [*scala](https://www.scala-lang.org/)
+-   [scala](https://www.scala-lang.org/)
 -   [erlang](http://www.erlang.org/)
 -   [haskell](https://www.haskell.org/)
 -   [kotlinlang](http://kotlinlang.org/)
 -   [R](https://www.r-project.org/)
--   C++
-    -   [cplusplus](http://www.cplusplus.com/)
+-   [C++](http://www.cplusplus.com/)
+    -   [库](c11.md)
     -   [cppreference](https://en.cppreference.com/w/)
 -   [lua](http://www.lua.org/)
--   [*dartlang](https://www.dartlang.org/)
+-   [dartlang](https://www.dartlang.org/)
     -   [github](https://github.com/dart-lang)
 -   [swift](https://swift.org/)
     -   [github](https://github.com/apple/swift)
