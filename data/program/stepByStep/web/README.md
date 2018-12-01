@@ -76,9 +76,6 @@
     -   Spring Boot + Docker + Jenkins
     -   云原⽣Java：Spring Boot、Spring Cloud与Cloud Foundry弹性系统设计
 
-----
-----
-
 2.  应用理论
 
 理论认知，开阔视野，身临其境
@@ -117,20 +114,19 @@
 
 -   [并发编程网](http://ifeve.com/)
 
-----
-----
-
 3.  回归技术
 
-原理源码，拉开距离，修炼绝技
+深度才有区别，拉开距离，修炼绝技
 
-##  [Java深入](java/README.md)
+##  [Java深入](jtechnology.md)
 -   经验分享
 -   设计模式
 -   语言规范
 -   JVM
 -   并发
 -   调优
+
+jtechnology
 
 ----
 
@@ -148,12 +144,6 @@
 ----
 
 ##  山寨Java框架
-
-
-----
-
-##  服务器经验分享
--   [Redis，源码包含很多东西](redis/README.md)
 
 
 ----
