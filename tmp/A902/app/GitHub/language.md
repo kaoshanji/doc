@@ -1,6 +1,5 @@
 #   编程语言
 
--   使用 编程语言 实现 数据结构与算法
 -   [教程](https://github.com/tuvtran/project-based-learning)
 -   Java
     -   [jcp](https://jcp.org/en/home/index)
@@ -33,3 +32,7 @@
     -   [github](https://github.com/dart-lang)
 -   [swift](https://swift.org/)
     -   [github](https://github.com/apple/swift)
+
+-   备注
+    -   使用 编程语言 实现 数据结构与算法
+    -   谷歌语言，Go在服务端，Dart、Flutter是前端和客户端
