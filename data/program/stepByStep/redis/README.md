@@ -12,11 +12,13 @@ Redis
     -   Redis 4.x Cookbook中文版
 -   [经验分享](experience/REAMDE.md)
     -   Redis开发与运维
+    -   Redis 深入历险：核心原理与应用实践
 -   [原理源码](source/README.md)
     -   Redis设计与实现
 -   中文网
     -   [中文网](http://www.redis.cn/)
     -   [中文网](http://www.redis.net.cn/)
+-   备注
 
 ----
 

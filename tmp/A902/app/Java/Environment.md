@@ -8,9 +8,10 @@
 |IDE|STS|开发工具|[地址](https://spring.io/tools/sts/)|Eclipse上集成Spring，选择最新版，考虑[IDEA](https://www.jetbrains.com/idea/)|
 |Maven|最新版|依赖包管理|[地址](https://maven.apache.org/)|第三方包管理，部署打包|
 |Tomcat|Servlet兼容版|Java Web运行环境|[地址](http://tomcat.apache.org/)|Java Servlet规范实现|
-
+----
 
 ##  软件配置
+
 ###  JDK
 -   win
     -   与普通软件安装一样，注意选择路径
@@ -92,7 +93,7 @@
         <mirror>
             <id>alimaven</id>
             <name>aliyun maven</name>
-            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <url>https://maven.aliyun.com/repository/public</url>
             <mirrorOf>central</mirrorOf>
         </mirror>
     </mirrors>
@@ -104,7 +105,7 @@
 ##  新建项目
 -   操作系统在这部分是相同的
 
-### STS配置
+### STS/Eclipse配置
 -   Window --> Preferences
 -   设置编码
     -   ![STS-200.png](image/STS-200.png)
@@ -121,7 +122,12 @@
 -   设置Tomcat
     -   ![STS-006.png](image/STS-006.png)
 
-### 新建 项目
+
+----
+
+##  项目示例
+
+### 新建项目
 -   Java SE
     -   File --> New --> Maven Project
     -   ![STS-101.png](image/STS-101.png)
@@ -138,10 +144,17 @@
     -   ![STS-109.png](image/STS-109.png)
     -   ![STS-110.png](image/STS-110.png)
 
-### [项目示例:en-se](https://github.com/kaoshanji/example)
+### 项目模板
+-   [简单：en-se](https://github.com/kaoshanji/example)
 
 
 
 
 
+----
+
+##  备注
+-   IDEA
+    -   使用 2017.1/2版本，注册码好找，[地址](https://confluence.jetbrains.com/display/IDEADEV/IDEA+2017.1+EAP)
+    -   win 系统下需要设置[编码](https://blog.csdn.net/m0_38132361/article/details/80628203)
 

@@ -1,10 +1,9 @@
 #   Redis 入门实践
 
 ##   目录
--   入门实践
-    -   [官网](https://redis.io)
-    -   Redis实战
-    -   Redis 4.x Cookbook中文版
+-   [官网](https://redis.io)
+-   Redis实战
+-   Redis 4.x Cookbook中文版
 
 ----
 
