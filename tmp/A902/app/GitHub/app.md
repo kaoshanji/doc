@@ -31,6 +31,7 @@
 -   [文档](https://docs.flutter.io/)
 -   [http请求库dio](https://github.com/flutterchina/dio)
 -   [flutter社区中文资源](https://flutter-io.cn/)
+-   [教程](https://github.com/alluxio/alluxio)
 
 ----
 

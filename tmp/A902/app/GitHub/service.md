@@ -1,4 +1,4 @@
-#   分布式
+#   服务器
 
 ##  数据存储
 -   数据库中间件：mycat
@@ -26,6 +26,7 @@
     -   [官网](https://zeroc.com/)
 -   协调服务：zookeeper
     -   [官网](http://zookeeper.apache.org/)
+    -   [zookeeper在Dubbo中扮演了一个什么角色，起到了什么作用啊？](https://www.zhihu.com/question/25070185)
 
 
 ----
@@ -52,3 +53,10 @@
     -   [官网](http://kafka.apache.org/)
 
 ---
+
+##  开源首页
+-   XXL
+    -   [官方](http://www.xuxueli.com/page/projects.html)
+    -   分布式任务
+    -   分布式服务
+    -   分布式配置
