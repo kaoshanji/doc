@@ -43,9 +43,7 @@
 -   版本管理：Git
 -   OS：Linux
 -   web代理：Nginx
--   持久化
-    -   MySQL
-    -   MongoDB
+-   持久化：MySQL
 -   中间件层：Redis
 -   消息组件：RabbitMQ
 
@@ -85,10 +83,6 @@
 
 深度才有区别，拉开距离，修炼绝技
 
-##  [服务器深入](service.md)
-
-----
-
 ##  [Java深入](Java.md)
 -   经验分享
 -   设计模式
@@ -99,7 +93,7 @@
 
 ----
 
-##  [装备升级：Java框架源码](Jframework/README.md)
+##  [学习源码：Java框架](Jframework/README.md)
 
 > 围点打援，列出框架需要的技术，一一攻克，再读代码，Java官方文档很全
 

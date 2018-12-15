@@ -1,2 +1,0 @@
--   [TCP 三次握手原理，你真的理解吗？](https://mp.weixin.qq.com/s/yH3PzGEFopbpA-jw4MythQ)
--   [tcp通信应用的安全如何保证](https://www.servercoder.com/2018/05/17/tcp-safe/)
