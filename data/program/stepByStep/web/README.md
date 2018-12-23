@@ -1,5 +1,21 @@
 #   Web
 
+搞明白工作中用到的技术
+
+##  内容
+-   Java技术
+-   Java框架
+-   sql/MySQL
+-   spring
+-   Git
+-   Linux
+-   Nginx
+-   Redis
+-   RabbitMQ
+-   Web技术
+
+----
+
 1.  技能堆积
 
 功能实践，语法熟悉，一个字干！
@@ -10,7 +26,7 @@
 
 ----
 
-##  [添加装备：Java框架](Jframework/README.md)
+##  [添加装备：Java框架](../Java/framework/README.md)
 
 -   项目管理
     -   Maven
@@ -58,16 +74,10 @@
 
 ----
 
-##  职业/电商
--   奔跑吧，程序员
-
-----
-
 ##  [web知识](wtechnology/README.md)
 
 -   通信协议
     -   HTTP/HTTPs
-    -   RPC
     -   ⽩帽⼦讲Web安全
     -   HTTP权威指南
     -   深⼊浅出 HTTPS：从原理到实战
@@ -77,7 +87,6 @@
     -   Web性能权威指南
     -   反应式Web应⽤开发
     -   RESTful Web APIs中⽂版
-    -   码农翻身：⽤故事给技术加点料
 
 3.  回归技术
 
