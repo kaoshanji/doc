@@ -19,7 +19,7 @@ Java 标准版
 -   [入门实践](action/README.md)
     -   [官网](https://www.oracle.com/technetwork/java/javase/overview/index.html)
     -   [官方文档](../doc/README.md)
-    -   Java核心技术(10) 卷1:基础知识
+    -   Java核心技术(第十版)
     -   深入理解Java7核心技术与最佳实践
     -   Java8实战
     -   Java技术手册

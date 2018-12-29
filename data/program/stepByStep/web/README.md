@@ -5,7 +5,7 @@
 ##  内容
 -   Java技术
 -   Java框架
--   sql/MySQL
+-   sql/MySQL
 -   spring
 -   Git
 -   Linux
