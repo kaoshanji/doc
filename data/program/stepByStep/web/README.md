@@ -20,7 +20,7 @@
 
 功能实践，语法熟悉，一个字干！
 
-##  [蹲马步：Java](Java.md)
+##  [蹲马步：Java](../Java/README.md)
 -   Java SE 语法
 -   实践：常见文件格式
 
