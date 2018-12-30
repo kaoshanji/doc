@@ -25,8 +25,8 @@
 -   [内容](content.md)
 -   [Web应用](web/README.md)
 -   [IT人文](it/README.md)
--   [原理源码](source/README.md)
--   [计算机通识](computer/README.md)
+-   [性能](performance/README.md)
+-   [基本功](computer/README.md)
 -   [分布式](distributed/README.md)
 -   爬虫
 -   前端

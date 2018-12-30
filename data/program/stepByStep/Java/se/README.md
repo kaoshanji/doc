@@ -26,13 +26,13 @@ Java 标准版
     -   Java程序员修炼之道
     -   Java网络编程(第四版)
     -   Java编程的逻辑
-    -   Java特种兵
     -   Java语言程序设计(基础篇 原书第10版)(机工出版)
 -   [经验分享](experience/REAMDE.md)
-    -   [Java编程思想](thinking0814/README.md)
-    -   [Java语言规范:基于Java SE8](language80814/README.md)
-    -   [Java性能权威指南](performance0814/README.md)
-    -   [Effective-Java](Effective0814/README.md)
+    -   Java编程思想
+    -   Java特种兵
+    -   Java语言规范:基于Java SE8
+    -   Effective-Java
+    -   有效的单元测试
 -   网站
     -   [文档](https://docs.oracle.com/javase/8/)
     -   [Tutorials](https://docs.oracle.com/javase/tutorial/tutorialLearningPaths.html)

@@ -9,7 +9,6 @@
 -   [Java程序员修炼之道](developer0814/README.md)
 -   [Java网络编程(第四版)](network40814/README.md)
 -   [Java编程的逻辑](logic0814/README.md)
--   [Java特种兵](forces0814/README.md)
 -   [Java语言程序设计(基础篇 原书第10版)(机工出版)](Introduction0814/README.md)
 
 ----
