@@ -1,4 +1,4 @@
-#   Java 项目
+#   Java 框架
 
 
 ##  目录
@@ -10,8 +10,7 @@
         -   [官网](https://github.com/qos-ch)
         -   Logback中文文档
 -   测试
-    -   [有效的单元测试_](junitA0814/README.md)
-    -   [JUnit实战_](junitB0814/README.md)
+    -   [JUnit实战](junitB0814/README.md)
 -   对象操作
     -   [Guava](https://github.com/google/guava)
     -   工具库：Jodd

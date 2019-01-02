@@ -15,25 +15,25 @@ Java 7 在语法、JVM、API类库等方面的所有重要新功能和新特性
 
 ----
 
-##  [语法](grammar/README.md)
--   Java 7 语法新特性
--   Java语言的动态性
--   Java IO
--   Java 7 其他重要更新
+##  语法
+-   [Java 7 语法新特性](01.md)
+-   [Java语言的动态性](02.md)
+-   [Java I/O](03.md)
+-   [Java 7 其他重要更新](06.md)
 
 ----
 
-##  [JVM](jvm/README.md)
--   Java虚拟机
--   Java源代码和字节代码操作
--   Java类加载器
+##  JVM
+-   [Java虚拟机](07.md)
+-   [Java源代码和字节代码操作](08.md)
+-   [Java类加载器](09.md)
 
 ----
 
-##  [程序](procedural/README.md)
--   对象生命周期
--   多线程与并发编程实战
--   Java泛型
--   Java安全
+##  程序
+-   [对象生命周期](10.md)
+-   [多线程与并发编程实战](11.md)
+-   [Java泛型](12.md)
+-   [Java安全](13.md)
 
 ----

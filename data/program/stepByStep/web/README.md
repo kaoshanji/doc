@@ -26,7 +26,7 @@
 
 ----
 
-##  [添加装备：Java框架](../Java/framework/README.md)
+##  2019年1月第2周：[添加装备：Java框架](../Java/framework/README.md)
 
 -   项目管理
     -   Maven
@@ -35,26 +35,24 @@
     -   Junit
     -   apache-commons
     -   JSON 转换
+
+----
+
+##  2019年1月第3-5周：完成流程：CRUD
+-   Java EE 技术
+-   Spring FrameWork
+-   应用容器
+    -   Tomcat
 -   实践：存储数据
     -   关系型数据库语言：SQL
     -   常用关系型数据库：MySQL
     -   Java 持久化框架：MyBatis
+-   备注
+    -   去除 MySQL
 
 ----
 
-##  [完成流程：CRUD](crud.md)
--   Java EE 技术
--   对象管理框架
-    -   Spring IOC/AOP
--   MVC框架
-    -   Spring MVC
--   安全框架
--   应用容器
-    -   Tomcat
-
-----
-
-##  [外挂辅助：服务器](service.md)
+##  外挂辅助：服务器
 
 -   版本管理：Git
 -   OS：Linux
@@ -68,16 +66,21 @@
 
 理论认知，开阔视野，身临其境
 
-##  [面向项目](project/README.md)
+##  [别人家的技术案例](project/README.md)
 -   深入分析Java Web技术内幕
 -   Java⼯程师修炼之道
+-   京东技术揭秘
+-   阿里：逆流而上
+-   阿里：尽在双十一
+-   亿级流量网站架构核心技术
+-   从零开始学架构
+-   大型网站技术架构
 
 ----
 
 ##  [web知识](wtechnology/README.md)
 
--   通信协议
-    -   HTTP/HTTPs
+-   通信协议：HTTP/HTTPs
     -   ⽩帽⼦讲Web安全
     -   HTTP权威指南
     -   深⼊浅出 HTTPS：从原理到实战
@@ -92,17 +95,7 @@
 
 深度才有区别，拉开距离，修炼绝技
 
-##  [Java深入](Java.md)
--   经验分享
--   设计模式
--   语言规范
--   JVM
--   并发
--   调优
-
-----
-
-##  [学习源码：Java框架](Jframework/README.md)
+##  [学习源码：Java框架](../Java/framework/README.md)
 
 > 围点打援，列出框架需要的技术，一一攻克，再读代码，Java官方文档很全
 
@@ -121,6 +114,15 @@
 
 ##  山寨Java框架
 
+
+----
+
+##  [Java深入](../Java/README.md)
+-   经验分享
+-   设计模式
+-   语言规范
+-   JVM
+-   并发
 
 ----
 

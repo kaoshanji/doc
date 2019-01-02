@@ -2,7 +2,7 @@
 
 ##  目录
 -   [官网](https://www.oracle.com/technetwork/java/javase/overview/index.html)
--   [Java核心技术(第十版)](corejava/README.md)
+-   [Java核心技术(第10版)](corejava/README.md)
 -   [深入理解Java7核心技术与最佳实践](java70814/README.md)
 -   [Java8实战](java80814/README.md)
 -   [Java技术手册](nutshell0814/README.md)
