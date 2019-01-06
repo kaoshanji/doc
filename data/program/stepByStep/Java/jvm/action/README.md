@@ -1,12 +1,12 @@
 #   JVM 入门实践
 
 ##  资料
--   [深入理解Java虚拟机:JVM高级特性与最佳实践(第2版)](jvmA0814/README.md)
--   [Java虚拟机规范(Java SE 8版)](jvmB0814/README.md)
--   [HotSpot实战](jvmC0814/README.md)
--   [揭秘Java虚拟机:JVM设计原理与实现](jvmD0814/README.md)
+-   [Java虚拟机规范(Java SE 8版)](jvmB/README.md)
+-   [HotSpot实战](jvmC/README.md)
+-   [深入理解Java虚拟机:JVM高级特性与最佳实践(第2版)](jvmA/README.md)
+-   [揭秘Java虚拟机:JVM设计原理与实现](jvmD/README.md)
+-   [JRockit权威指南：深入理解JVM](jvmE/README.md)
 -   极客时间：深入拆解Java虚拟机
--   JRockit权威指南：深入理解JVM
 
 ----
 
@@ -17,7 +17,7 @@
     -   class文件格式
     -   加载、链接与初始化
     -   Java虚拟机指令集
--   深入理解Java虚拟机
+-   深入理解Java虚拟机：JVM高级特性与最佳实践
     -   自己编译JDK
     -   自动内存管理机制
         -   Java内存区域与内存溢出异常
@@ -35,7 +35,7 @@
     -   高效并发
         -   Java内存模型与线程
         -   线程安全与锁优化
--   揭秘Java虚拟机
+-   揭秘Java虚拟机：JVM设计原理与实现
     -   Java执行引擎工作原理：方法调用
     -   Java数据结构与面向对象
     -   Java字节码实战
@@ -54,4 +54,18 @@
     -   解释器与即时编译器
     -   指令集
     -   虚拟机监控工具
+-   JRockit权威指南：深入理解JVM
+    -   起步
+    -   自适应代码生成
+    -   自适应内存管理
+    -   线程与同步
+    -   基准测试与性能调优
+    -   JRockit Mission Control套件
+    -   Management Console
+    -   JRockit Runtime Analyzer
+    -   JRockit Flight Recorder
+    -   Memory Leak Detector
+    -   JRCMD
+    -   JRockit Management API
+    -   JRockit Virtual Edition
 

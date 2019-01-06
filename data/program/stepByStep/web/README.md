@@ -26,7 +26,7 @@
 
 ----
 
-##  2019年1月第2周：[添加装备：Java框架](../Java/framework/README.md)
+##  [添加装备：Java框架](../Java/framework/README.md)
 
 -   项目管理
     -   Maven
@@ -38,7 +38,7 @@
 
 ----
 
-##  2019年1月第3-5周：完成流程：CRUD
+##  完成流程：CRUD
 -   Java EE 技术
 -   Spring FrameWork
 -   应用容器

@@ -22,7 +22,6 @@
 ----
 
 ##  目录
--   [内容](content.md)
 -   [Web应用](web/README.md)
 -   [IT人文](it/README.md)
 -   [性能](performance/README.md)

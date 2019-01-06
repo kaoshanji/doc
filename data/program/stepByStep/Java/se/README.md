@@ -25,9 +25,8 @@ Java 标准版
     -   Java技术手册
     -   Java程序员修炼之道
     -   Java编程的逻辑
-    -   备注
-        -   Java网络编程(第四版)
-        -   Java语言程序设计(基础篇 原书第10版)(机工出版)
+    -   Java网络编程(第四版)
+    -   Java语言程序设计(基础篇 原书第10版)(机工出版)
 -   [经验分享](experience/REAMDE.md)
     -   Java编程思想
     -   Java特种兵

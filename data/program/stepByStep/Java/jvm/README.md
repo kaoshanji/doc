@@ -10,6 +10,7 @@ Java 技术基础，Java虚拟机。
 ##  资料
 
 -   [入门实践](action/README.md)
+    -   文档：[概述](../doc/I02.md)，[详情](../doc/vm/README.md)
     -   深入理解Java虚拟机:JVM高级特性与最佳实践(第2版)
     -   Java虚拟机规范(Java SE 8版)
     -   HotSpot实战
