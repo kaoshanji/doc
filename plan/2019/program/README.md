@@ -22,7 +22,7 @@
 -   信息检索
     -   Lucene
 -   Web MVC
-    -   Servlet
+    -   Servlet
     -   Spring MVC
 -   网络通信
     -   网络I/O
@@ -56,7 +56,7 @@
 ----
 
 ##  OS
--   Linux
+-   Linux
 -   网络编程
 -   数据结构与算法
 

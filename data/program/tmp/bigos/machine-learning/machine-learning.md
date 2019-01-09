@@ -26,6 +26,7 @@ machine learning，是计算机科学和统计学的交叉学科，基本目标�
     -   [机器学习资源](https://github.com/allmachinelearning/MachineLearning)
     -   [machine-learning-yearning](https://github.com/xiaqunfeng/machine-learning-yearning)
     -   [机器学习&深度学习资料](https://github.com/ty4z2008/Qix)
+    -   [100-Days-Of-ML-Code](https://github.com/Avik-Jain/100-Days-Of-ML-Code)
 -   机器学习
     -   [斯坦福大学公开课 ：机器学习课程](http://open.163.com/special/opencourse/machinelearning.html)
     -   [吴恩达机器学习](https://github.com/fengdu78)
