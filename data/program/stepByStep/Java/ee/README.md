@@ -29,4 +29,12 @@ Java 企业应用开发
     -   [Tomcat](http://tomcat.apache.org/)
 
 
+##  具体部分
+-   [servlet](servlet.md)
+-   [jaxrs](jaxrs.md)
+-   [webSocket](webSocket.md)
+-   [JTA](jta.md)
+-   [JSON-B](jsonb.md)
+-   [Bean Validation](beanv.md)
+
 ----

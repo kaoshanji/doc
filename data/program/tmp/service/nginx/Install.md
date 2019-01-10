@@ -80,4 +80,4 @@ sudo systemctl enable nginx
 
 ![启动异常](image/3624.png)
 
-
+查看被占用端口：netstat -lnp|grep 80
