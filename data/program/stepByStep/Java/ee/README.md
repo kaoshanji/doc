@@ -30,9 +30,8 @@ Java 企业应用开发
 
 
 ##  具体部分
--   [servlet](servlet.md)
--   [jaxrs](jaxrs.md)
--   [webSocket](webSocket.md)
+-   [Servlet](servlet.md)
+-   [Jaxrs](jaxrs.md)
 -   [JTA](jta.md)
 -   [JSON-B](jsonb.md)
 -   [Bean Validation](beanv.md)

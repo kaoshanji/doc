@@ -6,7 +6,6 @@
 -   Mac
     -   [Mac OS X 提示](http://hints.macworld.com/)
     -   [Mac OS 开发库](https://developer.apple.com/library/archive/navigation/)
-    -   [Apple 知识库]()
 -   Linux
     -   [RHEL 文档](https://access.redhat.com/documentation/en-us/)
     -   [CentOS Wiki](https://wiki.centos.org/)

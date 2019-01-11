@@ -18,7 +18,7 @@
 
 ##  *[Angular](Angular.md)
 -   [官网](https://angular.io/)
--   [angular中文](https://v6.angular.live/)
+-   [angular中文](https://angular.cn/)
 -   [angular-starter](https://github.com/gdi2290/angular-starter)
 -   [ngx-admin](https://github.com/akveo/ngx-admin)
 
