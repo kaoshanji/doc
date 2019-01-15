@@ -2,17 +2,7 @@
 
 搞明白工作中用到的技术
 
-##  内容
--   Java技术
--   Java框架
--   sql/MySQL
--   spring
--   Git
--   Linux
--   Nginx
--   Redis
--   RabbitMQ
--   Web技术
+
 
 ----
 
@@ -37,59 +27,6 @@
     -   JSON 转换
 
 ----
-
-##  完成流程：CRUD
--   Java EE 技术
--   Spring FrameWork
--   应用容器
-    -   Tomcat
--   实践：存储数据
-    -   关系型数据库语言：SQL
-    -   常用关系型数据库：MySQL
-    -   Java 持久化框架：MyBatis
--   备注
-    -   去除 MySQL
-
-----
-
-##  外挂辅助：服务器
-
--   版本管理：Git
--   OS：Linux
--   web代理：Nginx
--   持久化：MySQL
--   中间件层：Redis
--   消息组件：RabbitMQ
-
-
-2.  应用理论
-
-理论认知，开阔视野，身临其境
-
-##  [别人家的技术案例](project/README.md)
--   深入分析Java Web技术内幕
--   Java⼯程师修炼之道
--   京东技术揭秘
--   阿里：逆流而上
--   阿里：尽在双十一
--   亿级流量网站架构核心技术
--   从零开始学架构
--   大型网站技术架构
-
-----
-
-##  [web知识](wtechnology/README.md)
-
--   通信协议：HTTP/HTTPs
-    -   ⽩帽⼦讲Web安全
-    -   HTTP权威指南
-    -   深⼊浅出 HTTPS：从原理到实战
--   经验分享
-    -   Web API的设计与开发
-    -   App后台开发运维和架构实践
-    -   Web性能权威指南
-    -   反应式Web应⽤开发
-    -   RESTful Web APIs中⽂版
 
 3.  回归技术
 
