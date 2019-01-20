@@ -102,12 +102,9 @@
 ##  处理冲突
 >   有时在更新更新线上时会出现冲突，这是因为该文件被其他人修改并已经提交了，如果希望保存本地改动并拉下最新服务器代码
 
--   ![步骤一](images/20190116165321.png)
--   ![步骤一](images/20190116165339.png)
--   ![步骤一](images/20190116165411.png)
--   ![步骤一](images/20190116165448.png)
+-   ![命令](images/20190118-212039.png)
 
-[来源](https://www.cnblogs.com/baby123/p/6588378.html)
+[来源](https://www.cnblogs.com/huanyou/p/6654813.html)
 
 ##  资源
 -   [Pro Git中文版(第二版)](https://progit.bootcss.com/)
