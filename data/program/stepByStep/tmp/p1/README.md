@@ -19,3 +19,11 @@
     -   [文档](http://plq6gjb8l.bkt.clouddn.com/spring-framework-3.2.18.RELEASE-docs.zip)+[编译后源码](http://plq6gjb8l.bkt.clouddn.com/spring-projects-3.2.19-sourcecode-build.zip)
     -   Notepad++ 批量修改 `.classpath` 包、项目依赖路径
     -   使用 STS 打开
+
+##  Spring Framework 简介
+
+Spring Framework 是面向`应用开发`人员在实际中`开发Java项目`的综合式框架。
+
+
+
+

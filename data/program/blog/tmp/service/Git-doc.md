@@ -5,15 +5,15 @@
 ##  设置账户
 -   设置本设备用户名
     ```
-    git config –global user.name 'kaoshanji-X550JX'(使用用户名-设备名…当使用多台电脑时,这也算预留)
+    git config --global user.name 'kaoshanji-X550JX'(使用用户名-设备名…当使用多台电脑时,这也算预留)
     ```
 -   设置邮箱
     ```
-    git config –global user.email 'email@qq.com'
+    git config --global user.email 'email@qq.com'
     ```
 -   设置命令行
     ```
-    git config –global color.ui auto
+    git config --global color.ui auto
     ```
 -   生成秘钥
     ```
