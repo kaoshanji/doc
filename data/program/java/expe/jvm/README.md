@@ -1,0 +1,79 @@
+#   JVM
+
+Java 技术基础，Java虚拟机。
+
+##  内容
+
+>   java version "1.8.0_151"
+
+##  内容
+-   Java虚拟机规范
+    -   Java虚拟机结构
+    -   Java虚拟机编译器
+    -   class文件格式
+    -   加载、链接与初始化
+    -   Java虚拟机指令集
+-   深入理解Java虚拟机：JVM高级特性与最佳实践
+    -   自己编译JDK
+    -   自动内存管理机制
+        -   Java内存区域与内存溢出异常
+        -   垃圾收集器与内存分配策略
+        -   虚拟机性能监控与故障处理工具
+        -   调优案例分析与实战
+    -   虚拟机执行子系统
+        -   类文件结构
+        -   虚拟机类加载机制
+        -   虚拟机字节码执行引擎
+        -   类加载及执行子系统的案例与实战
+    -   程序编译与代码优化
+        -   早期(编译器)优化
+        -   晚期(运行期)优化
+    -   高效并发
+        -   Java内存模型与线程
+        -   线程安全与锁优化
+-   揭秘Java虚拟机：JVM设计原理与实现
+    -   Java执行引擎工作原理：方法调用
+    -   Java数据结构与面向对象
+    -   Java字节码实战
+    -   常量池解析
+    -   类变量解析
+    -   Java栈帧
+    -   类方法解析
+    -   执行引擎
+    -   类的生命周期
+-   HotSpot实战
+    -   启动
+    -   类与对象
+    -   运行时数据区
+    -   垃圾收集
+    -   栈
+    -   解释器与即时编译器
+    -   指令集
+    -   虚拟机监控工具
+-   JRockit权威指南：深入理解JVM
+    -   起步
+    -   自适应代码生成
+    -   自适应内存管理
+    -   线程与同步
+    -   基准测试与性能调优
+    -   JRockit Mission Control套件
+    -   Management Console
+    -   JRockit Runtime Analyzer
+    -   JRockit Flight Recorder
+    -   Memory Leak Detector
+    -   JRCMD
+    -   JRockit Management API
+    -   JRockit Virtual Edition
+
+
+##  资料
+-   文档：[概述](../doc/I02.md)，[详情](../doc/vm/README.md)
+-   [Java虚拟机规范(Java SE 8版)](jvmB/README.md)
+-   [HotSpot实战](jvmC/README.md)
+-   [深入理解Java虚拟机:JVM高级特性与最佳实践(第2版)](jvmA/README.md)
+-   [揭秘Java虚拟机:JVM设计原理与实现](jvmD/README.md)
+-   [JRockit权威指南：深入理解JVM](jvmE/README.md)
+-   极客时间：深入拆解Java虚拟机
+
+----
+

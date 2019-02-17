@@ -27,8 +27,10 @@
     -   Spring : The Web
     -   Tomcat
 -   [数据结构与算法](algorithm.md)
--   [测试](test.md)
--   [Java](Java.md)
+-   测试
+    -   Junit
+    -   有效的单元测试
+-   [Java](../java/README.md)
 -   山寨 web MVC 框架
 
 
