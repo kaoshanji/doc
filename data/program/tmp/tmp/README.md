@@ -6,8 +6,7 @@
 
 ##  目录
 -   [项目](project.md)
--   [Java](Java.md)
--   [Java框架](Jframework.md)
+
 -   [spring](spring.md)
 -   [web](web.md)
 -   [服务器](service.md)

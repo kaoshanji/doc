@@ -7,7 +7,7 @@ Java里对象管理，Java 语法、Spring、JVM。
 
 ##  Spring Framework 容器
 
-管理、解耦对象，解决对象之间的依赖，自动化对象的过程
+管理、解耦对象，解决对象之间的依赖，自动化对象的过程
 
 -   [概述](../spring/spring-framework/source/sf2019020201.md)
 -   [数据准备--解析XML文件](../spring/spring-framework/source/sf2019020202.md)
@@ -21,4 +21,4 @@ Java里对象管理，Java 语法、Spring、JVM。
 
 ##  Spring Framework AOP
 
-把嵌套在各处具有相似的功能集中在一起
+把嵌套在各处具有相似的功能集中在一起
