@@ -1,4 +1,4 @@
-#   spring-amqp
+#   Spring Amqp
 
 
 Spring AMQP项目将核心Spring概念应用于基于AMQP的消息传递解决方案的开发。它提供了一个“模板”作为发送和接收消息的高级抽象。它还通过“侦听器容器”为消息驱动的POJO提供支持。这些库方便了AMQP资源的管理，同时促进了依赖注入和声明式配置的使用。在所有这些情况下，您将看到Spring Framework中与JMS支持的相似之处。

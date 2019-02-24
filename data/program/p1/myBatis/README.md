@@ -4,11 +4,12 @@ MyBatis 是一款持久层框架，它支持定制化 SQL、存储过程以及�
 
 
 ##  目录
--   [大纲](000.md)
--   [数据准备--创建session]()
--   [逻辑处理--执行sql语句]()
--   扩展
--   集成Spring 
+-   文档
+    -   [XML配置](core/Configuration.md)
+    -   [XML映射文件](core/Mapper.md)
+    -   [动态SQL](core/Dynamic-SQL.md)
+-   [源码](source/README.md)
+-   [集成Spring](mybatis-spring/Introduction.md)
 
 ##  资料
 

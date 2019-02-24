@@ -1,3 +1,4 @@
+-   [MongoDB如何释放空闲磁盘空间？](https://mp.weixin.qq.com/s/NVMFXSQTsf4D0qBCsq7Ciw)
 -   [消息队列事务型消息原理浅析](https://mp.weixin.qq.com/s/ufTdKKYHENWRXlarbybgvg)
 -   [理解 RabbitMQ Exchange](https://mp.weixin.qq.com/s/tM4R-2QdNATkoC1BukV8Ew)
 -   

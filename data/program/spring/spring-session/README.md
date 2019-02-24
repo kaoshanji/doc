@@ -1,4 +1,4 @@
-#   spring-session
+#   Spring Session
 
 Spring Session提供了一个管理用户会话信息的API和实现。
 

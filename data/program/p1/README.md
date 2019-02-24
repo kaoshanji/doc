@@ -5,7 +5,7 @@
     -   Java 相关语法
     -   类加载、对象生命周期
 -   [操作数据库](database.md)
-    -   Sql
+    -   [Sql](sql/README.md)
     -   JDBC
     -   MyBatis
 -   项目工具
