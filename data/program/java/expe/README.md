@@ -8,6 +8,4 @@
     -   [Effective-Java](Effective0814/README.md)
 -   优化
     -   [Java性能权威指南](javaperformance/README.md)
--   [JVM](jvm/README.md)
--   [并发](concurrent/README.md)
 

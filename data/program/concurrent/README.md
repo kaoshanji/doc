@@ -8,14 +8,13 @@
 
 
 ##  资料
-
--   [入门实践](action/README.md)
-    -   [Java并发编程实战](threadA0814/README.md)
-    -   [Java核心技术系列:Java多线程编程核心技术](threadB0814/README.md)
-    -   [Java 7 并发编程实战手册](threadC0814/README.md)
-    -   [Java 并发编程的艺术](threadD0814/README.md)
-    -   JSR133中文版
-    -   [Java多线程实战](http://jcip.net.s3-website-us-east-1.amazonaws.com/listings.html)
+-   [Java并发编程实战](threadA0814/README.md)
+-   [Java核心技术系列:Java多线程编程核心技术](threadB0814/README.md)
+-   [Java 7 并发编程实战手册](threadC0814/README.md)
+-   [Java 并发编程的艺术](threadD0814/README.md)
+-   JSR133中文版
+-   [Java多线程实战](http://jcip.net.s3-website-us-east-1.amazonaws.com/listings.html)
+-   极客时间：Java并发编程实战
 
 ##  内容
 -   Java并发编程实战

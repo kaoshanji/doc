@@ -7,8 +7,6 @@
 ##  产品(社区)
 -   [MySQL社区服务器 （GPL）*](001/README.md)
 -   [MySQL Cluster （GPL）](002/README.md)
--   [MySQL路由器 （GPL）](003/README.md)
--   [MySQL Workbench （GPL）*](004/README.md)
 
 
 ##  网站

@@ -1,4 +1,4 @@
-#   扫盲计划
+#   入门-实践
 
 -   开始时间：2019年02月16号
 
@@ -11,7 +11,7 @@
 -   //实践，功能列举
 -   总结
 
-##  xx入门/理解
+##  xx入门
 
 混个脸熟，梳理内容，简述理解
 
@@ -25,9 +25,9 @@
 -   Maven *
 -   MyBatis *
 -   Lucene *
--   Sql
+-   Sql *
 -   Nginx *
--   Jenkins
+-   Jenkins *
 -   Spring
     -   Spring Framework
     -   Spring Boot *
@@ -35,14 +35,14 @@
     -   Spring Data
     -   Spring Batch *
 -   服务
-    -   dubbo
-    -   Akka
+    -   //dubbo
+    -   //Akka
 -   数据库
     -   PostgreSQL
     -   MySql
     -   Redis *
     -   MongoDB *
-    -   Solr
+    -   Solr *
     -   HBase
     -   Hadoop
 -   消息
@@ -50,44 +50,25 @@
     -   Kafka
     -   Zookeeper
 -   Linux *
--   Nagios
+-   //Nagios
 -   Docker *
 -   Java Web *
 -   Tomcat *
 -   HTTP *
 -   HTTPs
 -   web 安全
--   jmeter
+-   //jmeter
 
 
-##  App：痕迹，看到的断消息暂存，或想到什么临时保留
+##  App：痕迹，看到的短消息暂存，或想到什么临时保留
 -   Html/Css/Js
 -   TypeScript
 -   Angular
--   dart/Flutter
+-   //dart/Flutter
+
+##  实践
 
 
-##  xx深入：`示例`，`示例`，动手实践
--   MyBatis 源码
--   Java经验
--   JVM
--   Netty
--   Java 深入
--   并发
--   JDK 源码
--   Spring Framework 源码
--   Tomcat 源码
--   web 经验
-
-
-##  分布式
--   概念
--   服务
--   经验
-
-
-##  补课
--   数据结构与算法
 
 
 ##  备注

@@ -12,6 +12,8 @@
     -   [Spring Cloud教程](https://github.com/dyc87112/SpringCloud-Learning)
     -   [纯洁的微笑](http://www.ityouknow.com/spring-cloud.html)
 -   博客
+    -   [基于SpringBoot和SpringCloud实现微服务架构](https://blog.csdn.net/HQZ820844012/article/details/80400058)
+    -   [Spring Cloud教程](https://www.cnblogs.com/chry/tag/Spring%20Cloud%E6%95%99%E7%A8%8B/)
     -   [为何spring cloud 应该使用　Euraka server　而不是 Zookeeper](https://blog.csdn.net/bigtree_3721/article/details/78389433)
 -   项目
     -   [项目示例，文档演示](https://github.com/kaoshanji/example-spring-cloud)
