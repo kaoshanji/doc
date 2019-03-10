@@ -4,33 +4,16 @@ Solr 是基于 Lucene 的、可扩展的、部署待命的一种开源全文搜�
 
 搜索引擎是信息检索系统的一种类型，信息检索是"用户需求(行为)" -- 搜索技术(引擎) -- 信息检索(集合)"。
 
-##  混个脸熟
-
-### 初识 Solr
--   简介
--   安装
--   基础理论
--   配置
--   创建索引
--   文本分析
-
-### Solr 的核心功能
--   执行查询和处理搜索结果
--   分面搜索
--   搜索结果高亮
--   查询建议
--   结果分组/字段折叠
--   搭建 Solr 生产环境
-
-
-### Solr 进阶
--   SolrCloud
--   多语种搜索
--   复杂查询操作
--   精通相关度
-
-
 ##  资料
--   [官网](https://lucene.apache.org/solr/)
--   Solr 实战
+-   [GitHub](https://github.com/apache/lucene-solr)
+-   [入门实践](action/README.md)
+    -   版本：xx
+    -   [官网](https://lucene.apache.org/solr/)
+    -   Solr 实战
+-   备注
+
+
+----
+
+
 

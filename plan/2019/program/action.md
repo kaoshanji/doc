@@ -30,25 +30,25 @@
 -   Jenkins *
 -   Spring
     -   Spring Framework
-    -   Spring Boot *
+    -   Spring Boot 
     -   Spring Cloud *
     -   Spring Data
-    -   Spring Batch *
+    -   Spring Batch 
 -   服务
     -   //dubbo
     -   //Akka
 -   数据库
     -   PostgreSQL
-    -   MySql
+    -   MySql *
     -   Redis *
     -   MongoDB *
     -   Solr *
     -   HBase
     -   Hadoop
 -   消息
-    -   RabbitMQ
+    -   RabbitMQ *
     -   Kafka
-    -   Zookeeper
+    -   Zookeeper *
 -   Linux *
 -   //Nagios
 -   Docker *
@@ -65,10 +65,6 @@
 -   TypeScript
 -   Angular
 -   //dart/Flutter
-
-##  实践
-
-
 
 
 ##  备注

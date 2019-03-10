@@ -21,32 +21,7 @@ Spring Boot可以轻松创建独立的，生产级的基于Spring的应用程序
 
 ------
 
-##  内容
--   第一步
-    -   [从头开始](chapter01/README.md)
-    -   [教程](chapter02/README.md)
-    -   [运行示例](chapter03/README.md)
--   使用Spring Boot
-    -   [构建系统](chapter04/README.md)
-    -   [最佳实践](chapter05/README.md)
-    -   [运行你的代码](chapter06/README.md)
-    -   [打包你的应用程序](chapter07/README.md)
-    -   [Spring Boot CLI](chapter08/README.md)
--   了解Spring Boot特性
-    -   [核心特性](chapter09/README.md)
-    -   [Web应用程序](chapter10/README.md)
-    -   [使用数据库](chapter11/README.md)
-    -   [消息](chapter12/README.md)
-    -   [测试](chapter13/README.md)
-    -   [扩展](chapter14/README.md)
--   转向生产
-    -   [管理端点](chapter15/README.md)
-    -   [连接选项](chapter16/README.md)
-    -   [监测](chapter17/README.md)
--   高级主题
-    -   [Spring Boot应用程序部署](chapter18/README.md)
-    -   [构建工具插件](chapter19/README.md)
-    -   [附录](chapter20/README.md)
+
 
 ##  资料
 -   [入门实践](action/README.md)

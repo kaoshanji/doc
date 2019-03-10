@@ -1,11 +1,6 @@
 #   MySQL社区服务器
 
-MySQL社区服务器是全球最受欢迎的开源数据库。
-
-----
-
-##  版本：8.0
--   [文档](https://dev.mysql.com/doc/refman/8.0/en/)
+MySQL是一种关系型数据库，存储数据。
 
 
 ----
@@ -34,7 +29,8 @@ MySQL社区服务器是全球最受欢迎的开源数据库。
 -   [INFORMATION_SCHEMA表](chapter20/README.md)
 
 
-##  动手实践
--   [安装]
+##  资料
+-   版本：8.0
+-   [文档](https://dev.mysql.com/doc/refman/8.0/en/)
 
 

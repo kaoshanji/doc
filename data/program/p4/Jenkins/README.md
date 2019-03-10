@@ -2,30 +2,17 @@
 
 自动化项目源代码打包测试部署。
 
-##  混个脸熟
-
-
-### 搭建环境
--   准备环境
--   配置工具
--   安装 Jenkins
--   配置 Jenkins 服务器
-
-
-### 构建作业
--   设置构建作业
--   高级构建
--   分布式构建
-
-
-### 辅助功能
--   自动化测试
--   通知
--   代码质量
--   Jenkins 的维护
-
-
 
 ##  资料
--   [官网](https://jenkins.io/)
--   Jenkins 权威指南
+
+-   [GitHub](https://github.com/jenkinsci/jenkins)
+-   [入门实践](action/README.md)
+    -   版本：xx
+    -   [官网](https://jenkins.io/)
+    -   Jenkins 权威指南
+-   备注
+    -   [插件](https://github.com/jenkinsci/pipeline-plugin)
+
+
+----
+

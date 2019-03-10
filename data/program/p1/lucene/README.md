@@ -6,25 +6,18 @@ Lucene 是一款高性能的、可扩展的信息检索(IR)工具库。
 
 Lucene 能够融入到你的应用程序中，以增加搜索功能。
 
-----
-
-##  混个脸熟
-
 分析文本信息，建立索引，为搜索提供支持。
 
-### 核心
--   索引
--   搜索
 
+##  资源
+-   [GitHub](https://github.com/apache/lucene-solr)
+-   [入门实践](action/README.md)
+    -   版本：xx
+    -   [官网](https://lucene.apache.org/)
+    -   Lucene实战(第2版)
+-   备注
 
-
-### 应用
-
-
-### 案例
 
 ----
 
-##  资源
--   [官网](https://lucene.apache.org/)
--   Lucene实战(第2版)
+

@@ -6,6 +6,7 @@
 
 -   [GitHub](https://github.com/apache/zookeeper)
 -   [入门实践](action/README.md)
+    -   版本：xx
     -   [官网](https://zookeeper.apache.org/)
     -   从Paxos到Zookeeper  分布式一致性原理与实践
     -   ZooKeeper-分布式过程协同技术详解
