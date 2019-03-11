@@ -4,8 +4,6 @@
 
 -   [文字](blog/README.md)
 -   [Java](java/README.md)
--   [JVM](jvm/README.md)
--   [并发](concurrent/README.md)
 -   [spring](spring/README.md)
 
 ##  数据：量（难度）

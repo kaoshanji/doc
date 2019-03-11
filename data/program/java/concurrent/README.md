@@ -1,13 +1,9 @@
 #   并发
 
-并发编程
+Java 并发编程
 
 
-##  内容
-
-
-
-##  资料
+##  资料..分辨不出来
 -   [Java并发编程实战](threadA0814/README.md)
 -   [Java核心技术系列:Java多线程编程核心技术](threadB0814/README.md)
 -   [Java 7 并发编程实战手册](threadC0814/README.md)

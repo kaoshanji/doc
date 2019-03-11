@@ -11,21 +11,10 @@ Java EE 是社区驱动的企业软件标准。Java EE 是利用 Java Community 
 常见Web应用规范实现：[Tomcat](http://tomcat.apache.org/)、[Jetty](http://www.eclipse.org/jetty/)
 
 
-##  内容
-
->   java EE 8
-
--   ![Web Application Technologies](images/20181223-103309.png) 
--   ![Enterprise Application Technologies](images/20181223-103500.png)
--   ![Web Services Technologies](images/20181223-103612.png)
--   ![Management and Security Technologies](images/20181223-103814.png)
--   ![Java EE-related Specs in Java SE](images/20181223-103842.png)
-
-
 ##  资料
-
 -   [GitHub](https://javaee.github.io/)
 -   [入门实践](action/README.md)
+    -   版本：8
     -   [官网](https://www.oracle.com/technetwork/java/javaee/overview/index.html)
 -   文档
     -   [tutorial](https://javaee.github.io/tutorial/)
@@ -37,12 +26,5 @@ Java EE 是社区驱动的企业软件标准。Java EE 是利用 Java Community 
 -   项目
     -   [Tomcat](http://tomcat.apache.org/)
 
-
-##  具体部分
--   [Servlet](servlet.md)
--   [Jaxrs](jaxrs.md)
--   [JTA](jta.md)
--   [JSON-B](jsonb.md)
--   [Bean Validation](beanv.md)
 
 ----

@@ -1,14 +1,5 @@
 #   文档
 
--   [官网](http://www.oracle.com/technetwork/java/index.html)
--   [Java™ 平台概述](https://docs.oracle.com/javase/8/docs/technotes/guides/index.html)
--   [Java语言和虚拟机规范](https://docs.oracle.com/javase/specs/)
--   [Java语言环境](http://www.oracle.com/technetwork/java/langenv-140151.html)
--   [Java™ 8 自述文件](http://www.oracle.com/technetwork/java/javase/jdk-8-readme-2095712.html)
--   [Java编程新手中心](http://www.oracle.com/technetwork/cn/topics/newtojava/overview/index.html)
-
-
-----
 
 ##  关于Java技术
 
@@ -86,13 +77,6 @@ Java SE 由 Java Development Kit (JDK)、Java Runtime Environment (JRE) 和 [Jav
 
 Java运行时环境（JRE）提供库，Java虚拟机和其他组件来运行用Java编程语言编写的小程序和应用程序。另外，两个关键的部署技术是JRE的一部分： Java Plug-in，它使小程序可以在流行的浏览器中运行; 以及 通过网络部署独立应用程序的 Java Web Start。它也是Java 2 Platform，Enterprise Edition（J2EE）中用于企业软件开发和部署的技术的基础。JRE不包含用于开发小应用程序和应用程序的工具和实用程序，例如编译器或调试器。
 
--   官方文档
-    -   [Java SE 首页](http://www.oracle.com/technetwork/java/javase/overview/index.html)
-    -   [Java SE 概览](http://www.oracle.com/technetwork/cn/java/javase/overview/index.html)
-    -   [Java SE 技术](http://www.oracle.com/technetwork/java/javase/tech/index.html)
-    -   [Java™ 8 规范API](https://docs.oracle.com/javase/8/docs/api/)
-    -   [Java™ 8 教程学习路径](https://docs.oracle.com/javase/tutorial/tutorialLearningPaths.html)
-    -   [Java™ 8 教程](https://docs.oracle.com/javase/tutorial/index.html)
 -   中文版
     -   [Java SE API指南](se/README.md)
     -   [Java SE API教程](se/tutorial/README.md)
