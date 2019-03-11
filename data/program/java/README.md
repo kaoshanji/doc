@@ -1,6 +1,11 @@
 #   Java
 
-Java是面向对象编程语言，也是开放平台。
+Java是面向对象编程语言，也是开放平台，改编之C++。
+
+-   典型应用场景
+    -   Spring：web服务端
+    -   Hadoop：分布式文件系统，大数据领域
+    -   Mahout：一些可扩展的`机器学习领域`经典算法的实现，包括聚类、分类、推荐过滤、频繁子项挖掘
 
 
 ##  内容
@@ -9,6 +14,7 @@ Java是面向对象编程语言，也是开放平台。
 -   [Java EE](ee/README.md)
 -   [并发](concurrent/README.md)
 -   [JVM](jvm/README.md)
+-   [链接](res/README.md)
 -   [写一写](bbb/README.md)
 
 
