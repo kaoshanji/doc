@@ -10,7 +10,7 @@
 -   p1：Java SE 入门实践
 -   p3：分布式 大纲
 -   p1：基本功-Java
--   *action：入门-实践(扫盲计划)
+-   action：入门-实践(扫盲计划)
 
 ##  三脚猫功夫
 
@@ -81,11 +81,11 @@
     -   微服务理论
     -   持续集成
     -   领域驱动
-    -   Spring Boot
-    -   Spring Cloud
-    -   dubbo
+    -   Spring Boot：功能
+    -   Spring Cloud：功能
+    -   dubbo：功能
 -   p4：工具
-    -   Docker
+    -   Docker：功能
 
 
 ### 必备
