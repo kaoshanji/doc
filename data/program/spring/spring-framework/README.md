@@ -26,9 +26,15 @@ Spring被设计成非侵入式的，这意味着你的域逻辑代码通常不�
 
 ##  资源
 -   [GitHub](https://github.com/spring-projects/spring-framework)
--   [Hello](https://github.com/kaoshanji/example/tree/master/spring-hello/container)
--   [源码解析](source/README.md)
--   [文档](doc/README.md)
+-   [入门实践](action/README.md)
+    -   版本：xx
+    -   [文档](doc/README.md)
+-   [原理源码](source/README.md)
+    -   Spring Framework 文档
+    -   《Spring源码深度解析》- 郝佳
+    -   《Spring技术内幕：深入解析Spring架构与设计原理(第2版)》-  计文柯
+    -   《Spring框架高级编程》- Rod Johnson
+-   备注
+    -   [Hello](https://github.com/kaoshanji/example/tree/master/spring-hello/container)
 
 
------

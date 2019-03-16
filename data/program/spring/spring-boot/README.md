@@ -14,18 +14,16 @@ Spring Boot可以轻松创建独立的，生产级的基于Spring的应用程序
 
 ------
 
-##  版本：2.0.1.RELEASE
--   [文档](https://docs.spring.io/spring-boot/docs/2.0.1.RELEASE/reference/htmlsingle/)
--   [API](https://docs.spring.io/spring-boot/docs/2.0.1.RELEASE/api/)
--   [GitHub](https://github.com/spring-projects/spring-boot)
-
-------
-
-
-
 ##  资料
+-   [GitHub](https://github.com/spring-projects/spring-boot)
 -   [入门实践](action/README.md)
+    -   [官网](https://projects.spring.io/spring-boot/)
+    -   版本：2.0.1.RELEASE
     -   Spring Boot实战
+    -   [文档](https://docs.spring.io/spring-boot/docs/2.0.1.RELEASE/reference/htmlsingle/)
+    -   [API](https://docs.spring.io/spring-boot/docs/2.0.1.RELEASE/api/)
 -   网站
     -   [纯洁的微笑](http://www.ityouknow.com/spring-boot.html)
     -   [gitter](https://gitter.im/spring-projects/spring-boot)
+
+------

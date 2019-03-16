@@ -20,7 +20,7 @@
 
 ----
 
--   p2：MyBatis 功能、源码
+-   p1：MyBatis 功能、源码
 -   p2：Web后端
     -   Spring Framework 部分源码
     -   Tomcat 源码
@@ -38,10 +38,13 @@
 -   p3：微服务
     -   微服务理论
     -   持续集成
-    -   领域驱动
     -   Spring Boot：功能
     -   Spring Cloud：功能
-    -   dubbo：功能
+    -   Docker
+    -   kubernetes
+    -   Jenkins
+
+-   p3：领域驱动
 
 ----
 
