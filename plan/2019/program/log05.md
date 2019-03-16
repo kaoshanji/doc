@@ -11,16 +11,16 @@
     -   Java EE：导图、示例
     -   对应 Java EE <==> spring 功能
 -   p4：数据库
-    -   MySql：功能
-    -   Redis：功能
-    -   MongoDB：功能
-    -   Solr：功能
+    -   MySql：实战
+    -   Redis：实战
+    -   MongoDB：实战
+    -   Solr：实战
 -   p4：工具
-    -   Nginx：功能
+    -   Nginx：实战
 
 ----
 
--   p1：MyBatis 功能、源码
+-   p1：MyBatis 实战、源码
 -   p2：Web后端
     -   Spring Framework 部分源码
     -   Tomcat 源码
@@ -28,7 +28,7 @@
     -   HTTP
     -   HTTPs
     -   web安全
--   p2：经验分享
+-   p2：项目经验
 -   p4：数据库
     -   MySql*：深入
     -   Redis*：深入
@@ -37,12 +37,13 @@
 
 -   p3：微服务
     -   微服务理论
-    -   持续集成
-    -   Spring Boot：功能
-    -   Spring Cloud：功能
-    -   Docker
-    -   kubernetes
-    -   Jenkins
+    -   Spring Boot：实战
+    -   Spring Cloud：实战
+    -   RabbitMQ：实战、深入
+    -   Kafka：实战、深入
+    -   Docker：实战
+    -   kubernetes：实战
+    -   Jenkins：实战
 
 -   p3：领域驱动
 
