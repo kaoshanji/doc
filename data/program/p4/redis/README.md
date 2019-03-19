@@ -2,6 +2,8 @@
 
 Redis 是一个开源的，内存中的数据结构存储系统，它可以用作数据库、缓存和消息中间件
 
+关键词：网络、内存、数据结构
+
 ##  资料
 -   [GitHub](https://github.com/antirez/redis)
 -   [入门实践](action/README.md)

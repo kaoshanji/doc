@@ -9,15 +9,17 @@
 -   部署：Jenkins
 
 
-##  网络项目
--   Netty
--   Nginx
-
-《UNIX网络编程》 了解一下
-
-
-
-##  内存
--   Redis
+##  功底：c/unix/网络/数据结构/算法
+-   编程语言
+    -   C 语言
+-   编程语法
+    -   UNIX环境高级编程
+-   网络编程
+    -   UNIX网络编程
+-   数据结构与算法
+-   示例项目
+    -   Netty
+    -   Nginx
+    -   Redis
 
 
