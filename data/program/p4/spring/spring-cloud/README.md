@@ -59,3 +59,28 @@
 
 
 ----
+
+##      项目结构
+-       xp-spring-cloud-example
+        -       common：被嵌入
+        -       app：单独运行，spring-cloud是根
+                -       technology：技术支持，资源环境
+                        -       eureka
+                -       service：业务逻辑
+                        -       user：用户模块
+                        -       goods：商品部分
+                        -       order：订单模块
+                        -       common：公共逻辑
+
+
+----
+
+##      命令
+
+```base
+java -jar xx.jar --spring.pro=..
+
+```
+
+
+----
