@@ -2,6 +2,9 @@
 
 ##   目录
 -   [官网](https://spring.io/projects/spring-cloud)
+-   [文档列表](https://spring.io/projects/spring-cloud#learn)
+-   [官方文档](http://projects.spring.io/spring-cloud/spring-cloud.html)
+-   [官方示例](https://github.com/spring-cloud-samples)
 -   (纸)Spring Cloud微服务实战.pdf
 -   (纸)Spring Cloud与Docker微服务架构实战.pdf
 -   (纸)云原生Java：Spring Boot、Spring Cloud与Cloud Foundry弹性系统设计
@@ -11,17 +14,31 @@
 
 ##  主要项目
 -   [简介](Introduction.md)
--   [Spring Cloud Config](spring-cloud-config/README.md)
+-   [*Spring Cloud Config](spring-cloud-config/README.md)
 
 由git存储库支持的集中式外部配置管理。配置资源直接映射到Spring，Environment但如果需要，可以由非Spring应用程序使用。
 
--   [Spring Cloud Netflix](spring-cloud-netflix/README.md)
+-   [*Spring Cloud Netflix](spring-cloud-netflix/README.md)
 
 与各种Netflix OSS组件集成（Eureka，Hystrix，Zuul，Archaius等）
 
--   [spring Cloud Bus](spring-cloud-bus/README.md)
+-   [*Spring Cloud Sleuth](spring-cloud-sleuth/README.md)
+
+Spring Cloud应用程序的分布式跟踪，兼容Zipkin，HTrace和基于日志（例如ELK）的跟踪。
+
+----
+
+-   [*Spring Cloud Bus](spring-cloud-bus/README.md)
 
 用于将服务和服务实例与分布式消息传递链接在一起的事件总线 用于在群集中传播状态更改（例如，配置更改事件）。
+
+-   [*Spring Cloud Stream](spring-cloud-stream/README.md)
+
+轻量级事件驱动的微服务框架，可快速构建可连接到外部系统的应用程序。在Spring Boot应用程序之间使用Apache Kafka或RabbitMQ发送和接收消息的简单声明模型。
+
+-   [Spring Cloud Stream App Starters](spring-cloud-stream-app-starters/README.md)
+
+Spring Cloud Stream App Starters是基于Spring Boot的Spring Integration应用程序，可提供与外部系统的集成。
 
 -   [Spring Cloud Cloudfoundry](spring-cloud-cloudfoundry/README.md)
 
@@ -43,21 +60,10 @@ Hashicorp Consul的服务发现和配置管理。
 
 为Zuul代理中的负载平衡OAuth2 rest客户端和身份验证头中继提供支持。
 
--   [Spring Cloud Sleuth](spring-cloud-sleuth/README.md)
-
-Spring Cloud应用程序的分布式跟踪，兼容Zipkin，HTrace和基于日志（例如ELK）的跟踪。
-
 -   [Spring Cloud Dataflow](spring-cloud-dataflow/README.md)
 
 适用于现代运行时的可组合微服务应用程序的云本机编排服务。易于使用的DSL，拖放式GUI和REST-API共同简化了基于微服务的数据管道的整体编排。
 
--   [Spring Cloud Stream](spring-cloud-stream/README.md)
-
-轻量级事件驱动的微服务框架，可快速构建可连接到外部系统的应用程序。在Spring Boot应用程序之间使用Apache Kafka或RabbitMQ发送和接收消息的简单声明模型。
-
--   [Spring Cloud Stream App Starters](spring-cloud-stream-app-starters/README.md)
-
-Spring Cloud Stream App Starters是基于Spring Boot的Spring Integration应用程序，可提供与外部系统的集成。
 
 -   [Spring Cloud Task](spring-cloud-task/README.md)
 

@@ -4,6 +4,9 @@
 
 ##  资料
 -   [入门实践](action/README.md)
+    -   [文档列表](https://spring.io/projects/spring-cloud#learn)
+    -   [官方文档](http://projects.spring.io/spring-cloud/spring-cloud.html)
+    -   [官方示例](https://github.com/spring-cloud-samples)
     -   (纸)Spring Cloud微服务实战.pdf
     -   (纸)Spring Cloud与Docker微服务架构实战.pdf
     -   (纸)云原生Java：Spring Boot、Spring Cloud与Cloud Foundry弹性系统设计
@@ -60,22 +63,27 @@
 
 ----
 
-##      项目结构
--       xp-spring-cloud-example
-        -       common：被嵌入
-        -       app：单独运行，spring-cloud是根
-                -       technology：技术支持，资源环境
-                        -       eureka
-                -       service：业务逻辑
-                        -       user：用户模块
-                        -       goods：商品部分
-                        -       order：订单模块
-                        -       common：公共逻辑
+##  项目结构
+-   xp-spring-cloud-example
+    -   common：被嵌入
+        -   服务名称常量
+    -   app：单独运行，spring-cloud是根
+        -   cloud：技术支持，资源环境
+            -   Eureka
+            -   Config
+            -   Zuul
+            -   Sleuth
+        -   service：业务逻辑。。接口定义是个项目，实现也是一个
+            -   user：用户模块
+            -   goods：商品部分
+            -   order：订单模块
+            -   common：公共逻辑、服务名称常量
+
 
 
 ----
 
-##      命令
+##  命令
 
 ```base
 java -jar xx.jar --spring.pro=..
