@@ -1,4 +1,4 @@
-#   基本功-Java
+#   基本功
 
 ##  开始时间：2019年01月20号
 
@@ -51,3 +51,42 @@
 开启[扫盲计划](log04.md)。
 
 -   2019年02月23日记
+
+-----
+
+##  开始时间：2019年04月16日
+
+>   可以完成的事情
+
+从 plan 三脚猫功夫 复制过来
+
+-   Java
+    -   Java SE 语法及经验
+    -   Java EE 语法、Tomcat
+    -   JVM
+-   Java 框架
+    -   MyBatis
+    -   Spring 家族
+        -   Spring Framework
+        -   Spring Boot
+        -   Spring Cloud
+        -   Spring Data
+    -   Lucene
+    -   Netty
+    -   Junit
+-   服务器
+    -   MySql
+    -   Redis
+    -   MongoDB
+    -   Solr/Elasticsearch
+    -   RabbitMQ/Kafka
+    -   HBase
+-   web后端
+    -   HTTP协议
+    -   项目经验
+-   代码
+    -   设计模式
+    -   领域驱动
+
+----
+

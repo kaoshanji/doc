@@ -16,57 +16,33 @@
 
 找个感觉
 
-### 基础
--   p1：Java SE
--   p1：Java框架
-    -   Logback
-    -   Junit
-    -   Maven
-    -   Git
-    -   Json：Jackson
-    -   HttpComponents
--   p2：MyBatis 功能、源码
-
-### 必备
--   p2：Web后端
-    -   Java EE：导图、示例
-    -   对应 Java EE <==> spring 功能
--   p4：数据库
-    -   MySql：功能
-    -   Redis：功能
-    -   MongoDB：功能
-    -   Solr：功能
--   p4：工具
-    -   Nginx：功能
-
-### 高阶
--   p2：Web后端
-    -   Spring Framework 部分源码
-    -   Tomcat 源码
--   p2：HTTP
-    -   HTTP
-    -   HTTPs
-    -   web安全
--   p2：经验分享
--   p4：数据库
-    -   MySql：深入
-    -   Redis：深入
--   p1：Java
-    -   Java 深入
+-   Java
+    -   Java SE 语法及经验
+    -   Java EE 语法、Tomcat
     -   JVM
-    -   并发
-    -   JDK源码
-
-### 储备
--   p1：Java框架
+-   Java 框架
+    -   MyBatis
+    -   Spring 家族
+        -   Spring Framework
+        -   Spring Boot
+        -   Spring Cloud
+        -   Spring Data
     -   Lucene
     -   Netty
--   p2：造轮子
--   p4：工具
-    -   Jenkins
--   p5：数据结构与算法 入门
--   p5：代码 入门
-
+    -   Junit
+-   服务器
+    -   MySql
+    -   Redis
+    -   MongoDB
+    -   Solr/Elasticsearch
+    -   RabbitMQ/Kafka
+    -   HBase
+-   web后端
+    -   HTTP协议
+    -   项目经验
+-   代码
+    -   设计模式
+    -   领域驱动
 
 ----
 
