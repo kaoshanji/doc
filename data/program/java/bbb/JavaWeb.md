@@ -1,5 +1,7 @@
 #   Java与Web
 
+##  web 技术
+
 web 技术是通信的一种方式，通信用来传递数据和信息，其他的通信方式还有：短信、电子邮件、写信等等，明显的区别是传递信息的载体和方式不同，但是达到的结果是一样的。
 
 这种通信的方式是客户端请求、服务端响应，数据都集中在服务端，
@@ -15,6 +17,12 @@ Java支持HTTP协议，所以Java就可以开发Web应用，自然也有其他�
 网络协议里面一个关键是数据传输格式，也就是数据的组织，虽然底层都是0110，但是不同的协议对这个有着不同的编码方式
 
 Java里开发Web应用，有web技术、web服务等两部分，另外Java是服务端语言，也有一些运行在服务端的部分。
+
+##  Java Web技术
+
+Java语言开发Web应用，主要是[Servlet技术](https://javaee.github.io/tutorial/servlets.html)和[RESTful Web Service技术](https://javaee.github.io/tutorial/jaxrs.html)，他们都是标准接口，具体实现是[Tomcat](http://tomcat.apache.org/)和[Jersey](https://jersey.github.io/)，Tomcat还支持一些其他标准。
+
+两者都屏蔽底层网络(HTTP协议)部分，暴露出Java语法也提供了一些额外功能，开发人员只需要按照固定的格式`填写`代码即逻辑。不同之处是前者可以提供页面，使用范围比较广可以代替后者，后者代表一种开发分工(前后端分离)细化，基于一种架构风格(RESTful)。
 
 
 ----

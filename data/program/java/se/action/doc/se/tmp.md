@@ -18,7 +18,7 @@
     -   [security](guides/security.md)
     -   [jmx](guides/jmx.md)
     -   [xml](guides/xml.md)
-    -   [xml](guides/jni.md)
+    -   [jni](guides/jni.md)
 -   集成库
     -   [jdbc](guides/jdbc.md)
     -   [rmi](guides/rmi.md)
