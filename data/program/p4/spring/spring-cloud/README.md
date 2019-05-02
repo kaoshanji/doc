@@ -14,6 +14,7 @@
 -   网站
     -   [Spring Cloud教程](https://github.com/dyc87112/SpringCloud-Learning)
     -   [纯洁的微笑](http://www.ityouknow.com/spring-cloud.html)
+    -   [Spring Cloud 中文索引](http://springcloud.fun/)
 -   博客
     -   [基于SpringBoot和SpringCloud实现微服务架构](https://blog.csdn.net/HQZ820844012/article/details/80400058)
     -   [Spring Cloud教程](https://www.cnblogs.com/chry/tag/Spring%20Cloud%E6%95%99%E7%A8%8B/)
