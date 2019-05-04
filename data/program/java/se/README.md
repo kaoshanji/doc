@@ -29,6 +29,7 @@
 -   [经验分享](experience/REAMDE.md)
     -   [Java编程思想](experience/thinking0814/README.md)
     -   [Java特种兵](experience/forces0814/README.md)
+    -   [疯狂Java：突破程序员基本功的16课](experience/ligang0504/README.md)
     -   [Java语言规范:基于Java SE8](experience/language80814/README.md)
     -   [Effective-Java](experience/Effective0814/README.md)
     -   [Java性能权威指南](experience/javaperformance/README.md)

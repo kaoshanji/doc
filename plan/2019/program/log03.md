@@ -58,35 +58,40 @@
 
 >   可以完成的事情
 
-从 plan 三脚猫功夫 复制过来
+从 plan `三脚猫`功夫 复制过来
 
--   Java
-    -   Java SE 语法及经验
-    -   Java EE 语法、Tomcat
-    -   JVM
--   Java 框架
-    -   MyBatis
-    -   Spring 家族
-        -   Spring Framework
-        -   Spring Boot
-        -   Spring Cloud
-        -   Spring Data
-    -   Lucene
-    -   Netty
-    -   Junit
--   服务器
-    -   MySql
-    -   Redis
-    -   MongoDB
-    -   Solr/Elasticsearch
-    -   RabbitMQ/Kafka
-    -   HBase
--   web后端
-    -   HTTP协议
-    -   项目经验
--   代码
-    -   设计模式
-    -   领域驱动
+-   Spring Cloud
+-   Netty
+-   HBase
+-   领域驱动
+
+三脚猫 有些零散，换一种思路，特别是"打怪升级"图出来了
+
+把Java技术体系输出文字出来，也许有些长吧，不知道是否合适
+
+-   2019年5月04日记
+
+----
+
+
+##  开始时间：2019年5月04日
+
+>   Java技术
+
+-   [JavaSE](../../../data/program/java/se/README.md)
+    -   基础
+    -   深入
+-   框架/库：以Java语法部分为基础专门解决某些问题
+    -   [库](../../../data/program/p1/README.md)
+    -   [spring-framework](../../../data/program/p4/spring/spring-framework/README.md)
+-   [JavaEE](../../../data/program/java/ee/README.md)
+-   [并发](../../../data/program/java/concurrent/README.md)
+-   [虚拟机](../../../data/program/java/jvm/README.md)
+-   [数据结构与算法](../../../data/program/p5/algorithm.md)
+
+目标：文字输出，彻底告别，不再纠结
+
+大纲：
 
 ----
 

@@ -9,5 +9,5 @@
 -   与Cookie一起使用
 
 ##  库/框架
--   [HttpComponents](http://hc.apache.org/)、[okhttp](https://square.github.io/okhttp/)：方便编写HTTP客户端的工具包
--   [netty](https://netty.io/)：提供异步的、事件驱动的网络应用程序框架和工具，用以快速开发高性能、高可靠性的网络服务器和客户端程序
+-   [HttpComponents](../../../p1/apache/README.md)、[okhttp](https://square.github.io/okhttp/)：方便编写HTTP客户端的工具包
+-   [netty](../../../p1/netty/README.md)：提供异步的、事件驱动的网络应用程序框架和工具，用以快速开发高性能、高可靠性的网络服务器和客户端程序

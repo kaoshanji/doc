@@ -8,7 +8,7 @@ Java EE 是社区驱动的企业软件标准。Java EE 是利用 Java Community 
 
 [Glassfish](https://javaee.github.io/glassfish/documentation) 是 Java EE的参考实现.
 
-常见Web应用规范实现：[Tomcat](http://tomcat.apache.org/)、[Jetty](http://www.eclipse.org/jetty/)
+常见Web应用规范实现：[Tomcat](../../p1/tomcat/README.md)、[Jetty](http://www.eclipse.org/jetty/)
 
 
 ##  资料

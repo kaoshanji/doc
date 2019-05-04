@@ -7,12 +7,13 @@
 |OS|win/mac/ubuntu|操作系统|-|三种系统只是在环境配置上不同|
 |IDE|STS|开发工具|[地址](https://spring.io/tools/sts/)|Eclipse上集成Spring，选择最新版，考虑[IDEA](https://www.jetbrains.com/idea/)|
 |Maven|最新版|依赖包管理|[地址](https://maven.apache.org/)|第三方包管理，部署打包|
-|Tomcat|Servlet兼容版|Java Web运行环境|[地址](http://tomcat.apache.org/)|Java Servlet规范实现|
+|Tomcat|8/9|Java Web运行环境|[地址](http://tomcat.apache.org/)|Java Servlet规范实现|
 
 ----
 
 ##  软件配置
-###  JDK
+
+1.  JDK
 -   win
     -   与普通软件安装一样，注意选择路径
     -   环境变量配置："此电脑/计算机"-->属性(右键)
@@ -60,10 +61,11 @@
     java
     ```
 
-###  STS
--   解压放在某路径下，免安装，直接运行
+2.  STS
 
-###  Maven
+解压放在某路径下，免安装，直接运行
+
+3.  Maven
 -   解压放在某路径下
 -   win
     -   环境变量配置
@@ -99,13 +101,15 @@
     </mirrors>
     ```
 
-###  Tomcat
--   解压放在某路径下
+4.  Tomcat
+
+解压放在某路径下
 
 ----
 
-##  新建项目
--   操作系统在这部分是相同的
+5.  新建项目
+
+操作系统在这部分是相同的
 
 ### STS配置
 -   Window --> Preferences
@@ -125,12 +129,12 @@
     -   ![STS-006.png](image/STS-006.png)
 
 ### 新建 项目
--   Java SE
+-   Java SE 项目
     -   File --> New --> Maven Project
     -   ![STS-101.png](image/STS-101.png)
     -   ![STS-102.png](image/STS-102.png)
     -   ![STS-103.png](image/STS-103.png)
--   Java EE
+-   Java Web项目
     -   第一步与第三步相同
     -   ![STS-105.png](image/STS-105.png)
 -   设置jdk项目环境

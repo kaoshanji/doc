@@ -3,4 +3,4 @@
 
 
 ##  库/框架
--   [lucene](http://lucene.apache.org/)：一个全文检索引擎工具包，提供了完整的查询引擎和索引引擎
+-   [lucene](../../../p1/lucene/README.md)：一个全文检索引擎工具包，提供了完整的查询引擎和索引引擎
