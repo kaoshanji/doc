@@ -20,13 +20,14 @@
 
 与各种Netflix OSS组件集成
 
--   Netflix Eureka
+-   Netflix `Eureka`
 
 `服务中心`，云端服务发现，一个基于 REST 的服务，用于定位服务，以实现云端中间层服务发现和故障转移。
 
-管理着整个系统所有运行的服务信息
+所有启动运行的服务都需要连接进来，管理着整个系统所有运行的服务信息
 
--   Netflix Hystrix
+
+-   Netflix `Hystrix`
 
 `熔断器`，容错管理工具，旨在通过熔断机制控制服务和第三方库的节点,从而对延迟和故障提供更强大的容错能力
 
@@ -34,30 +35,32 @@
 
 具备服务降级、服务熔断、线程和信号隔离、请求缓存、请求合并以及服务监控
 
--   Netflix Zuul
+-   Netflix `Zuul`
 
 `网关`，Zuul 是在云平台上提供`动态路由`,监控,弹性,安全等边缘服务的框架
 
 对外统一，对内聚合，相当于门户。
 
--   Netflix Ribbon
+-   Netflix `Ribbon`
 
-`客户端负载均衡器`，屏蔽掉提供者服务实例
+`客户端负载均衡器`，屏蔽掉服务提供者实例，服务可能会运行多个实例，也会根据需要调整这个数量，当其中某实例不可用时，不会影响消费者调用
 
--   Netflix Feign
+-   Netflix `Feign`
 
-基于 Ribbon 和 Hystrix，提供 声明式的REST接口
+基于 Ribbon 和 Hystrix，提供 `声明式`的REST接口
+
+让消费者和提供者具备一致的接口，依赖的服务以服务名称直接注入进来，不需要特别指定提供者地址
 
 -   Netflix Archaius
 
 配置管理API，包含一系列配置管理API，提供动态类型化属性、线程安全配置操作、轮询框架、回调机制等功能。
 
 
-### [*Spring Cloud Sleuth](spring-cloud-sleuth/README.md)
+### [*Spring Cloud `Sleuth`](spring-cloud-sleuth/README.md)
 
-`日志收集`工具包，Spring Cloud应用程序的分布式跟踪，封装了Dapper和log-based追踪以及Zipkin和HTrace操作，为SpringCloud应用实现了一种分布式追踪解决方案。
+`日志收集`工具包，Spring Cloud应用程序的分布式跟踪，封装了Dapper和log-based追踪以及Zipkin和HTrace操作，为SpringCloud应用实现了一种`分布式追踪解`决方案。
 
-### [*Spring Cloud Config](spring-cloud-config/README.md)
+### [*Spring Cloud `Config`](spring-cloud-config/README.md)
 
 `配置中心`，配置管理工具包，让你可以把配置放到远程服务器，集中化管理集群配置，目前支持本地存储、Git以及Subversion
 
