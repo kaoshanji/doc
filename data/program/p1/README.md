@@ -39,7 +39,6 @@
 ##  代码示例
 -   [example-java](https://github.com/kaoshanji/example/tree/master/example-java)
 -   Spring Framework 源码环境搭建
-    -   [文档](http://plq6gjb8l.bkt.clouddn.com/spring-framework-3.2.18.RELEASE-docs.zip)+[编译后源码](http://plq6gjb8l.bkt.clouddn.com/spring-projects-3.2.19-sourcecode-build.zip)
     -   Notepad++ 批量修改 `.classpath` 包和项目依赖路径
     -   使用 STS 导入
 -   Spring Framework示例项目：[get-spring](https://github.com/kaoshanji/example/tree/master/example-java/get-spring)，在IDEA中打开，可以看到 类继承关系图

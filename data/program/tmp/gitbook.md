@@ -1,3 +1,1 @@
--   [GitBook制作电子书详细教程（命令行版）](https://blog.csdn.net/wsyw126/article/details/51733577)
--   [GitBook使用教程](https://blog.csdn.net/axi295309066/article/details/61420694)
--   [Gitbook简易教程](https://segmentfault.com/a/1190000005859901)
+-   [GitBook 从懵逼到入门](https://blog.csdn.net/lu_embedded/article/details/81100704)

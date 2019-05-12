@@ -24,7 +24,6 @@
     -   [基于 Spring Boot、Spring Cloud、Spring Oauth2 和 Spring Cloud Netflix 等框架构建的微服务项目](https://github.com/zhangxd1989/spring-boot-cloud)
     -   [Spring Cloud 学习案例](https://github.com/ityouknow/spring-cloud-examples)
     -   [cloudE](https://github.com/vangao1989/cloudE)
-    -   [Cloud-Admin](https://gitee.com/minull/ace-security)
 
 ##  内容
 -   基本概念

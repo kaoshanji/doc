@@ -9,6 +9,8 @@ MyBatis 是一款持久层框架，它支持定制化 SQL、存储过程以及�
 -   [入门实践](action/README.md)
     -   版本：xx
     -   [官网](http://www.mybatis.org/mybatis-3/zh/index.html)
+-   [`Mybatis-Plus`](http://mp.baomidou.com/#/)
+    -   [mybatis-plus源码分析之sql注入器](https://mp.weixin.qq.com/s/hsE-PiMm2KViWWdDHvwIZw)
 -   [原理源码](source/README.md)
     -   MyBatis技术内幕
 -   [文字记录](bbb/README.md)
