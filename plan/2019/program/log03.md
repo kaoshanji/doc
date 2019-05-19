@@ -76,26 +76,27 @@
 
 ##  开始时间：2019年5月04日
 
->   Java技术
+>   Java技术：阅读Java开源框架源码构建Java语法体系
 
--   [JavaSE](../../../data/program/java/se/README.md)
-    -   基础
-    -   深入
--   框架/库：以Java语法部分为基础专门解决某些问题
-    -   [库](../../../data/program/p1/README.md)
-    -   [spring-framework](../../../data/program/p4/spring/spring-framework/README.md)
--   [JavaEE](../../../data/program/java/ee/README.md)
--   [并发](../../../data/program/java/concurrent/README.md)
--   [虚拟机](../../../data/program/java/jvm/README.md)
--   [数据结构与算法](../../../data/program/p5/algorithm.md)
+- [JavaSE](../../../data/program/java/se/README.md)
+  -  基础
+  -  深入
+- 框架/库：以Java语法部分为基础专门解决某些问题
+  -  [库](../../../data/program/p1/README.md)
+  -  [spring-framework](../../../data/program/p4/spring/spring-framework/README.md)
+- [JavaEE](../../../data/program/java/ee/README.md)
+- [并发](../../../data/program/java/concurrent/README.md)
+- [虚拟机](../../../data/program/java/jvm/README.md)
+- [数据结构与算法](../../../data/program/p5/algorithm.md)
 
 目标：文字输出，彻底告别，不再纠结
 
--   步骤
-    -   spring freamwork 熟练使用
-        -   创建 spring freamwork 翻译文档仓库
-        -   书籍功能介绍
-        -   源码解读
+**步骤**：从开源框架起
+-   spring freamwork
+  -   熟练使用
+  -   创建 spring freamwork 翻译文档仓库
+  -   书籍功能介绍
+  -   源码解读
 
 
 
