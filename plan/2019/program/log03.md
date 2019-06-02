@@ -87,7 +87,7 @@
 - [JavaEE](../../../data/program/java/ee/README.md)
 - [并发](../../../data/program/java/concurrent/README.md)
 - [虚拟机](../../../data/program/java/jvm/README.md)
-- [数据结构与算法](../../../data/program/p5/algorithm.md)
+
 
 目标：文字输出，彻底告别，不再纠结
 

@@ -17,3 +17,19 @@
 -   数据结构与算法
 
 ----
+
+##  大型网站
+- 微服务理论
+- Spring Cloud *
+- RabbitMQ *
+- Kafka
+- Docker
+- Redis
+- MongoDB
+- Solr
+- HBase
+- Elasticsearch
+- Zookeeper
+- MySql
+- Linux
+- kubernetes
