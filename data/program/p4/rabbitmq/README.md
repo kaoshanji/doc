@@ -10,9 +10,7 @@ RabbitMQ
     -   版本：xx
     -   [官网](http://www.rabbitmq.com/)
     -   RabbitMQ实战：高效部署分布式消息队列
--   [经验分享](experience/REAMDE.md)
     -   深入RabbbitMQ
--   [原理源码](source/README.md)
 -   中文网
 
 

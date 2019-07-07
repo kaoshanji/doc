@@ -14,3 +14,6 @@
 - Solr
 - Mongodb
 - Hadoop
+- dubbo
+- Jenkins
+- [Spring](spring/README.md)

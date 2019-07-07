@@ -2,9 +2,6 @@
 
 数据为王，应用成形
 
--   [文字](blog/README.md)
--   [Java](java/README.md)
--   [spring](spring/README.md)
 
 ##  数据：量（难度）
 -   数据来源
