@@ -15,7 +15,6 @@ Java是面向对象编程语言，也是开放平台，改编之C++。
 -   [并发](concurrent/README.md)
 -   [JVM](jvm/README.md)
 -   [链接](res/README.md)
--   [写一写](bbb/README.md)
 
 
 ##  网站
