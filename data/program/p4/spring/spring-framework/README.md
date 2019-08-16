@@ -29,11 +29,11 @@ Spring被设计成非侵入式的，这意味着你的域逻辑代码通常不�
 -   [入门实践](action/README.md)
     -   版本：xx
     -   [官方文档](https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/index.html)
--   [4.3.9.RELEASE文档](doc/README.md)
+-   [4.3.9.RELEASE文档](doc/README.md)，作废，在 learning/JavaFramework 里
 -   [原理源码](source/README.md)
     -   Spring Framework 文档
     -   《Spring源码深度解析》- 郝佳
-    -   《Spring技术内幕：深入解析Spring架构与设计原理(第2版)》-  计文柯
+    -   [《Spring技术内幕：深入解析Spring架构与设计原理(第2版)》-  计文柯](source/SYe0808/README.md)
     -   《Spring框架高级编程》- Rod Johnson
 -   [文字记录](bbb/README.md)
 -   备注
