@@ -13,11 +13,11 @@
 -   IoC容器
     -   [概述](01.md)
     -   [具体：设计与实现：BeanFactory和ApplicationContext](02.md)
-    -   [流程：初始化过程](03.md)
+    -   [流程：IoC容器初始化过程](03.md)
         -   BeanDifinition的Resource定位
         -   BeanDifinition的载入和解析
         -   BeanDifinition的注册
-    -   流程：依赖注入
+    -   [流程：IoC容器依赖注入](04.md)
     -   相关特性的设计与实现
         -   ApplicationContext和Bean的初始化及销毁
         -   BeanPostProcessor的实现
