@@ -1,0 +1,124 @@
+# 资料
+
+
+##  GitHub
+
+### [互联网 Java 工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务等领域知识](https://github.com/doocs/advanced-java)
+- 高并发架构
+  - 消息队列
+  - 搜索引擎
+  - 缓存
+  - 分库分表
+  - 读写分离
+- 分布式系统
+  - 系统拆分
+  - 分布式服务框架
+  - 分布式锁
+  - 分布式事务
+  - 分布式会话
+- 高可用架构
+  - Hystrix
+  - 限流
+  - 熔断
+  - 降级
+- 微服务架构
+  - Spring Cloud 微服务架构
+
+### [经历BAT面试后总结的【高级Java后台开发面试指南】](https://github.com/xbox1994/Java-Interview)
+- Java基础
+  - JVM原理
+  - 集合
+  - 多线程
+  - IO
+- Web框架、数据库
+  - Spring
+  - MySQL
+  - Redis
+- 通用基础
+  - 从URL到看到网页的过程
+  - 常用设计模式
+- 分布式
+  - CAP理论
+  - 锁
+  - 事务
+  - 消息队列
+  - 协调器
+  - ID生成方式
+  - 一致性hash
+- 微服务
+  - 微服务介绍
+  - 服务发现
+  - API网关
+  - 服务容错保护
+  - 服务配置中心
+- 项目举例
+  - 高并发抢红包
+  - 秒杀架构
+  - 在AWS上扩展到数百万用户的系统
+  
+### [*fullstack tutorial 2019，后台技术栈/架构师之路/全栈开发社区](https://github.com/frank-lam/fullstack-tutorial)
+- 数据结构与算法
+- Java
+  - [Java 基础概念](https://github.com/frank-lam/fullstack-tutorial/blob/master/notes/JavaArchitecture/01-Java%E5%9F%BA%E7%A1%80.md)
+  - [Java 集合框架](https://github.com/frank-lam/fullstack-tutorial/blob/master/notes/JavaArchitecture/02-Java%E9%9B%86%E5%90%88%E6%A1%86%E6%9E%B6.md)
+  - [Java 并发编程](https://github.com/frank-lam/fullstack-tutorial/blob/master/notes/JavaArchitecture/03-Java%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B.md)
+  - [Java I/O](https://github.com/frank-lam/fullstack-tutorial/blob/master/notes/JavaArchitecture/04-Java-IO.md)
+  - [Java 虚拟机](https://github.com/frank-lam/fullstack-tutorial/blob/master/notes/JavaArchitecture/05-Java%E8%99%9A%E6%8B%9F%E6%9C%BA.md)
+  - [Java 设计模式](https://github.com/frank-lam/fullstack-tutorial/blob/master/notes/JavaArchitecture/06-Java%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md)
+  - [Java Web](https://github.com/frank-lam/fullstack-tutorial/blob/master/notes/JavaArchitecture/07-JavaWeb.md)
+- 数据库
+  - [MySQL](https://github.com/frank-lam/fullstack-tutorial/blob/master/notes/MySQL.md)
+  - [Redis](https://github.com/frank-lam/fullstack-tutorial/blob/master/notes/Redis.md)
+  - [SQL](https://github.com/frank-lam/fullstack-tutorial/blob/master/notes/SQL.md)
+- 操作系统
+  - [Linux](https://github.com/frank-lam/fullstack-tutorial/blob/master/notes/Linux.md)
+- 网络通信
+  - [RESTful API](https://github.com/frank-lam/fullstack-tutorial/blob/master/notes/RESTful%20API.md)
+- 分布式
+  - [微服务](https://github.com/frank-lam/fullstack-tutorial/blob/master/notes/%E5%BE%AE%E6%9C%8D%E5%8A%A1.md)
+  - [Zookeeper](https://github.com/frank-lam/fullstack-tutorial/blob/master/notes/%E5%88%86%E5%B8%83%E5%BC%8F/Zookeeper.md)
+
+### [*计算机科学基础知识、Java开发、后端/服务端、面试相关](https://github.com/PansonPanson/Java-Notes)
+- 计算机网络
+  - TCP、UDP
+  - HTTP
+  - 全双工、半双工和单工
+  - Cookie、Session、Token
+- 数据库
+  - 事务
+  - 范式
+  - MySQL
+  - Redis
+- 算法
+  - 排序算法
+  - 递归与尾递归
+  - 字典树
+  - 红黑树
+  - 布隆过滤器
+  - 一致性哈希
+  - JDK里的排序算法
+  - 并查集
+  - 动态规划
+- Java基础
+  - Java枚举
+  - Java异常
+  - 序列化与反序列化
+  - 反射
+  - 注解
+  - String、StringBuilder和StringBuffer
+  - hashCode()和equals()
+  - Java IO
+  - Java容器
+- Java并发
+  - 并发合集
+  - Java并发工具类之LongAdder
+  - 线程池
+  - 阻塞队列
+  - synchronized和lock
+  - CAS
+  - ThreadLocal
+  - Java中的锁
+- Java虚拟机
+- 架构与设计
+- 框架
+- 分布式
